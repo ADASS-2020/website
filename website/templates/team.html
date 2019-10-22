@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+
+<main class="site-main" id="main">
+    <section class="section section--singular">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xl-10 offset-xl-1">
+                    <header class="page-header">
+                      <h1 class="page-title">{{ this.headline }}</h1>
+                    </header>
+                    <div class="row">
+
+                      {% for item in bag(this.databag)['team'] %}
+
+                        <div class="col-12 col-lg-4">
+                            <div class="speaker-neat">
+                                <div class="member__image poster poster--square in-view">
+                                    <figure>
+                                        <img class="lazyload--el lazyload in-view__child"
+                                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                             data-src="{{ item.img }}" 
+                                             alt="" 
+                                             width="140"
+                                             height="143">
+                                        <div class="poster--cover in-view in-view__child"></div>
+                                    </figure>
+                                </div>
+                                <div class="speaker-neat__copy in-view">
+                                    <h5 class="in-view__child in-view__child--fadein">
+                                        {{ item.name }} ({{ item.affiliation }})
+                                    </h5>
+                                    <p class="speaker-neat__links in-view__child in-view__child--fadein">
+                                        <span class="sub-head dashed dashed--reverse dashed--hover in-view__child">
+                                            <a href="mailto:{{ item.email }}">
+                                                <i class="fa fa-lg fa-envelope-square"></i> 
+                                            </a>
+                                            {% if "twitter" in item %}
+                                            <a href="https://twitter.com/{{ item.twitter }}">
+                                                <i class="fa fa-lg fa-twitter-square"></i>
+                                            </a>
+                                            {% endif %}
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+{% endblock %}
