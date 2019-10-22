@@ -1,0 +1,24 @@
+title: Credits
+---
+_template: page-md.html
+---
+description: Credits
+---
+twitter_image: /static/media/twitter/PyConDEPyDataSquare.jpg
+---
+body:
+
+### Images
+
+ - [Alhambra exterior](https://commons.wikimedia.org/wiki/File:Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg)
+ - [Jupiter](https://commons.wikimedia.org/wiki/File:Jupiter,_image_taken_by_NASA%27s_Hubble_Space_Telescope,_June_2019_-_Edited.jpg)
+ - [Saturn](https://commons.wikimedia.org/wiki/File:Saturn_(planet)_large.jpg)
+ - [Moon](https://commons.wikimedia.org/wiki/File:Full_moon.jpeg)
+ - Hotel Abades Nevada Palace exterior: copyright ABADES GROUP
+
+
+### Website
+
+ - [HTML5 Template](https://mae.pixudio.com)
+ - Code of Conduct: [EuroSciPy](https://www.euroscipy.org/2019/) and [PyCon UK](https://2019.pyconuk.org)
+ - Everything else: Francesco Pierfederici based on ideas and code from [PyConDE](https://de.pycon.org)
