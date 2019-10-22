@@ -1,6 +1,8 @@
 .venv/
 venv/
 www/.lektor/
+build/
+.venv
 .vscode/
 .idea
 .envrc
