@@ -54,10 +54,6 @@
       "path": "/blog"
     },
     {
-      "name": "Sprints",
-      "path": "/sprints/"
-    },
-    {
       "name": "Sponsors",
       "path": "/sponsors"
     },
