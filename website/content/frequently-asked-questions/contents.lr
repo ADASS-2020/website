@@ -2,7 +2,7 @@ title: Frequently Asked Questions
 ---
 _template: page-md.html
 ---
-description: Frequently Asked Questions for PyConDE & PyData Berlin 2019 October 9th-11th in Berlin Germany
+description: Frequently Asked Questions for ADASS XXX in Granada, Spain
 ---
 twitter_image: /static/media/twitter/PyConDEPyDataSquare.jpg
 ---
@@ -19,10 +19,12 @@ body:
 
 <h3 id="general">General</h3>
 
-
 #### Who's behind this conference?
 
-As almost all Python and PyData conferences this event is run and organised by volunteers contributing free time and supported by community sponsors contributing work time of their employees. Any conference profits will go back to the community and Open Source via the Python Softwareverband e. V. and NumFocus.
+This event, just like all other ADASS conferences over the years, is run by
+volunteers contributing their free time. Sponsor companies and institutions
+contribute financially and/or work time of their employees. Conference profits
+go entirely towards a fund helping cover costs of future ADASS conferences.
 
 #### What can I do to support?
 
@@ -30,131 +32,124 @@ Lighten our communication load:
  - check this page for answers first
  - read our update emails (check your spam),
  - be proactive and try to find answers by googling or via our community channels as:
-   - the open [Telegram group](https://t.me/pyconde)
-   - [Twitter](https://twitter.com/pyconde)
+   - the open [Telegram group](https://t.me/adaasspublic)
+   - [Twitter](https://twitter.com/hashtag/adass)
    - check [Important Dates](#important-dates) for updates
 
-Sign up as a volunteer. See [our call for volunteers](/blog/call-for-volunteers/)
+Sign up as a volunteer. See [our call for volunteers](/blog/call-for-volunteers/) and join our [Volunteer Telegram group](https://t.me/adassvoluteers).
 
-Once tickets are sold out, please do refrain from sending emails to help desk if there was "something we could do", we can not.
-Thanks for your kind understanding we probably won't answer. :)
 
 <h4 id="important-dates">Important Dates</h4>
 
-- 29 April call for speakers opens
-- 9 June call for speakers closes (after two weeks extention)
-- 23 June launch of user voting (beta)  [updated]
-- 30 Jun End of scholarship programme
-- 7 July last day of of user voting  [updated]
-- 2 August acceptance notices go out  [updated]
-- 3 August program is published [updated]
-- 14 August schedule is published
-- 30 August last day to return tickets purchased
-- 20 September last day to edit info for badges
-- 8 October last night before the conference starts 🥳
+*Preliminary* key dates below. Please check this site for updates.
+
+- Mid-May, 2020 - first announcement, Registration & Abstract submission open
+- Mid-June, 2020 - submission of letter of intent for tutorials 
+- Mid-July, 2020 - deadline for Oral contribution, BOF, Focus demo. The POC will give feedback about acceptance of Oral contributions early August 2020.
+- End of July, 2020 - submission of Complete Tutorial Plan (for selected tutorials only)
+- Early August, 2020 - financial support application deadline
+- End of September, 2020 - early registration closes
+- End of September, 2020 - deadline to request demo booth
+- Mid-October, 2020 - deadline for signing up for tutorials
+- Mid-October, 2020 - registration cancellation deadline
+- Mid-October, 2020 - standard registration closes
+- Mid-October, 2020 - draft papers for proceedings due
+- November 8-12, 2020 - ADASS XXX 💃🎉
+- November 13-15, 2020 - IVOA
+- Early December, 2020 - final papers for proceedings due
 
 #### What's the conference language?
 
 The conference is all in English.
 
+
 <h4 id="opening-times">When will the conference open / close?</h4>
-**Tuesday October 8**
-16:00 - 18:45 Early badge pick up at the venue.
 
-**Wednesday October 9**  
-09:00 Doors open. Registration - please keep in mind the first day will be very busy due to registration. **Please do arrive early!**
-10:30 Conference opening  
-18:30 Conference end  
+**Sunday November 8, 2020**
+12:00 - 16:00 Early badge pick up at the venue.
+13:00 - 17:30 Tutorials and demo booth setup.
+19:00 - 22:00 Welcome reception
 
-**Thursday October 10**  
-08:30 Doors open  
-09:00 Conference start  
-18:30 Conference end  
+**Monday November 9, 2020**  
+07:45 Doors open. Registration.
+09:00 Conference opening.
+18:30 Conference end.
 
-**Friday October 11**  
-08:30 Doors open  
-09:00 Conference start  
-16:45 Conference end  
+**Tuesday November 10, 2020**  
+07:45 Doors open. Registration.
+09:00 Conference opening.
+18:30 Conference end.
 
-**Sprints**  
-Saturday and Sunday will be open 9:00 - 18:00 (tbc.).
+**Wednesday November 11, 2020**  
+07:45 Doors open. Registration.
+09:00 Conference opening.
+18:30 Conference end.
+20:00 Social dinner.
+
+**Thursday November 12, 2020**  
+07:45 Doors open. Registration.
+09:00 Conference opening.
+18:30 Conference end.
 
 #### Is there a conference app?
 
-NO, we did plan for an app but decided not to have an app, more about this [here](/app).
+Maybe: check this site for updates.
 
 #### Will there be a live streamed?
 
-We not not have plans to do live streaming for technical reasons. We do plan to release the recordings shortly after the conference.
+We do not know yet. Live streaming is unlikely. Video recording of the talks might happen, depending on budget and available resources. Check this site for updates.
 
 #### Is childcare provided?
 
-Yes! Childcare will be provided for free and around 20 slots are available.
-You can book a childcare slot [here](https://ti.to/pycon-de/pyconde-pydata-2019) and select a Childcare ticket
+We would love to organise childcare if enough people requested it. Please [contact the organisers](mailto:adass2020@iram.es?Subject=Childcare) if interested in having childcare during the conference.
 
-Remember that slots are limited and are provided on first-come-first-served basis.
+#### Visa - I need a visa to go to Spain. Could you please write me an invitation letter?
 
-#### Visa - I need a visa to go to Germany. Could you please write me an invitation letter?
-
-If you require an invitation letter send us an email (info@pycon.de).
-Please include your full address and passport number in the email, so we can include them in the inviattin letter.
-
+If you require an invitation letter please [contact the organisers](mailto:adass2020@iram.es?Subject=Visa Letter).
+Please include your full address and passport number in the email, so we can include them in the invitation letter.
 
 #### What about food & drinks during the conference?
 
-The conference ticket includes a light lunch buffet, coffee breaks and light refreshments all day.   
-We settled for a vegatarian and vegan food menu.
+The conference ticket includes lunch and two coffee breaks from Monday thought Thursday. As for Sunday we will provide one coffee break between tutorial sessions (only for those who registered for the tutorials) and a welcome reception open to all registered participants and their significant others. 
+
+We will have vegetarian, vegan and gluten-free options for those who specify them at registration time.
+
 
 <h3 id="program">Program</h3>
 
-As this year our two conferences PyConDE and PyData Berlin join up we will have more tracks than before. We are looking into a ca. 50/50 distribution of the sessions.
-
 #### How will the program look like?
 
-The program has been released: please see [here](/program)  
-For the schedule see [here](/schedule)
+The program will be released sometimes in the fall of 2020. In the mean time, feel free to check out [last edition program](https://www.adass2019.nl/conference-info/program/).
 
 #### What about trainings?
 
-We offer a trainings, [90 minute tutorials to be precise](/program/categories/tutorial/).
+We do offer trainings on Sunday. As the program is yet to be released, you can check out [last edition training schedule](https://www.adass2019.nl/conference-info/program/day1/).
 
 #### Lightning Talks
 
-A lightning talk (LT) is a short presentation of maximum five minutes. To sign up for a lightning talk please put your name and topic on the whiteboard next to the registration desk. Signing up is first-come-first-serve basis. The queue is reset every day in the morning. You may talk about / present about (almost) everything except: no promotion for products or companies, no call for 'we are hiring' (but you may name your employer). Conference announcements are limited to one minute only. One LT per day per speaker only. Any speaker not having given a LT at the conference is ahead of anyone who has given a LT already.
+A lightning talk (LT) is a short (three to five minute) presentation of a single slide. The aim of ADASS lightning talks is to offer participants the chance to highlight their poster contribution.
 
-<h3> IBM Party at PyConDE & PyData Berlin 2019</h3>
+<h3>Social Events</h3>
 
-#### Is the IBM Party at PyConDE & PyData Berlin 2019 public?
+#### Is the Welcome Reception free?
 
-No, the party is limited to attendees only and attendees have to buy a ticket for the event.  
-Every attendee might bring one other person along (additional ticket purchase required).
-
-#### Is the IBM Party at PyConDE & PyData Berlin 2019 for free?
-
-No, but thanks to the generous support from IBMG we are able to offer the tickets for a very reasonable price.
+Yes! All registered participants and their significan others can attend, provided that they manifested their intention to do so at registration time.
 
 
-#### Where can I buy tickets for IBM Party at PyConDE & PyData Berlin?
+#### Is the Conference Dinner free?
 
-Invitation emails incl. a link to purchase tickets were sent to every attendee October 2.
+No. You need to purchase a dinner ticket for yourself and up to one guest at registration time.
 
-#### I cannot find the invitation email.
+#### Will there be any other social event?
 
-Please come to the registration desk - but **not before Wednesday afternoon**.
-
-#### Social event ground rules.
-
-- Tickets may only purchased once via the link below. Once a purchase was made, the link expires
-- Event is for attendees only plus one person
-- You may buy max two tickets
-- Please pick up your entry ribbon on Thursday at the conference
+We hope so! We are looking at organising visits to the city and the Alhambra among other activities. Please check this site for updates.
 
 
 <h3 id="cfp">Call for Proposals</h3>
 
 #### How can I speak at the conference?
 
-The CfP is closed already. We no longer accept any submissions.
+The CfP will open sometime in late spring.
 
 #### Is there a support program for speakers?
 
@@ -163,135 +158,68 @@ Please apply to the [Financial Aid Programme](/financial-aid/).
 
 #### When will I get notified?
 
-Due to the volume of submissions received the review process will take longer than originally expected.
-Please see here [Important Dates](#important-dates) for updates.
-Update: All submitters have been notified by email August 3: accepted, not accepted and waitlisted.  
-In case you did not receive an email: check the status here [https://pretalx.com/pyconde-pydata-berlin-2019/me/submissions/](https://pretalx.com/pyconde-pydata-berlin-2019/me/submissions/)
+We plan of notifying anybody who submitted a talk proposal of the outcome of the selection process sometimes in late summer. Non accepted oral contribution authors will be given the chance to present a poster instead.
+
 
 <h3 id="speaking"> Speaking at the conference</h3>
 
 #### How can I edit my speaker profile?
 
-Go to the [CfP page](https://pretalx.com/pyconde-pydata-berlin-2019/cfp). Log in (upper right or bottom).
+Go to the [CfP page](https://pretalx.adass2020.es/adass2020/cfp). Log in (upper right or bottom).
 Once logged in there is a dropdown menu at the upper right, select _My profile_.
-Being logged in [https://pretalx.com/pyconde-pydata-berlin-2019/me/](https://pretalx.com/pyconde-pydata-berlin-2019/me/) will work also.
+Being logged in [https://pretalx.adass2020.es/adass2020/me/](https://pretalx.adass2020.es/adass2020/me/) will work also.
 
 #### How can I edit my proposals?
 
-Go to the [CfP page](https://pretalx.com/pyconde-pydata-berlin-2019/cfp). Log in (upper right or bottom).
+Go to the [CfP page](https://pretalx.adass2020.es/adass2020/cfp). Log in (upper right or bottom).
 Once logged in there is a dropdown menu at the upper right, select _My submissions_.
-Being logged in [https://pretalx.com/pyconde-pydata-berlin-2019/me/submissions/](https://pretalx.com/pyconde-pydata-berlin-2019/me/submissions/) will work also.
+Being logged in [https://pretalx.adass2020.es/adass2020/me/submissions/](https://pretalx.adass2020.es/adass2020/me/submissions/) will work also.
 
 #### Can I add another speaker to my proposal?
 
-Yes, **before the close of the CfP** you may add another speaker to your proposal via Pretalx. 
+Yes, **before the close of the CfP** you may add another speaker to your proposal via [Pretalx](https://pretalx.adass2020.es/adass2020/cfp). 
 After the review: No.  
-Please note there is only one complimentary ticket per talk and additional speakers will have to purchase a ticket.  
 There should be a good reason for having more than one speakers for talks, please state in the notes.  
 
 #### I have submitted a talk, but would like to make some edits after the CfP.
 
 Please feel free to make reasonable edits and improvements to your description any time. Regardless, your talk must not become a different one. Changes are monitored. Please note during review the talks are non-editable, once accepted you may edit again. See "How can I edit my proposals?" above.
 
-#### Presenting at the Confernce
+#### Presenting at the Conference
 
 We do encourage everyone to use gender neutral language at the conference.  
-All projectors support 16:9. Except the projectors in the main hall (Saal 1) are 4:3 only.   
-for Saal 5 and Saal 7  we recommend using 4:3 as well.  
 Please make sure to bring a HDMI adapter with you.
-
 
 #### Are speakers invited to the conference?
 
-Accepted speakers will be provided a complimentary ticket for all the conference but we do not cover any travel or accommodation costs.
-
-####  What if I have purchased a ticket and get a free speaker ticket later?
-
-Please see "Are tickets refundable?" - if your talk was selected after that deadline we are happy to refund anyway .
+Invited speakers will be provided a complimentary ticket for the conference but we do not cover any travel or accommodation costs.
 
 #### I have updated some information -  but it does not reflect on the website.
 
-We use a static website. All information is coming from Pretalx. The website updated approx. once a day. Please be patient.  
-The same applies for the speaker list on Twitter.  
+We use a static website. All information is coming from [Pretalx](https://pretalx.adass2020.es/adass2020/cfp). The website updated approx. once a day. Please be patient.  
 Please do not write to help desk to request information changes, it's self-service, thank you.
 
 #### What about internet during my talk?
 
-There will be no guaranteed internet for the talks, try to avoid making your presentation depend on internet connections. Use internet at your own risk. Though we try our best briefing the providers - conference WiFi performance might not meet everyone's expectations.
+There will be no guaranteed internet for the talks, try to avoid making your presentation depend on internet connections. Use internet at your own risk. Though we try our best, conference WiFi performance might not meet everyone's expectations.
+
 
 <h3 id="open-talk-options">Other Options to Present About a Topic</h3>
 
-<h4 id="lts">Lightning Talks</h4>
+<h4 id="open-space">BoFs</h4>
 
-A lightning talk (LT) is a short presentation which must not be longer than five minutes.
-You may talk about / present (almost) everything with certain boundaries:
- - no promotion for products of companies, no call for 'we are hiring' (but you may name your employer).
- - conference announcements are limited to one minute only
- - one LT per person per conference policy: everyone who has not given a LT at this year's conference, yet, is ahead of you in the queue
- - keep it short, the shorter the presentations, the more people can give a lightning talk
-
-To sign up for a lightning talk, please put your name and topic on the whiteboard close to the registration desk.
-Signing up is on a first-come-first-served basis. The queue is reset every day in the morning.
-
-<h4 id="open-space">Open Space</h4>
-
-A space for participant-driven conference sessions. Open Space is an opportunity to engage in learning, listening, and discussions around topics that interest you.
-We have six 30 minute sessions avaiable this year, please come to the registration desk to sign up.
-Please note: Open Space is meant to be an interactive format, i.e. not a replacement to give prepared presentations.
-
-You may talk about / discuss / present (almost) everything with certain boundaries:
- - no promotion for products of companies, no call for 'we are hiring' (but you may name your employer).
- - one Open Space per person per conference policy: everyone who has not organised an Open Space at this year's conference, yet, is ahead of you in the queue
- - reach out to the organisers so we can help you to make your Open Space session more visible.
-
+Birds of a Feather (BoF) sessions are participant-driven conference spaces dedicated to topics of interest to specific communities. BoF organisers are invited to submit a proposal for their BoF session via our [CfP page](https://pretalx.adass2020.es/adass2020/cfp).
 
 
 <h3 id="tickets">Tickets</h3>
 
-#### What is the right ticket to buy?
-
-Companies and freelancers must buy company tickets. No exceptions.
-Reduced tickets are available for students, post-docs, academic researchers, hobbyists, enthusiasts and people just learning the language.
-
-#### Tickets are sold out.
-
-If you are interested in getting a ticket please do sign up for the waiting list on the ticket page.   
-Please sign up only **once**.  
-Note: you will **not** receive an additional  confirmation by email you signed up for the waiting list, our provider Tito lacks this feature.  
-
-#### I signed up the waiting list - when will I get notified?
-If tickets become available due to cancellations received we will offer these tickets for sale to people on the waiting list.  These offers are only valid for a few hours and are FIFO (first come-first served) - watch your inboxes!   
-
-#### How likely is it I may bet a ticket via the waiting list.
-
-"Predictions are hard, especially about the future."  
-The waiting list is not a waiting line, we offer tickets to anyone on the list no matter when one signed up.  
-
-#### Will it be helpful if I write you an email explaining why I missed buying a ticket.
-
-We feel with you! Though we will ignore any requests like this. There is always a next year.
-
 #### What about student tickets?
 
-Students must present a valid student ID at the conference. If you are a student or will be a student while the conference is running you are eligible for one student ticket. In case you are a student now but won't be a student in October we cannot offer you a student ticket. 
+Students must present a valid student ID at the conference. If you are a student or will be a student while the conference is running you are eligible for one student ticket. In case you are a student now but won't be a student in November we cannot offer you a student ticket. 
 
 #### I'm on a budget and cannot afford a ticket.
 
-Please have a look at our financial aid and scholarship program. The program will open April 29th and close June 23rd\. Please check back our website for more details.
-
-#### Is it possible to purchase Individual tickets as a company?
-
-No
-
-#### Is it possible to purchase Student tickets as a company?
-
-Yes, the attendee must present a valid student ID to enter the conference.
-
-#### I'm an academic researcher, which one is the right ticket for me?
-
-As academic researcher one can buy an Individual ticket,
-Please note the Individual tickets for logistic reasons will not show any affiliation on the badge.
-If this is important to you, business ticket is the way to go.
+Please have a look at our [financial aid and scholarship program](/financial-aid/). 
 
 #### Can I pay ticket by invoice?
 
@@ -321,28 +249,24 @@ No, we do not offer discounts.
 
 #### When are you going to start selling the tickets?
 
-Ticket sales will open April 29th 12:00 CEST. There will be a limited amount of early bird tickets available, once these are sold out regular tickets will become available.
+Ticket sales will open sometime in spring. Please check out site for updates.
 
 #### How much are the tickets?
 
-Ticket prices can be [found here](/blog/pyconde-pydata-berlin-2019-tickets/) or
-[purchased here](https://ti.to/pycon-de/pyconde-pydata-2019/).
+Ticket prices are going to be in line with last edition figures but are not set yet. Please check this site for updates.
 
 #### Ticket prices VAT
 
-All ticket prices include 19% VAT. [European regulations](https://ep2016.europython.eu/admin/cms/page/edit-plugin/240/#) define that
+All ticket prices include 21% VAT. European regulations define that
 conferences are taxable in the country where the conference takes place, so the EU VAT reverse charging mechanism cannot be applied.
 However companies can easily apply for a VAT refund from the authorities.
 
 #### Are tickets refundable?
 
-Yes, tickets are refundable until August 30th\. No refunds after August 30th\. You may re-assign the ticket to someone else if you cannot make it or donate it to the financial aid programme.
-Please send an email to info@pycon.de to request a refund, refunds will be credited to the credit card used for purchase only.
-
+Yes, tickets will be refundable until approximately one month before the conference, no refunds after that date. Administrative fees are, however, never refundable. You may re-assign the ticket to someone else if you cannot make it or donate it to the financial aid programme.
+Please [send an email to the organisers](mailto:adass2020@iram.es?Subject=Refund) to request a refund, refunds will be credited to the credit card used for purchase only.
 
 #### How can I change information on my badge?
-
-**we are past the deadline - please note that badge information can no longer be change now.**
 
 We will use the information you provide via Tito for the conference badges.
 To change information you may only do this via Tito (just follow the links in the emails with your ticket).
@@ -354,48 +278,32 @@ This includes
 If you buy multiple tickets, please make sure the people you purchase the tickets for will enter all information timely. This includes
 
 *   dietary restrictions
-*   T-Shirt size
 *   agreement to Code of Conduct
 
-Conference badges will be printed upfront, please make sure all information is in place by **September 27th**.
-Any changes after this date won't reflect on the badges.
+Conference badges will be printed upfront, please make sure all information is in place by then (approximately one month before the conference). Any changes after this date won't reflect on the badges.
 
 #### Do you offer any day-tickets?
 
 No.
 
-#### Do you sell tickets at the confernce?
+#### Do you sell tickets at the conference?
 
 Absolutely not.
 
 #### Are badges transferable?
 
-No, badges are valid for the person the ticket was assigned to only. Tickets have to be assigned by **September 20**. No changes after this date.
+No, badges are valid for the person the ticket was assigned to only.
 
 
 <h3 id="sponsoring">Sponsoring</h3>
 
 #### Do you have extra discount codes for sponsors?
 
-No, we don't offer any extra discount codes. We will assign you the tickets included in your sponsoring package directly.
+No, we don't offer any extra discount codes.
 
 #### Are sponsors free to set up their own sponsoring booth?
 
 Yes, but it must fit the space mentioned on the invoice.
-
-#### How many tickets are in the sponsoring packages included and how many employees are allowed to come for the sponsoring table - additionally?
-
-We don’t offer additional free tickets for employees at the sponsoring table.
-Depending on the sponsoring package, if you have three tickets available for example, you can do with it whatever you want.
-Give one to employees for the sponsoring table and two for the conference or however it fits for your company best.
-
-#### Do the sponsors get any visibility during the sprint days?
-
-A banner showing their names or something, or is the sponsorship purely for the 3 conference days? - Purely for the 3 days on the conference.
-
-#### Are the sponsor tickets valid for the sprint days?
-
-Yes, like the normal tickets.
 
 #### Sponsoring package prices VAT
 
@@ -403,10 +311,4 @@ All sponsoring package prices are net plus statutory VAT in the amount valid at 
 
 #### Where to send the Merchandise as a Sponsor?
 
-Ancud-IT Beratung, c/o Daniel Ringler, Poststraße 21-22, 10178 Berlin
-
-If you did not find the answer you are looking for above, contact us: [info@pycon.de](mailto:info@pycon.de)
-
-#### Final day to book sponsoring
-
-The last days to sign up as a sponsor is August 30.
+We are still working on this. Please check this site for updates.

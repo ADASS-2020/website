@@ -47,6 +47,15 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
+.splash-screen {
+  background: url("media/bg-alhambra.jpg");
+  background-repeat: no-repeat;
+}
+
+.main-title {
+  color: rgba(231, 231, 231, 1);
+}
+
 /* Sections
    ========================================================================== */
 

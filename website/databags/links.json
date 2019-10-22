@@ -83,6 +83,10 @@
         {
           "name": "App",
           "path": "/app"
+        },
+        {
+          "name": "Credits",
+          "path": "/credits"
         }
       ]
     },

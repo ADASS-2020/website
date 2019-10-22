@@ -8,7 +8,7 @@ body:
       <div class="row">
         <div class="col-12 col-xl-10 offset-xl-1">
           <header class="page-header">
-            <h1 class="page-title">Kosmos</h1>
+            <h1 class="page-title">Hotel Abades Nevada Palace</h1>
           </header>
         </div>
       </div>
@@ -21,16 +21,15 @@ body:
           <div class="service-image service-image--wide">
             <div class="row align-items-center">
               <div class="service-image__thumb col-12 col-lg-6">
-                <figure class="lazyload--el lazyload" data-bg="/static/media/venue/kosmos.png"></figure>
+                <figure class="lazyload--el lazyload" data-bg="/static/media/venue/abades.jpg"></figure>
               </div>
               <div class="service-image__copy col-12 col-lg-6 in-view">
                 <p class="sub-head dashed in-view__child in-view__child--fadein">
-                  Karl-Marx-Allee 131a<br>Berlin, 10243</p>
+                  Calle de la Sultana, 3, 18008 Granada</p>
                 <p class="indent in-view__child in-view__child--fadein">
-                  The KOSMOS was opened in 1961 as a prestige project of the GDR, as the most modern film theatre in the
-                  country.</p>
+Just 5 minutes from the center of Granada by metro and featuring an avant-garde style, the Abades Nevada Palace has been designed in an oval shape to provide rooms with views of the Sierra Nevada and La Alhambra.</p>
                 <p class="indent padding-top in-view__child in-view__child--fadein"><a
-                    class="btn btn--primary btn--round" href="https://www.kosmos-berlin.de/">Check the venue</a></p>
+                    class="btn btn--primary btn--round" href="https://www.abadeshoteles.com/en/hotel-nevadabades-in-granada/">Check the venue</a></p>
               </div>
             </div>
           </div>
