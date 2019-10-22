@@ -1,0 +1,28 @@
+{
+  "team": [
+    {
+      "name": "Alicia Gambetta",
+      "affiliation": "aliciagambetta.com",
+      "img": "/static/media/loc/gambetta.png",
+      "email": "liciagadi@yahoo.com"
+    },
+    {
+      "name": "Angela Gardini",
+      "affiliation": "UGr",
+      "img": "/static/media/loc/gardini.png",
+      "email": "angelagardini@correo.ugr.es"
+    },
+    {
+      "name": "Francesco Pierfederici",
+      "affiliation": "IRAM",
+      "img": "/static/media/loc/pierfederici.png",
+      "email": "fpierfed@iram.es"
+    },
+    {
+      "name": "José Enrique Ruiz",
+      "affiliation": "IAA",
+      "img": "/static/media/loc/ruiz.png",
+      "email": "jer@iaa.es"
+    }
+  ]
+}

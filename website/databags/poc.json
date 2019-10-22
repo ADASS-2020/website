@@ -1,0 +1,118 @@
+{
+  "team": [
+    {
+      "name": "Christophe Arviset",
+      "affiliation": "ESA-ESAC",
+      "img": "/static/media/poc/arviset.png",
+      "email": "Christophe.Arviset@esa.int"
+    },
+    {
+      "name": "Pascal Ballester",
+      "affiliation": "ESO",
+      "img": "/static/media/poc/ballester.png",
+      "email": "pballest@eso.org"
+    },
+    {
+      "name": "Sebastien Derriere",
+      "affiliation": "CDS",
+      "img": "/static/media/poc/derriere.png",
+      "email": "sebastien.derriere@astro.unistra.fr"
+    },
+    {
+      "name": "Kimberly DuPrie",
+      "affiliation": "STScI",
+      "img": "/static/media/poc/duprie.png",
+      "email": "kduprie@stsci.edu"
+    },
+    {
+      "name": "Mike Fitzpatrick",
+      "affiliation": "NOAO",
+      "img": "/static/media/poc/fitzpatrick.png",
+      "email": "fitz@noao.edu"
+    },
+    {
+      "name": "Stephen Gwyn",
+      "affiliation": "CADC",
+      "img": "/static/media/poc/gwyn.png",
+      "email": "gwyn.cadc@gmail.com"
+    },
+    {
+      "name": " Jorge Ibsen",
+      "affiliation": "ALMA",
+      "img": "/static/media/poc/ibsen.png",
+      "email": "jorge.ibsen@alma.cl"
+    },
+    {
+      "name": "Kathleen Labrie",
+      "affiliation": "Gemini",
+      "img": "/static/media/poc/labrie.png",
+      "email": "klabrie@gemini.edu"
+    },
+    {
+      "name": "Brian Kent",
+      "affiliation": "NRAO",
+      "img": "/static/media/poc/kent.png",
+      "email": "bkent@nrao.edu"
+    },
+    {
+      "name": "Nuria Lorente",
+      "affiliation": "AAO",
+      "img": "/static/media/poc/lorente.png",
+      "email": "nuria.lorente@aao.gov.au"
+    },
+    {
+      "name": "Jessica Mink",
+      "affiliation": "SAO",
+      "img": "/static/media/poc/mink.png",
+      "email": "jmink@cfa.harvard.edu"
+    },
+    {
+      "name": "Fabio Pasian",
+      "affiliation": "INAF",
+      "img": "/static/media/poc/pasian.png",
+      "email": "fabio.pasian@inaf.it"
+    },
+    {
+      "name": "Francesco Pierfederici",
+      "affiliation": "IRAM",
+      "img": "/static/media/poc/pierfederici.png",
+      "email": "fpierfed@iram.es"
+    },
+    {
+      "name": "Roberto Pizzo",
+      "affiliation": "ASTRON",
+      "img": "/static/media/poc/pizzo.png",
+      "email": "pizzo@astron.nl"
+    },
+    {
+      "name": "Keith Shortridge",
+      "affiliation": "K&V",
+      "img": "/static/media/poc/shortridge.png",
+      "email": "Keith@knaveandvarlet.com.au"
+    },
+    {
+      "name": "Yuji Shirasaki",
+      "affiliation": "NAOJ",
+      "img": "/static/media/poc/yshirasa.png",
+      "email": "yuji.shirasaki@nao.ac.jp"
+    },
+    {
+      "name": "Mark Taylor",
+      "affiliation": "University of Bristol",
+      "img": "/static/media/poc/taylor.png",
+      "email": "m.b.taylor@bris.ac.uk"
+    },
+    {
+      "name": "Peter Teuben",
+      "affiliation": "UMD",
+      "img": "/static/media/poc/teuben.png",
+      "email": "teuben@astro.umd.edu"
+    },
+    {
+      "name": "Xiuqin Wu",
+      "affiliation": "IPAC",
+      "img": "/static/media/poc/wu.png",
+      "email": "xiuqin@ipac.caltech.edu"
+    }
+  ]
+}
