@@ -77,8 +77,12 @@
           "path": "/financial-aid"
         },
         {
-          "name": "Team",
-          "path": "/team"
+          "name": "LOC",
+          "path": "/loc"
+        },
+        {
+          "name": "POC",
+          "path": "/poc"
         },
         {
           "name": "App",
