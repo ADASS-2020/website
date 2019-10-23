@@ -1,27 +1,43 @@
 ADASS XXX Website
-================================
+=================
 
+
+### Important links
+
+ - [Trello](https://trello.com/b/zvJLsDgt/adass-xxx) - private
+ - [Volunteer SignUp](https://signup.zone/ykNPWDT6E6gdPdFrE)
+ - [Pretalx](https://pretalx.adass2020.es)
+ - [Tito](https://ti.to/adass/adass-2020)
+ - [ADASS XXX main site](https://adass2020.es)
+ -  - [ADASS XXX test site](https://test.adass2020.es)
+
+
+### Code setup
 
     python3.7 -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
 
 
-Edit Pages
+### Local Dev Server
 
     cd website
     lektor server
 
-Build Static Site
+The dev website runs on    
+[http://localhost:5000](http://localhost:5000)
+
+
+
+### Build Production Site
     
     cd website
     lektor build --output-path ../www
     
-The local website is run on    
-[http://localhost:5000](http://localhost:5000)
 
+### Create / Update Schedule
 
-Build content pages (talks, tutorials, :
+Build content pages (talks, tutorials, etc.):
 
 
     python process_sessions.py
@@ -29,15 +45,16 @@ Build content pages (talks, tutorials, :
 
 Do **not remove** google5309bb60aa53ebd2.html, it's used for site verification for YouTube.
 
-## Twitter
 
-### Preparation
+### Twitter
+
+#### Preparation
  - A developer account for the Twitter API
  - An app registered for this deveoper account
  - Save consumer_key and consumer_secret in `config.py`
  - Keep `config.py` private!
  
-###### Authorizing the App
+#### Authorizing the App
 
 To access and act for an Twitter account, the app needs to be authorized.
 
@@ -49,7 +66,7 @@ python  manually_authorize_app.py  consumer_key consumer_secret
 Follow the instructions on the terminal.
 Save `access_token` and `access_token_secret` in `config.py`.  
 
-### Creating and Updating Speaker Lists on Twitter
+#### Creating and Updating Speaker Lists on Twitter
 
 Will add and remove speaker handles added by speakers (via Pretalx).
 
@@ -60,7 +77,7 @@ python  twitter_speaker_list.py
 ```
 
 
-### Generate Cards for Talks for Sharing
+#### Generate Cards for Talks for Sharing
  
 Update everything,
 
@@ -78,16 +95,15 @@ Make sure banners are named in the same ordering as provided in the txt file.
 Run `rename_tmp_banners`: renames the banners in to `code.jpg` in the same order as provided in the txt file.
 
  
- ##### Card Validators
+##### Card Validators
  - [Facebook]( https://developers.facebook.com/tools/debug/sharing/)
  - [LinkedIn]( https://www.linkedin.com/post-inspector/inspect/)  
  - [Twitter]( https://cards-dev.twitter.com/validator)
 
 
-### Randomly Select a Session for Tweewting
+##### Randomly Select a Session for Tweewting
 
 Selects a random session, considers sessions having a speaker twitter handle only.
 Policy is one tweet per session, tweeted session are added to `databags/tweeted_talks.txt`
 
 Run `send_random_tweet.sh` manually of via cronjob.
-
