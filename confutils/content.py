@@ -1,58 +1,92 @@
-import hashlib
 import json
-import subprocess
 import codecs
+from dateutil.parser import parse
 import shutil
-from datetime import timedelta
 from pathlib import Path
-
-import requests
 import pandas as pd
-
-from schedule.schedule_from_google_sheet import slugify
-
-project_root = Path(__file__).resolve().parents[1]
-tokenpath = project_root / '_private/TOKEN.txt'
-TOKEN = tokenpath.open().read()
-
-base_url = 'https://pretalx.com'
-event = 'pyconde-pydata-berlin-2019'
-headers = {'Accept': 'application/json, text/javascript',
-           'Authorization': f'Token {TOKEN}'}
-
-submissions_path = project_root / Path('_private/submissions.json')
-speakers_path = project_root / Path('_private/speakers.json')
-clean_submissions_f = project_root / Path("website/databags/submissions.json")
-schedule__path = project_root / Path("website/databags/schedule_databag.json")
+import requests
+from .constants import base_url, event, DEFAULT_TRACK, submissions_path
+from .constants import speakers_path, clean_submissions_f, schedule_path
+from .constants import project_root, DEFAULT_SKILL, ANSWER_ID, headers
+from .pretalx import get_all_data_from_pretalx
+from . import utils
 
 
-def get_from_pretalx_api(url, params=None):
-    """
-    Helper function to get data from Pretalx API
-    :param url:
-    :param params: optional filters
-    :return: results and next url (if any)
-    """
-    if not params:
-        params = {}
-    # print(f'getting more reviews: {url}')
-    res = requests.get(url, headers=headers, params=params)
-    resj = res.json()
-    return resj['results'], resj['next']
+def update_schedule_pages():
+    """Update the three schedule databags: room, time and table."""
+
+    # Fetch the schedule from pretalx in JSON format.
+    raw_schedule = requests.get(
+        f'{base_url}/{event}/schedule/export/schedule.json',
+        headers=headers
+    ).json()
+
+    # Get all rooms
+    # rooms = load_rooms()
+
+    base_schedule = {'dates': []}
+    for raw_day in raw_schedule['schedule']['conference']['days']:
+        raw_day['date'] = parse(raw_day['date'])
+
+        day_schedule = {}
+        day_schedule['day'] = utils.human_format_date(raw_day['date'])
+        day_schedule['datum'] = raw_day['date'].date().isoformat()
+        day_schedule['rooms'] = []
+
+        for room_name, raw_list in raw_day['rooms'].items():
+            room_schedule = {
+                'room_name': room_name,
+                'location': 'center',
+                'use': 'talks/keynotes',
+                'data_tab': f'{day_schedule["datum"]}-{room_name}',
+                'sessions': []
+            }
+            for raw_item in raw_list:
+                spkrs, spkrs_affil = utils.format_speakers(raw_item['persons'])
+                slug = utils.slugify(
+                    f"{raw_item['track']}-" +
+                    f"{raw_item['slug']}-" +
+                    f"{raw_item['title']}-" +
+                    f"{spkrs}"
+                )
+                answers = raw_item['answers']
+                raw_item['end'] = utils.compute_endtime(raw_item)
+
+                item = {
+                    'code': raw_item['slug'],
+                    'name': '',
+                    'track': raw_item['track'],
+                    'duration': raw_item['duration'],
+                    'description': raw_item['description'],
+                    'short_description': raw_item['abstract'],
+                    'skill': utils.format_skill(answers),
+                    'domain_expertise': utils.format_domain_expertise(answers),
+                    'domains': utils.format_domains(answers),
+                    'slug': slug,
+                    'title': raw_item['title'],
+                    'speaker_names': spkrs_affil,
+                    'type': raw_item['type'],
+                    'url': f'/program/{slug}',
+                    'plenary': utils.is_plenary(raw_item),
+                    'add_to_class': '',
+                    'clipcard_icon': utils.format_icon(raw_item),
+                    'time': raw_item['start'],
+                    'start': raw_item['start'],
+                    'end': utils.format_endtime(raw_item['end']),
+                }
+                room_schedule['sessions'].append(item)
+            day_schedule['rooms'].append(room_schedule)
+        base_schedule['dates'].append(day_schedule)
+
+    print(f'Updating {str(schedule_path)}... ', end='')
+    with schedule_path.open('w') as f:
+        json.dump(base_schedule, f, indent=4)
+    print('DONE')
 
 
-def get_all_data_from_pretalx(url, params=None):
-    """
-    Helper to get paginated data from Pretalx API
-    :param url: url to start from
-    :param params: optional filters
-
-    """
-    api_result = []
-    while url:
-        chunk, url = get_from_pretalx_api(url, params=params)
-        api_result.extend(chunk)
-    return api_result
+def load_rooms():
+    url = f'{base_url}/api/events/{event}/rooms/'
+    return get_all_data_from_pretalx(url)
 
 
 def load_submissions(accepted_only=True):
@@ -70,85 +104,67 @@ def load_submissions(accepted_only=True):
     # add custom data
     for submission in submissions:
         spkrs = ' '.join([x.get('name') for x in submission['speakers']])
-        slug = slugify(
-            f"{submission.get('track', {}).get('en', 'pycon-pydata')}-" +
+        track = submission.get('track', {})
+        if not track or 'en' not in track:
+            submission['track'] = {'en': DEFAULT_TRACK}
+        slug = utils.slugify(
+            f"{submission['track']['en']}-" +
             f"{submission['code']}-{submission['title']}-{spkrs}"
         )
         submission['slug'] = slug
 
+    print(f'Updating {str(submissions_path)}... ', end='')
     with submissions_path.open('w') as f:
         json.dump(submissions, f, indent=4)
+    print('DONE')
 
 
 def load_speakers():
     url = f'{base_url}/api/events/{event}/speakers'
     speakers = get_all_data_from_pretalx(url)
 
-    qa_map = {
-        112: 'affiliation',
-        113: 'position',
-        114: 'homepage',
-        115: '@twitter',
-        124: 'residence',
-        117: 'github',
-    }
-
     the_speakers = []
     for s in speakers:
         speaker = {k: s[k] for k in ['name', 'biography', 'email', 'code']}
         for qa in s['answers']:
             _id = qa.get('question', {}).get('id')
-            if _id not in qa_map:
+            if _id not in ANSWER_ID:
                 continue
-            speaker[qa_map[_id]] = qa.get('answer')
+            speaker[ANSWER_ID[_id]] = qa.get('answer')
             # normalize twitter
-            if _id == 115:
+            if ANSWER_ID[_id] == '@twitter':
                 speaker['twitter'] = ""
                 handle = qa.get('answer').split('/')[-1].replace('@', '')
                 handle = handle.strip()
-                speaker[qa_map[_id]] = handle
+                speaker[ANSWER_ID[_id]] = handle
                 if handle:
                     speaker['twitter'] = \
-                        f"https://twitter.com/{speaker[qa_map[_id]]}"
+                        f"https://twitter.com/{speaker[ANSWER_ID[_id]]}"
                 else:
                     pass
-            if _id == 117:
+            if ANSWER_ID[_id] == 'github':
                 if qa.get('answer').strip() and \
                         'github.com' not in qa.get('answer', ""):
                     speaker['github'] = \
                         f"https://github.com/{qa.get('answer').strip()}"
-            if _id == 114:
+            if ANSWER_ID[_id] == 'homepage':
                 if qa.get('answer').strip() and \
                         'http' not in qa.get('answer', ""):
                     speaker['homepage'] = f"http://{qa.get('answer').strip()}"
 
         the_speakers.append(speaker)
+
+    print(f'Updating {str(speakers_path)}... ', end='')
     with speakers_path.open('w') as f:
         json.dump(the_speakers, f, indent=4)
-
-
-def date2identifier(dt):
-    if dt.second == 59:
-        dt += timedelta(seconds=1)
-    return dt.strftime("%a-%H:%M").lower()
-
-
-def format_date(dt):
-    if dt.second == 59:
-        dt += timedelta(seconds=1)
-    return dt.strftime("%A %H:%M").lower()
-
-
-def gen_gravatar(email):
-    h = hashlib.md5(email.encode("utf-8")).hexdigest()
-    return "https://www.gravatar.com/avatar/{}".format(h)
+    print('DONE')
 
 
 def load_schedule():
     the_schedule = {}
-    if not schedule__path.exists():
+    if not schedule_path.exists():
         return
-    schedule = json.load(schedule__path.open())
+    schedule = json.load(schedule_path.open())
     for d in schedule['dates']:
         for r in d['rooms']:
             for s in r['sessions']:
@@ -181,8 +197,6 @@ def update_session_pages(use_cache=False):
     eq_attr = ['abstract', 'answers', 'code', 'description', 'duration',
                'is_featured', 'speakers', 'state', 'submission_type', 'title',
                'track', 'slug']
-    id_answers = {118: 'short_description', 111: 'python_skill', 110:
-                  'domain_expertise', 119: 'domains'}
     cleaned_submissions = []
     for s in submissions:
         cs = {k: s[k] for k in s if k in eq_attr}
@@ -190,12 +204,13 @@ def update_session_pages(use_cache=False):
         cs['track'] = cs['track']['en']
         cs['submission_type'] = \
             cs['submission_type'].replace('Talk-', 'Talk -')
+
         for answer in [a for a in cs['answers']
-                       if a['question']['id'] in id_answers]:
+                       if a['question']['id'] in ANSWER_ID]:
             val = answer['answer']
             if answer['id'] == 119:
                 val = val.split(', ')
-            cs[id_answers[answer['question']['id']]] = val
+            cs[ANSWER_ID[answer['question']['id']]] = val
         del cs['answers']
         # add speaker info
         enriched_speakers = []
@@ -207,7 +222,10 @@ def update_session_pages(use_cache=False):
             enriched_speakers.append(x)
         cs['speakers'] = enriched_speakers
         cleaned_submissions.append(cs)
+
+    print(f'Updating {str(clean_submissions_f)}... ', end='')
     json.dump(cleaned_submissions, clean_submissions_f.open('w'), indent=4)
+    print('DONE')
 
 
 def save_csv_for_banners():
@@ -231,11 +249,15 @@ def save_csv_for_banners():
     df = pd.DataFrame(csv_submissions)
     df.to_csv(clean_submissions_f.with_suffix('.csv'), sep='\t',
               encoding='utf-8', index=False)
+
+    print(f'Updating {str(clean_submissions_f.with_suffix(".txt"))}... ',
+          end='')
     with codecs.open(
             clean_submissions_f.with_suffix('.txt'), "w", "UTF-16") as f:  #
         f.write('\t'.join(csv) + '\n')
         for line in csv_submissions:
             f.write('\t'.join([line[k] for k in csv]) + '\n')
+    print('DONE')
 
 
 def rename_tmp_banners():
@@ -288,7 +310,7 @@ affiliation: {affiliation}
 ---
 track: {track}
 ---
-python_skill: {python_skill}
+skill: {skill}
 ---
 domain_expertise: {domain_expertise}
 ---
@@ -328,13 +350,12 @@ body: {body}
             pass
         # published keynotes
         # is_featured = sneak peak must be set in Pretalx
-        elif 'Keynote' in submission['submission_type']:
-            if submission['is_featured']:
-                pass
-            else:
-                print(f'skipped: submission {submission["code"]} ' +
-                      f'{submission["title"]}')
+        elif 'Keynote' in submission['submission_type'] and \
+             submission['is_featured']:
+            pass
         else:
+            print(f'skipped: submission {submission["code"]} ' +
+                  f'{submission["title"]}')
             continue
 
         biography = []
@@ -365,13 +386,14 @@ body: {body}
             "#adass"
 
         # easier to handle on website as full text
-        python_skill = f"Python Skill Level {submission['python_skill']}"
-        domain_expertise = f"Domain Expertise {submission['domain_expertise']}"
+        skill = f"Skill Level {submission.get('skill', DEFAULT_SKILL)}"
+        domain_expertise = "Domain Expertise " + \
+            f"{submission.get('domain_expertise', DEFAULT_SKILL)}"
 
         domains = submission['domains']
 
         categories = [submission['track'],
-                      python_skill,
+                      skill,
                       domain_expertise] + \
             [submission['submission_type'].split(' ')[0]] + domains.split(', ')
 
@@ -386,11 +408,12 @@ body: {body}
             day = the_schedule[submission['code']]['day']
             slot_links = [day, the_schedule[submission['code']]['time']]
         categories = categories + slot_links
-        slugified_categories = [slugify(x) for x in categories]
-        slugified_slot_links = ', '.join([slugify(x) for x in slot_links])
+        slugified_categories = [utils.slugify(x) for x in categories]
+        slugified_slot_links = ', '.join([utils.slugify(x)
+                                          for x in slot_links])
         categories_list = ', '.join(slugified_categories)
         all_categories.update(
-            {slugify(x).replace('---', '-').replace('--', '-'): x
+            {utils.slugify(x).replace('---', '-').replace('--', '-'): x
              for x in categories}
         )
 
@@ -406,6 +429,8 @@ body: {body}
             in_place_submissions.remove(dirname.name)
 
         dirname.mkdir(exist_ok=True)
+
+        print(f'Updating {str(dirname / "contents.tr")}... ', end='')
         with open(dirname / "contents.lr", "w") as f:
             f.write(tpl.format(
                 title=submission['title'],
@@ -426,13 +451,15 @@ body: {body}
                 meta_twitter_title=meta_twitter_title,
                 categories=categories,
                 categories_list=categories_list,
-                python_skill=python_skill,
+                skill=skill,
                 domain_expertise=domain_expertise,
                 slugified_slot_links=slugified_slot_links,
                 start_time=start_time,
                 room=room,
                 day=day,
             ))
+        print('DONE')
+
     if in_place_submissions:  # leftover dirs
         for zombie in in_place_submissions:
             # TODO could try to redirect zombies via code
@@ -450,6 +477,8 @@ body: {body}
                  category)
         if not cpath.exists():
             cpath.mkdir()
+
+            print(f'Updating {str(cpath / "contents.lr")}... ', end='')
             with open(cpath / 'contents.lr', 'w') as f:
                 f.write("""name: {0}
 ---
@@ -457,65 +486,17 @@ title: {0} Session List
 ---
 description: All {0} sessions at the PyConDE & Pydata Berlin 2019 conference
 ---""".format(all_categories[category]))
+            print('DONE')
 
 
 def create_redirect(redir_dirname, slug):
     redir_dirname.mkdir(exist_ok=True)
+
+    print(f'Updating {str(redir_dirname / "contents.lr")}... ', end='')
     with open(redir_dirname / "contents.lr", "w") as f:
         f.write("""_model: redirect
 ---
 target: /program/{}
 ---
 _discoverable: no""".format(slug))
-
-
-def run_lekor_update():
-    command = f"cd {project_root.absolute()}/website && " + \
-        "lektor build --output-path ../www"
-    process = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
-    proc_stdout = process.communicate()[0].strip()
-    for line in proc_stdout.decode('utf-8').split('\n'):
-        print(line)
-
-
-def git_push():
-    commands = [
-        f"cd {project_root.absolute()}",
-        "git add --all",
-        "git commit -am website-auto-update",
-        "git push"
-    ]
-    for command in commands:
-        print("command:", command)
-        process = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
-        proc_stdout, proc_error = process.communicate()
-        if proc_error:
-            raise RuntimeError(
-                f"git did return an error {proc_error}: {proc_stdout}"
-            )
-        for line in proc_stdout.decode('utf-8').split('\n'):
-            print(line)
-
-
-def git_pull():
-    commands = [f"cd {project_root.absolute()}", "git pull"]
-    for command in commands:
-        print("command:", command)
-        process = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
-        proc_stdout, proc_error = process.communicate()
-        if proc_error:
-            raise RuntimeError(
-                f"git did return an error {proc_error}: {proc_stdout}"
-            )
-        for line in proc_stdout.decode('utf-8').split('\n'):
-            print(line)
-
-
-if __name__ == "__main__":
-    git_pull()
-    update_session_pages(use_cache=False)
-    # update_schedule_from_sheet()
-    update_session_pages(use_cache=True)
-    generate_session_pages()
-    run_lekor_update()
-    git_push()
+    print('DONE')
