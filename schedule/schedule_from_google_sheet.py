@@ -400,7 +400,7 @@ class ScheduleFromGSheet:
 
         session_keys = [
             # same keys as in submissions
-            'code', 'name', 'track', 'duration', 'description', 'short_description', 'python_skill', 'domain_expertise', 'domains', 'slug',
+            'code', 'name', 'track', 'duration', 'description', 'short_description', 'skill', 'domain_expertise', 'domains', 'slug',
             'title',
             # custom keys for databag
             'speaker_names', 'type', 'url', 'plenary', 'add_to_class', 'clipcard_icon',
