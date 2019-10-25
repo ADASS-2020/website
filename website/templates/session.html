@@ -13,7 +13,7 @@
                             {% set category = this.track.lower().replace('---', '-').replace('--', '-') %}
                             {% set submission_type = this.submission_type.lower().replace('---', '-').replace('--', '-') %}
                             {% set domain_expertise = this.domain_expertise.lower().replace(' ', '-').replace('---', '-').replace('--', '-') %}
-                            {% set python_skill = this.python_skill.lower().replace(' ', '-').replace('---', '-').replace('--', '-') %}
+                            {% set skill = this.skill.lower().replace(' ', '-').replace('---', '-').replace('--', '-') %}
 
                             <h3 class="page-title">{{ this.speakers }}</h3>
 
@@ -66,7 +66,7 @@
                                 <div class="single-content__tags">
                                     <span class="sub-head-2">Level&nbsp;&nbsp;</span>
                                     <a href="/program/categories/{{ domain_expertise }}">{{ this.domain_expertise }}</a>
-                                    <a href="/program/categories/{{ python_skill }}">{{ this.python_skill }}</a>
+                                    <a href="/program/categories/{{ skill }}">{{ this.skill }}</a>
                                 </div>
 
 
