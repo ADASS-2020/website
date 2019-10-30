@@ -59,6 +59,11 @@
 
 
                         <table>
+                            <tr>
+                                {% for room in theheader %}
+                                    <td>{{ room }}</td>
+                                {% endfor %}
+                            </tr>
                             {% for tr in theday.sessions %}
                                 {% if tr[0] != "sessionname" %}
                                     {% set color = "#dce6f2" %}

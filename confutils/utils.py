@@ -1,11 +1,25 @@
-from datetime import timedelta
+from datetime import datetime, timedelta
 import hashlib
 import re
 import subprocess
 from unicodedata import normalize
 from .constants import project_root, ANSWER_ID_REV, PLENARY_TYPES, ICONS
-from typing import Dict, List, Tuple, Any
+from typing import Dict, List, Any
 from dateutil.parser import parse
+from .model import Speaker
+
+
+def parse_duration(s):
+    tokens = [float(t) for t in s.split(':')]
+    if len(tokens) == 3:
+        # hour, minutes, seconds
+        secs = tokens[0] * 3600 + tokens[1] * 60 + tokens[2]
+    elif len(tokens) == 2:
+        # hour, minutes
+        secs = tokens[0] * 3600 + tokens[1] * 60
+    else:
+        raise NotImplementedError(f'Unsupported duration format {s}')
+    return timedelta(seconds=secs)
 
 
 def compute_endtime(raw_item):
@@ -14,23 +28,11 @@ def compute_endtime(raw_item):
     events crossing the midnight!
     """
     start = parse(raw_item['date'])
-    delta = raw_item['duration']
-
-    tokens = [float(t) for t in delta.split(':')]
-    if len(tokens) == 3:
-        # hour, minutes, seconds
-        s = tokens[0] * 3600 + tokens[1] * 60 + tokens[2]
-    elif len(tokens) == 2:
-        # hour, minutes
-        s = tokens[0] * 3600 + tokens[1] * 60
-    else:
-        raise NotImplementedError(f'Unsupported duration format {delta}')
-
-    delta = timedelta(seconds=s)
+    delta = parse_duration(raw_item['duration'])
     return start + delta
 
 
-def format_endtime(dt):
+def format_time(dt):
     # TODO: Handle the case of talks ending after midnight!
     return dt.strftime('%H:%M')
 
@@ -60,19 +62,19 @@ def _fetch_answer(raw_answers, _id):
     return
 
 
-def format_domains(raw_answers):
+def get_domains(raw_answers):
     return _fetch_answer(raw_answers, ANSWER_ID_REV['domains'])
 
 
-def format_domain_expertise(raw_answers):
+def get_domain_expertise(raw_answers):
     return _fetch_answer(raw_answers, ANSWER_ID_REV['domain_expertise'])
 
 
-def format_skill(raw_answers):
+def get_skill(raw_answers):
     return _fetch_answer(raw_answers, ANSWER_ID_REV['skill'])
 
 
-def format_speakers(raw_persons: List[Dict[str, str]]) -> Tuple[str, str]:
+def get_speakers(raw_persons: List[Dict[str, str]]) -> List[Speaker]:
     """
     Given a persons section of a pretalx schedule JSON object, extract speaker
     names and affiliations and compose two strings of the form
@@ -83,18 +85,26 @@ def format_speakers(raw_persons: List[Dict[str, str]]) -> Tuple[str, str]:
     and return both, in that order.
     """
     spkrs = []
-    spkrs_affil = []
     answer_id = ANSWER_ID_REV['affiliation']
     for raw_person in raw_persons:
         name = raw_person['public_name']
         affil = _fetch_answer(raw_person['answers'], answer_id)
+        spkrs.append(Speaker(name, affil))
+    return spkrs
 
-        spkrs.append(name)
-        if affil:
-            spkrs_affil.append(f'{name} ({affil})')
+
+def format_speakers(speakers: List[Speaker]) -> str:
+    return ', '.join(s.name for s in speakers)
+
+
+def format_speakers_affiliations(speakers: List[Speaker]) -> str:
+    strs = []
+    for speaker in speakers:
+        if speaker.affiliation:
+            strs.append(f'{speaker.name} ({speaker.affiliation})')
         else:
-            spkrs_affil.append(name)
-    return ', '.join(spkrs), ', '.join(spkrs_affil)
+            strs.append(f'{speaker.name}')
+    return ', '.join(strs)
 
 
 def slugify(text, delim="-"):
@@ -120,14 +130,25 @@ def date2identifier(dt):
     return dt.strftime("%a-%H:%M").lower()
 
 
-def human_format_date(dt):
-    return dt.strftime('%A, %B %d')
-
-
 def format_date(dt):
-    if dt.second == 59:
+    return dt.strftime('%Y-%m-%d')
+
+
+def human_format_date(dt):
+    if isinstance(dt, datetime) and dt.second == 59:
         dt += timedelta(seconds=1)
-    return dt.strftime("%A %H:%M").lower()
+    return dt.strftime("%A, %B %d")
+
+
+def format_duration(dt: timedelta) -> str:
+    s = int(round(dt.total_seconds()))
+    assert s < 86400, 'Event durations of one day or longer are not supported'
+
+    mm, ss = divmod(s, 60)
+    if ss == 59:
+        mm += 1
+    hh, mm = divmod(mm, 60)
+    return f'{hh:02d}:{mm:02d}'
 
 
 def gen_gravatar(email):

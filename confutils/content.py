@@ -1,6 +1,5 @@
 import json
 import codecs
-from dateutil.parser import parse
 import shutil
 from pathlib import Path
 import pandas as pd
@@ -8,8 +7,11 @@ import requests
 from .constants import base_url, event, DEFAULT_TRACK, submissions_path
 from .constants import speakers_path, clean_submissions_f, schedule_path
 from .constants import project_root, DEFAULT_SKILL, ANSWER_ID, headers
+from .constants import DATABAG_PATH, DATABAG_PATH_T, DATABAG_PATH_TB
 from .pretalx import get_all_data_from_pretalx
 from . import utils
+from . import schedule
+from .model import Schedule
 
 
 def update_schedule_pages():
@@ -21,67 +23,16 @@ def update_schedule_pages():
         headers=headers
     ).json()
 
-    # Get all rooms
-    # rooms = load_rooms()
+    # Parse the raw JSON schedule and create a numpy matrix
+    sched = Schedule.from_pretalx(raw_schedule)
 
-    base_schedule = {'dates': []}
-    for raw_day in raw_schedule['schedule']['conference']['days']:
-        raw_day['date'] = parse(raw_day['date'])
-
-        day_schedule = {}
-        day_schedule['day'] = utils.human_format_date(raw_day['date'])
-        day_schedule['datum'] = raw_day['date'].date().isoformat()
-        day_schedule['rooms'] = []
-
-        for room_name, raw_list in raw_day['rooms'].items():
-            room_schedule = {
-                'room_name': room_name,
-                'location': 'center',
-                'use': 'talks/keynotes',
-                'data_tab': f'{day_schedule["datum"]}-{room_name}',
-                'sessions': []
-            }
-            for raw_item in raw_list:
-                spkrs, spkrs_affil = utils.format_speakers(raw_item['persons'])
-                slug = utils.slugify(
-                    f"{raw_item['track']}-" +
-                    f"{raw_item['slug']}-" +
-                    f"{raw_item['title']}-" +
-                    f"{spkrs}"
-                )
-                answers = raw_item['answers']
-                raw_item['end'] = utils.compute_endtime(raw_item)
-
-                item = {
-                    'code': raw_item['slug'],
-                    'name': '',
-                    'track': raw_item['track'],
-                    'duration': raw_item['duration'],
-                    'description': raw_item['description'],
-                    'short_description': raw_item['abstract'],
-                    'skill': utils.format_skill(answers),
-                    'domain_expertise': utils.format_domain_expertise(answers),
-                    'domains': utils.format_domains(answers),
-                    'slug': slug,
-                    'title': raw_item['title'],
-                    'speaker_names': spkrs_affil,
-                    'type': raw_item['type'],
-                    'url': f'/program/{slug}',
-                    'plenary': utils.is_plenary(raw_item),
-                    'add_to_class': '',
-                    'clipcard_icon': utils.format_icon(raw_item),
-                    'time': raw_item['start'],
-                    'start': raw_item['start'],
-                    'end': utils.format_endtime(raw_item['end']),
-                }
-                room_schedule['sessions'].append(item)
-            day_schedule['rooms'].append(room_schedule)
-        base_schedule['dates'].append(day_schedule)
-
-    print(f'Updating {str(schedule_path)}... ', end='')
-    with schedule_path.open('w') as f:
-        json.dump(base_schedule, f, indent=4)
-    print('DONE')
+    # Dump the schedule in three views:
+    # - date / room / timeslot view
+    # - date / timeslot / room view
+    # - date / timeslot / room table view
+    schedule.dump_date_room_timeslot_view(sched, outpath=DATABAG_PATH)
+    schedule.dump_date_timeslot_room_view(sched, outpath=DATABAG_PATH_T)
+    schedule.dump_table_view(sched, outpath=DATABAG_PATH_TB)
 
 
 def load_rooms():
