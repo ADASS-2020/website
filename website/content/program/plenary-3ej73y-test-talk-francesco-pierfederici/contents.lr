@@ -1,0 +1,54 @@
+_model: session
+---
+code: 3EJ73Y
+---
+title: Test Talk
+---
+description: Yippy
+---
+short_description: Yippy
+---
+twitter_image: /static/media/twitter/3EJ73Y.jpg
+---
+speakers: Francesco Pierfederici
+---
+submission_type: Talk
+---
+domains: Multi-wavelength astronomy, Data science challenges: tools from statistics to machine learning, Telescope operations and scheduling: from classical to autonomous, Other
+---
+biography: #### Francesco Pierfederici
+
+Affiliation: IRAM
+
+
+
+Just me
+
+visit the speaker at: [Twitter](https://twitter.com/fpierfed) • [Github](https://github.com/fpierfed) • [Homepage](https://www.iram.es)
+---
+affiliation: IRAM
+---
+track: Plenary
+---
+skill: Skill Level Intermediate
+---
+domain_expertise: Domain Expertise Intermediate
+---
+room: None
+---
+start_time: None
+---
+day: None
+---
+meta_title: Test Talk Francesco Pierfederici ADASS XXX conference 
+---
+meta_twitter_title: Test Talk @fpierfed #adass
+---
+categories: plenary, skill-level-intermediate, domain-expertise-intermediate, talk, multi-wavelength-astronomy, data-science-challenges-tools-from-statistics-to-machine-learning, telescope-operations-and-scheduling-from-classical-to-autonomous, other
+---
+slugified_slot_links: 
+---
+body: What a long description!
+
+Bada, bada, bada
+
