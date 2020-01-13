@@ -1,6 +1,6 @@
 .PHONY: build deploy clean all
 
-HOST=test.adass2020.es
+HOST=www.adass2020.es
 
 
 all: build
