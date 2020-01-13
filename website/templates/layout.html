@@ -87,7 +87,9 @@
                                                     {% if "submenu" not in item %}
                                                       <li>
                                                         <a target={{ item.target if "target" in item else "_self" }} 
-                                                           href="{{ item.path|url }}">{{ item.name }}</a>
+                                                           href="{{ item.path if item.path.startswith('http') else item.path|url }}">
+                                                          {{ item.name }}
+                                                        </a>
                                                       </li>
                                                     {% else %}
                                                         <li class="menu-item-has-children">
@@ -96,7 +98,9 @@
                                                                 {% for sub_item in item.submenu %}
                                                                     <li>
                                                                       <a target={{ sub_item.target if "target" in sub_item else "_self" }}
-                                                                         href="{{ sub_item.path|url }}"><span>{{ sub_item.name }}</span></a>
+                                                                         href="{{ sub_item.path if sub_item.path.startswith('http') else sub_item.path|url }}">
+                                                                        <span>{{ sub_item.name }}</span>
+                                                                      </a>
                                                                     </li>
                                                                 {% endfor %}
                                                             </ul>
