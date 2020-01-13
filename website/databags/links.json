@@ -4,36 +4,36 @@
       "name": "Program",
       "submenu": [
         {
-          "name": "Schedule",
-          "path": "/schedule"
+          "name": "Schedule / Coming Soon",
+          "path": "#"
         },
         {
-          "name": "Schedule (full table)",
-          "path": "/scheduleTable"
+          "name": "Schedule (full table) / Coming Soon",
+          "path": "#"
         },
         {
-          "name": "Schedule (time->sessions)",
-          "path": "/scheduleT"
+          "name": "Schedule (time->sessions) / Coming Soon",
+          "path": "#"
         },
         {
-          "name": "Calendar Integration",
-          "path": "/calendar-integration"
+          "name": "Calendar Integration / Coming Soon",
+          "path": "#"
         },
         {
-          "name": "All Sessions",
-          "path": "/program"
+          "name": "All Sessions / Coming Soon",
+          "path": "#"
         },
         {
-          "name": "Keynotes",
-          "path": "/program/categories/keynote"
+          "name": "Keynotes / Coming Soon",
+          "path": "#"
         },
         {
-          "name": "Talks",
-          "path": "/program/categories/talk"
+          "name": "Talks / Coming Soon",
+          "path": "#"
         },
         {
-          "name": "Tutorials",
-          "path": "/program/categories/tutorial"
+          "name": "Tutorials / Coming Soon",
+          "path": "#"
         }
       ]
     },
