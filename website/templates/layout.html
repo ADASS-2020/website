@@ -83,41 +83,37 @@
                                     <nav class="main-navigation" aria-label="Site Menu" role="navigation">
                                         <div class="menu-top-menu-container">
                                             <ul class="menu" id="top-menu">
-
                                                 {% for item in bag('links')['product'] %}
-
-
                                                     {% if "submenu" not in item %}
-                                                        <li><a href="{{ item.path|url }}">{{ item.name }}</a></li>
-
-
+                                                      <li>
+                                                        <a target={{ item.target if "target" in item else "_self" }} 
+                                                           href="{{ item.path|url }}">{{ item.name }}</a>
+                                                      </li>
                                                     {% else %}
                                                         <li class="menu-item-has-children">
                                                             <a href="#">{{ item.name }}</a>
                                                             <ul class="sub-menu">
                                                                 {% for sub_item in item.submenu %}
                                                                     <li>
-                                                                        <a href="{{ sub_item.path|url }}"><span>{{ sub_item.name }}</span></a>
+                                                                      <a target={{ sub_item.target if "target" in sub_item else "_self" }}
+                                                                         href="{{ sub_item.path|url }}"><span>{{ sub_item.name }}</span></a>
                                                                     </li>
                                                                 {% endfor %}
                                                             </ul>
                                                         </li>
-
-
                                                     {% endif %}
-
-
                                                 {% endfor %}
-
-
                                             </ul>
                                         </div>
                                     </nav>
                                 </div>
                             </div>
                             <div class="site-header__cta hidden-sm-down">
-                                <a class="btn btn--secondary" target="_blank" href="https://ti.to/adass/adass-2020">Buy
-                                    ticket</a>
+                                <a class="btn btn--secondary" 
+                                   target="_blank" 
+                                   href="https://eurocongres.es/congresos/adass/2020/inscripcion/">
+                                  Register
+                                </a>
                             </div>
                         </div>
                     </div>
