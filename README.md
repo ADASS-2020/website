@@ -6,8 +6,6 @@ ADASS XXX Website
 
  - [Trello](https://trello.com/b/zvJLsDgt/adass-xxx) - private
  - [Volunteer SignUp](https://signup.zone/ykNPWDT6E6gdPdFrE)
- - [Pretalx](https://pretalx.adass2020.es)
- - [Tito](https://ti.to/adass/adass-2020)
  - [ADASS XXX main site](https://adass2020.es)
  -  - [ADASS XXX test site](https://test.adass2020.es)
 
@@ -29,21 +27,10 @@ The dev website runs on
 
 
 
-### Build Production Site
-    
-    cd website
-    lektor build --output-path ../www
-    
+### Build (and Deploy) Production Site
 
-### Create / Update Schedule
-
-Build content pages (talks, tutorials, etc.):
-
-
-    python process_sessions.py
- 
-
-Do **not remove** google5309bb60aa53ebd2.html, it's used for site verification for YouTube.
+    make build
+    make deploy
 
 
 ### Twitter
