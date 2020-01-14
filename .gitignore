@@ -1,6 +1,6 @@
 .venv/
 venv/
-www/.lektor/
+www/
 build/
 .venv
 .vscode/
