@@ -57,9 +57,9 @@
           "path": "/venue"
         },
         {
-          "name": "Hotels",
-          "path": "https://eurocongres.es/congresos/adass/2020/alojamiento/",
-          "target": "_blank"
+          "name": "Hotels (Coming Soon)",
+          "path": "#",
+          "target": "_self"
         },
         {
           "name": "Call for Proposals",
