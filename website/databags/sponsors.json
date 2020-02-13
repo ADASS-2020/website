@@ -2,13 +2,7 @@
     "types": [
         {
             "name": "Diamond sponsors",
-            "sponsors": [
-                {
-                    "name": "Sponsor 1",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                    "logo": "/static/media/sponsors/placeholder1.png"
-                }
-            ]
+            "sponsors": []
         },
         {
             "name": "Platinum sponsors",
@@ -22,33 +16,15 @@
         },
         {
             "name": "Gold sponsors",
-            "sponsors": [
-                {
-                    "name": "Sponsor 3",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                    "logo": "/static/media/sponsors/placeholder3.png"
-                }
-            ]
+            "sponsors": []
         },
         {
             "name": "Silver sponsors",
-            "sponsors": [
-                {
-                    "name": "Sponsor 4",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                    "logo": "/static/media/sponsors/placeholder4.png"
-                }
-            ]
+            "sponsors": []
         },
         {
             "name": "Community & Financial Aid Sponsors",
-            "sponsors": [
-                {
-                    "name": "Sponsor 5",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                    "logo": "/static/media/sponsors/placeholder5.png"
-                }
-            ]
+            "sponsors": []
         }
     ]
 }

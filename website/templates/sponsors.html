@@ -28,8 +28,7 @@
             </div>
         </section>
 
-        {% for sponsor_type in bag('sponsors').types %}
-
+        {% for sponsor_type in bag('sponsors').types  if sponsor_type.sponsors %}
             <section class="padding-bottom">
                 <div class="container">
                     <div class="row">
