@@ -1,16 +1,40 @@
 {
   "team": [
     {
+      "name": "Enrique Brias",
+      "affiliation": "Eurocongres",
+      "img": "/static/media/loc/generic.png",
+      "email": "adass2020@eurocongres.es"
+    },
+    {
+      "name": "Elisabeth Casares",
+      "affiliation": "Eurocongres",
+      "img": "/static/media/loc/generic.png",
+      "email": "adass2020@eurocongres.es"
+    },
+    {
       "name": "Alicia Gambetta",
       "affiliation": "aliciagambetta.com",
       "img": "/static/media/loc/gambetta.png",
       "email": "liciagadi@yahoo.com"
     },
     {
+      "name": "Christina García Luján",
+      "affiliation": "Eurocongres",
+      "img": "/static/media/loc/generic.png",
+      "email": "adass2020@eurocongres.es"
+    },
+    {
       "name": "Angela Gardini",
       "affiliation": "UGr",
-      "img": "/static/media/loc/gardini.png",
+      "img": "/static/media/loc/generic.png",
       "email": "angelagardini@correo.ugr.es"
+    },
+    {
+      "name": "Maria Jesús Martín",
+      "affiliation": "Eurocongres",
+      "img": "/static/media/loc/generic.png",
+      "email": "adass2020@eurocongres.es"
     },
     {
       "name": "Francesco Pierfederici",
