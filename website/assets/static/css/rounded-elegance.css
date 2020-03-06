@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Rounded-Elegance';
+    src:url('Rounded-Elegance.ttf.woff') format('woff'),
+        url('Rounded-Elegance.ttf.svg#Rounded-Elegance') format('svg'),
+        url('Rounded-Elegance.ttf.eot'),
+        url('Rounded-Elegance.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
