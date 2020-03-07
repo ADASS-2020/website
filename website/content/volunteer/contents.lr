@@ -4,7 +4,7 @@ _template: page-md.html
 ---
 description: Volunteer for ADASS XXX in Granada, Spain
 ---
-twitter_image: /static/media/twitter/PyConDEPyDataSquare.jpg
+twitter_image: /static/media/logo.png
 ---
 body:
 
