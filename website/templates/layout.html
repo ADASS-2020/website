@@ -22,6 +22,67 @@
     <meta name="description"
           content="Astronomical Data Analysis Software and Systems (ADASS) conference in Granada, Spain November 8-12, 2020.">
 
+<!-- 
+  Small JS script to change CSS and logo between day version (default) and
+  night version (*-night.*) depending on the user time of day.\
+-->
+<script type="application/javascript">
+  // This JS obsession for camlcase is awful ;-)
+
+  function setLogo(logo) {
+    // DOM manipulation here we go! I have cunningly added a special class
+    // to all occurrences of the logo: dynamic-logo. We do this in plain JS..
+    // Will it blend????
+    // By the way, this is ES6 or later stuff...
+    const nodes = document.querySelectorAll(".dynamic-logo");
+    for(var i=0; i<nodes.length; i++) {
+      if(nodes[i].getAttribute("src") != logo) {
+        nodes[i].src = logo;
+      }
+    }
+  }
+
+  function setCss(mainCss, customCss) {
+    var node;
+    node = document.querySelector("#main-css");
+    if(node.getAttribute("href") != mainCss) {
+      node.href = mainCss;
+    }
+    node = document.querySelector("#custom-css");
+    if(node.getAttribute("href") != customCss) {
+      node.href = customCss;
+    }
+  }
+
+  function customizeForTimeOfDay() {
+    var timeOfDay = new Date().getHours();
+    // JS is executed on the rendered template. This is why I do this. Maybe
+    // unnecessary?
+    // What would be uber cool would be to compute the local sunset time...
+    // For now we just assume that night is between 20:00 and 7:00 for no
+    // good reason.
+    var styleCss, customCss, logo;
+
+    if(timeOfDay >= 20 || timeOfDay <= 7) {
+      // Night time!
+      styleCss = "{{ '/static/style-night.css'|asseturl }}";
+      customCss = "{{ '/static/style-custom-night.css'|asseturl }}";
+      logo = "{{ '/static/media/logo-night.png'|url }}";
+    } else {
+      // Day... gotta go to work :-(
+      styleCss = "{{ '/static/style.css'|asseturl }}";
+      customCss = "{{ '/static/style-custom.css'|asseturl }}";
+      logo = "{{ '/static/media/logo.png'|url }}";
+    }
+
+    setCss(styleCss, customCss);
+    setLogo(logo);
+  }
+
+  // Just do it!
+  window.setInterval(customizeForTimeOfDay, 1000);
+</script>
+
     <!-- CSS, Fonts etc. -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//s.w.org">
@@ -30,10 +91,8 @@
     <link rel="stylesheet" href="{{ '/static/css/rounded-elegance.css'|asseturl }}" type="text/css" media="all">
     <link rel="stylesheet" href="{{ '/static/css/font-awesome.css'|asseturl }}" type="text/css" media="all">
     <!-- Default styles in case JS were disabled -->
-    <noscript>
-      <link rel="stylesheet" href="{{ '/static/style.css'|asseturl }}" type="text/css" media="all">
-      <link rel="stylesheet" href="{{ '/static/style-custom.css'|asseturl }}" type="text/css" media="all">
-    </noscript>
+    <link id="main-css" rel="stylesheet" href="{{ '/static/style.css'|asseturl }}" type="text/css" media="all">
+    <link id="custom-css"  rel="stylesheet" href="{{ '/static/style-custom.css'|asseturl }}" type="text/css" media="all">
 
     <!-- other data for sharing -->
 
@@ -279,58 +338,6 @@
         </div>
     </div>
 </div>
-<!-- 
-  Small JS script to change CSS and logo between day version (default) and
-  night version (*-night.*) depending on the user time of day.\
--->
-<script type="application/javascript">
-  // This JS obsession for camlcase is awful ;-)
-
-  function setCss(mainCss, customCss) {
-    document.write(`<link rel="stylesheet" href="${mainCss}" type="text/css" media="all">`);
-    document.write(`<link rel="stylesheet" href="${customCss}" type="text/css" media="all">`);
-  }
-
-  function setLogo(logo) {
-    // DOM manipulation here we go! I have cunningly added a special class
-    // to all occurrences of the logo: dynamic-logo. We do this in plain JS..
-    // Will it blend????
-    // By the way, this is ES6 or later stuff...
-    const nodes = document.querySelectorAll(".dynamic-logo");
-    for(var i=0; i<nodes.length; i++) {
-      nodes[i].src = logo;
-    }
-  }
-
-  function customizeForTimeOfDay() {
-    var timeOfDay = new Date().getHours();
-    // JS is executed on the rendered template. This is why I do this. Maybe
-    // unnecessary?
-    // What would be uber cool would be to compute the local sunset time...
-    // For now we just assume that night is between 20:00 and 7:00 for no
-    // good reason.
-    var styleCss, customCss, logo;
-
-    if(timeOfDay >= 20 || timeOfDay <= 7) {
-      // Night time!
-      styleCss = "{{ '/static/style-night.css'|asseturl }}";
-      customCss = "{{ '/static/style-custom-night.css'|asseturl }}";
-      logo = "{{ '/static/media/logo-night.png'|url }}";
-    } else {
-      // Day... gotta go to work :-(
-      styleCss = "{{ '/static/style.css'|asseturl }}";
-      customCss = "{{ '/static/style-custom.css'|asseturl }}";
-      logo = "{{ '/static/media/logo.png'|url }}";
-    }
-
-    setCss(styleCss, customCss);
-    setLogo(logo);
-  }
-
-  // Just do it!
-  customizeForTimeOfDay();
-</script>
-
 <script type="application/javascript" src="{{ '/static/js/lib.js'|url }}"></script>
 <script defer async type="application/javascript" src="{{ '/static/js/app.js'|url }}"></script>
 </body>
