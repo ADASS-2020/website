@@ -13012,7 +13012,7 @@ DomEvent.requestAnimationFrame = new function() {
 				requested = true;
 			}
 		} else if (!timer) {
-			timer = setInterval(handleCallbacks, 1000 / 60);
+            timer = setInterval(handleCallbacks, 1000 / 10);
 		}
 	};
 };
