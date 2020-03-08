@@ -80,7 +80,8 @@
   }
 
   // Just do it!
-  window.setInterval(customizeForTimeOfDay, 1000);
+  window.onload = customizeForTimeOfDay;
+  window.setInterval(customizeForTimeOfDay, 60000);
 </script>
 
     <!-- CSS, Fonts etc. -->
