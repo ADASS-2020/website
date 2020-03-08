@@ -22,15 +22,48 @@
     <meta name="description"
           content="Astronomical Data Analysis Software and Systems (ADASS) conference in Granada, Spain November 8-12, 2020.">
 
+    <!-- 
+      Small JS script to change CSS and logo between day version (default) and
+      night version (*-night.*) depending on the user time of day.\
+    -->
+      <script>
+        // This JS obsession for camlcase is awful ;-)
+        function customizeForTimeOfDay() {
+          var timeOfDay = new Date().getHours();
+          // JS is executed on the rendered template. This is why I do this. Maybe
+          // unnecessary?
+          var styleCssDay = "{{ '/static/style.css'|asseturl }}";
+          var styleCssNight = "{{ '/static/style-night.css'|asseturl }}";
+          var styleCustomCssDay = "{{ '/static/style-custom.css'|asseturl }}";
+          var styleCustomCssNight = "{{ '/static/style-custom-night.css'|asseturl }}";
+          // What would be uber cool would be to compute the local sunset time...
+          // For now we just assume that night is between 20:00 and 7:00 for no
+          // good reason.
+          if(timeOfDay >= 20 || timeOfDay <= 7) {
+            document.write(`<link rel="stylesheet" href="${styleCssNight}" type="text/css" media="all">`);
+            document.write(`<link rel="stylesheet" href="${styleCustomCssNight}" type="text/css" media="all">`);
+          } else {
+            document.write(`<link rel="stylesheet" href="${styleCssDay}" type="text/css" media="all">`);
+            document.write(`<link rel="stylesheet" href="${styleCustomCssDay}" type="text/css" media="all">`);
+          }
+        }
 
+        // Just do it!
+        customizeForTimeOfDay();
+      </script>
+
+    <!-- CSS, Fonts etc. -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//s.w.org">
-    <link rel="icon" href="{{ '/static/favicons/favicon-neon.png'|asseturl }}" type="image/x-icon">
+    <link rel="icon" href="{{ '/static/favicons/favicon.png'|asseturl }}" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:700">
     <link rel="stylesheet" href="{{ '/static/css/rounded-elegance.css'|asseturl }}" type="text/css" media="all">
     <link rel="stylesheet" href="{{ '/static/css/font-awesome.css'|asseturl }}" type="text/css" media="all">
-    <link rel="stylesheet" href="{{ '/static/style.css'|asseturl }}" type="text/css" media="all">
-    <link rel="stylesheet" href="{{ '/static/style-custom.css'|asseturl }}" type="text/css" media="all">
+    <!-- Default styles in case JS were disabled -->
+    <noscript>
+      <link rel="stylesheet" href="{{ '/static/style.css'|asseturl }}" type="text/css" media="all">
+      <link rel="stylesheet" href="{{ '/static/style-custom.css'|asseturl }}" type="text/css" media="all">
+    </noscript>
 
     <!-- other data for sharing -->
 
