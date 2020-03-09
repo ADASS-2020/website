@@ -42,8 +42,7 @@ Clicking on the button below will redirect you to a page (hosted by Eurocongress
 technical secretariat) from where you can book any of these hotels at the conference rate.
 
 <a class="btn btn--primary btn--round" 
-   href="https://eurocongres.es/congresos/adass/2020/accommodation/"
-   target="_blank">
+   href="../hotelbooking/">
     Book your hotel
 </a>
 

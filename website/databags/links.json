@@ -94,7 +94,20 @@
     {
       "name": "Code of Conduct",
       "path": "/code-of-conduct/"
-    }
+    },
+    {
+    "name": "Registration",
+    "submenu": [
+      {
+        "name": "Attendance",
+        "path": "/registry"
+      },
+      {
+        "name": "Contribution",
+        "path": "/contribution"
+      }
+    ]
+  }
   ],
   "legal": {
     "/impressum/": "Impressum",
