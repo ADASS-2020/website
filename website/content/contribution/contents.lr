@@ -1,10 +1,10 @@
-creditstitle: Contribution
----
-_template: page-md.html
----
-description: Contribution
----
-twitter_image: /static/media/logo.png
+title: Contribution
 ---
 body:
-<iframe type="text/html" frameborder="0" width="100%" height="1200" src="https://www.iaa.csic.es/~jer/adass/eurocongres/abstracts.html" wmode="transparent"/>
+
+<iframe
+  width="100%"
+  height="1200"
+  frameborder="0" style="border:0"
+  src="https://www.iaa.csic.es/~jer/adass/eurocongres/abstracts.html"
+  allowfullscreen></iframe>

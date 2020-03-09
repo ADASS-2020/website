@@ -100,7 +100,7 @@
     "submenu": [
       {
         "name": "Attendance",
-        "path": "/registry"
+        "path": "/registration"
       },
       {
         "name": "Contribution",
