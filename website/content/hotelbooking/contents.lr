@@ -1,0 +1,10 @@
+creditstitle: Credits
+---
+_template: page-md.html
+---
+description: Hotel booking
+---
+twitter_image: /static/media/logo.png
+---
+body:
+<iframe type="text/html" frameborder="0" width="100%" height="2500" src="https://www.iaa.csic.es/~jer/adass/eurocongres/accommodation.html" wmode="transparent"/>
