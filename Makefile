@@ -2,6 +2,7 @@
 
 PROD_HOST=www.adass2020.es
 DEV_HOST=dev.adass2020.es
+DEV2_HOST=dev2.adass2020.es
 
 
 all: build
@@ -11,6 +12,9 @@ build: clean
 
 deploy: build
 	rsync -av --delete ./www/ root@${PROD_HOST}:/var/www/html/
+
+dev2deploy: build
+	rsync -av --delete ./www/ root@${DEV2_HOST}:/var/www/html/
 
 devdeploy: build
 	rsync -av --delete ./www/ root@${DEV_HOST}:/var/www/html/
