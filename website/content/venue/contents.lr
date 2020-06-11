@@ -8,7 +8,7 @@ body:
       <div class="row">
         <div class="col-12 col-xl-10 offset-xl-1">
           <header class="page-header">
-            <h1 class="page-title">Hotel Abades Nevada Palace</h1>
+            <h1 class="page-title"><s>Hotel Abades Nevada Palace</s> Onine Only</h1>
           </header>
         </div>
       </div>
@@ -25,11 +25,13 @@ body:
               </div>
               <div class="service-image__copy col-12 col-lg-6 in-view">
                 <p class="sub-head dashed in-view__child in-view__child--fadein">
-                  Calle de la Sultana, 3, 18008 Granada</p>
+                  June 2020 Update: the conference will be held online</p>
                 <p class="indent in-view__child in-view__child--fadein">
-Just 5 minutes from the center of Granada by metro and featuring an avant-garde style, the Abades Nevada Palace has been designed in an oval shape to provide rooms with views of the Sierra Nevada and La Alhambra.</p>
-                <p class="indent padding-top in-view__child in-view__child--fadein"><a
-                    class="btn btn--primary btn--round" href="https://www.abadeshoteles.com/en/hotel-nevadabades-in-granada/">Check the venue</a></p>
+While the Hotel Abades Nevada Palace is a very nice venue in a great location, the current uncertainty
+regarding travel and large gatherings of people due to the COVID-19 pandemic forced up to change plans.
+ADASS 2020 will be held online as a virtual conference. More info in our <a href="/news/">news section</a>.
+                <p class="indent padding-top in-view__child in-view__child--fadein">
+<!-- <a class="btn btn--primary btn--round" href="https://www.abadeshoteles.com/en/hotel-nevadabades-in-granada/">Check the venue</a></p> -->
               </div>
             </div>
           </div>
