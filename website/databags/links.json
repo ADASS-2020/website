@@ -88,6 +88,10 @@
         {
           "name": "Volunteer",
           "path": "/volunteer"
+        },
+        {
+          "name": "Contact Us",
+          "path": "/contact"
         }
       ]
     },
