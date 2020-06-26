@@ -1,0 +1,21 @@
+title: Conference Themes
+---
+_template: page-md.html
+---
+description: These are the themes for ADASS XXX
+---
+twitter_image: /static/media/logo.png
+---
+body:
+
+Key themes for ADASS XXX are:
+- Science Platforms and Data Lakes
+- Cloud Computing at Different Scales
+- Cross-Discipline Projects
+- Multi-Messenger Astronomy
+- Machine Learning, Statistics, and Algorithms
+- Time-Domain Ecosystem
+- Citizen Science Projects in Astronomy
+- Data Processing Pipelines and Science-Ready Data
+- Data Interoperability
+- Open Source Software and Community Development in Astronomy

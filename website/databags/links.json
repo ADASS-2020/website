@@ -4,6 +4,10 @@
       "name": "Program",
       "submenu": [
         {
+          "name": "Themes",
+          "path": "/themes"
+        },
+        {
           "name": "Schedule / Coming Soon",
           "path": "#"
         },
