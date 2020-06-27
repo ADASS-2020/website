@@ -94,6 +94,7 @@
     <!-- Default styles in case JS were disabled -->
     <link id="main-css" rel="stylesheet" href="{{ '/static/style.css'|asseturl }}" type="text/css" media="all">
     <link id="custom-css"  rel="stylesheet" href="{{ '/static/style-custom.css'|asseturl }}" type="text/css" media="all">
+    {% block extracss %}{% endblock %}
 
     <!-- other data for sharing -->
 
@@ -341,5 +342,6 @@
 </div>
 <script type="application/javascript" src="{{ '/static/js/lib.js'|url }}"></script>
 <script defer async type="application/javascript" src="{{ '/static/js/app.js'|url }}"></script>
+{% block extrajs %}{% endblock %}
 </body>
 </html>

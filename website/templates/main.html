@@ -1,5 +1,8 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
+{% block extracss %}
+  <link rel="stylesheet" href="/static/css/colorbox.css" />
+{% endblock %}
 {% block body %}
 
 <div class="splash-screen">
@@ -212,4 +215,65 @@
     </main>
     </div>
 
+{% endblock %}
+{% block extrajs %}
+  <!-- Modal popup using jquery and colorbox -->
+  <div style='display:none'>
+    <div id="modal-content" style="padding:0px; background:#fff;">
+      <div style="text-align: center;">
+        <h4>Could you help us choose the best timezones for ADASS XXX?</h4>
+        <br />
+        <p>The survey will be active until <b>July 8</b>. Thank you for your help!</p>
+        <a href="https://forms.gle/rcdUKfCnt2jys6v26" 
+           id="surveyLink" 
+           class="done-already" 
+           target="_blank">Answer the timezone survey</a>
+        <br />
+        <br />
+        <p style="font-size: smaller;"><i>This popup will be shown only once</i></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js" integrity="sha256-QbxNT+iBOdbuiav8squsceFDDYXb/8C+fI9r029M7X4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.3/js.cookie.min.js"></script>
+  <script type="application/javascript">
+    $(".done-already").on("click", function() {
+      $.colorbox.close();
+    });
+
+    function onPopupOpen() {
+      $("#modal-content").show();
+      $("#surveyLink").focus();
+    }
+
+    function onPopupClose() {
+      $("#modal-content").hide();
+      Cookies.set('colorboxShown', 'yes', {
+        expires: 1000000000000
+      });
+    }
+
+    function displayPopup() {
+      $.colorbox({
+        width: "500",
+        inline: true,
+        href: "#modal-content",
+        onComplete: onPopupOpen,
+        onClosed: onPopupClose
+      });
+    }
+
+    var popupShown = Cookies.get('colorboxShown');
+
+    if (popupShown) {
+      console.log("Cookie found. No action necessary");
+    } else {
+      console.log("No cookie found. Opening popup in 3 seconds");
+      setTimeout(function() {
+        displayPopup();
+      }, 3000);
+    }
+  </script>
 {% endblock %}
