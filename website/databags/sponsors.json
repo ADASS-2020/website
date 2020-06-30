@@ -16,7 +16,18 @@
         },
         {
             "name": "Gold sponsors",
-            "sponsors": []
+            "sponsors": [
+                 {
+                    "name": "IRAM",
+                    "description": "Institute de Radioastronomie Millimétrique",
+                    "logo": "/static/media/sponsors/iram.jpg"
+                 },
+                 {
+                    "name": "IAA-CSIC",
+                    "description": "Instituto de Astrofísisca de Andalucía - CSIC",
+                    "logo": "/static/media/sponsors/iaa.jpg"
+                }
+            ]
         },
         {
             "name": "Silver sponsors",
