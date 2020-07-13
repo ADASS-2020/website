@@ -34,7 +34,14 @@
         },
         {
             "name": "Silver sponsors",
-            "sponsors": []
+            "sponsors": [
+                 {
+                    "name": "RedIRIS",
+                    "description": "RedIRIS is the Spanish academic and research network that provides advanced communication services to the scientific community and national universities.",
+                    "logo": "/static/media/sponsors/rediris.png",
+                    "url": "https://www.rediris.es"
+                }
+            ]
         },
         {
             "name": "Community & Financial Aid Sponsors",
