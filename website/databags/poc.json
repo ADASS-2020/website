@@ -91,22 +91,34 @@
       "email": "jer@iaa.es"
     },
     {
-      "name": "Keith Shortridge",
-      "affiliation": "K&V",
-      "img": "/static/media/poc/shortridge.png",
-      "email": "Keith@knaveandvarlet.com.au"
-    },
-    {
       "name": "Yuji Shirasaki",
       "affiliation": "NAOJ",
       "img": "/static/media/poc/yshirasa.png",
       "email": "yuji.shirasaki@nao.ac.jp"
     },
     {
+      "name": "Keith Shortridge",
+      "affiliation": "K&V",
+      "img": "/static/media/poc/shortridge.png",
+      "email": "Keith@knaveandvarlet.com.au"
+    },
+    {
+      "name": "Oleg Smirnov",
+      "affiliation": "UCT-UWC-SKA",
+      "img": "/static/media/poc/smirnov.png",
+      "email": "o.smirnov@ru.ac.za"
+    },
+    {
       "name": "Mark Taylor",
       "affiliation": "University of Bristol",
       "img": "/static/media/poc/taylor.png",
       "email": "m.b.taylor@bris.ac.uk"
+    },
+    {
+      "name": "Russ Taylor",
+      "affiliation": "UCT-UWC-SKA",
+      "img": "/static/media/poc/rtaylor.png",
+      "email": "russ@idia.ac.za"
     },
     {
       "name": "Peter Teuben",
