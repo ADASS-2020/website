@@ -57,8 +57,8 @@
       "name": "Info",
       "submenu": [
         {
-          "name": "Registration",
-          "path": "/registration"
+          "name": "Registration and CfP (opening Soon)",
+          "path": "#"
         },
         {
           "name": "Venue",
@@ -68,10 +68,6 @@
           "name": "Accommodation",
           "path": "/accommodation",
           "target": "_self"
-        },
-        {
-          "name": "Call for Proposals",
-          "path": "/call-for-proposals"
         },
         {
           "name": "Financial Aid",
