@@ -1,0 +1,30 @@
+title: Administrative Info
+---
+_template: page-md.html
+---
+description: LOC/POC info tu run the site, CfP etc.
+---
+twitter_image: /static/media/logo.png
+---
+body:
+
+### The Website
+
+We use a static website that is generated from a bunch of Markdown files. The site generator is called
+Lektor.
+
+Useful links
+- ADASS XXX code: https://github.com/ADASS-2020/website
+- Lektor: https://www.getlektor.com
+- Markdown: https://daringfireball.net/projects/markdown/syntax
+
+
+### The CfP Page(s)
+
+We use Pretalx to handle all the Call for Proposal cycle.
+
+Useful links:
+- CfP Page: https://pretalx.adass2020.es/adass2020/cfp
+- CfP Admin: https://pretalx.adass2020.es/orga/event/adass2020/
+- Pretalx GitHub: https://github.com/pretalx/pretalx
+- Pretalx homepage: https://pretalx.com/p/about/
