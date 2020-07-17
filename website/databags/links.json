@@ -57,8 +57,8 @@
       "name": "Info",
       "submenu": [
         {
-          "name": "Registration and CfP (opening Soon)",
-          "path": "#"
+          "name": "Registration and CfP",
+          "path": "/registration"
         },
         {
           "name": "Venue",
@@ -94,6 +94,10 @@
           "path": "/volunteer"
         },
         {
+          "name": "Admin (POC/LOC Only)",
+          "path": "/admin-info"
+        },
+        {
           "name": "Contact Us",
           "path": "/contact"
         }
@@ -105,7 +109,6 @@
     }
   ],
   "legal": {
-    "/impressum/": "Impressum",
     "/privacy-policy/": "Terms & Privacy Policy",
     "/code-of-conduct/": "Code of Conduct"
   }
