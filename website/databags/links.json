@@ -57,7 +57,7 @@
       "name": "Info",
       "submenu": [
         {
-          "name": "Registration and CfP",
+          "name": "Registration and CfP (Call for Papers)",
           "path": "/registration"
         },
         {
