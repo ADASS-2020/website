@@ -37,6 +37,12 @@
       "email": "adass2020@eurocongres.es"
     },
     {
+      "name": "Pablo Mellado",
+      "affiliation": "IRAM",
+      "img": "/static/media/loc/generic.png",
+      "email": "imellado@iram.es"
+    },
+    {
       "name": "Francesco Pierfederici",
       "affiliation": "IRAM",
       "img": "/static/media/loc/pierfederici.png",
