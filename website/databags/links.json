@@ -4,31 +4,15 @@
       "name": "Program",
       "submenu": [
         {
-          "name": "Themes",
+          "name": "Themes / New",
           "path": "/themes"
         },
         {
+          "name": "Invited Speakers / New",
+          "path": "/news//invited-speakers"
+        },
+        {
           "name": "Schedule / Coming Soon",
-          "path": "#"
-        },
-        {
-          "name": "Schedule (full table) / Coming Soon",
-          "path": "#"
-        },
-        {
-          "name": "Schedule (time->sessions) / Coming Soon",
-          "path": "#"
-        },
-        {
-          "name": "Calendar Integration / Coming Soon",
-          "path": "#"
-        },
-        {
-          "name": "All Sessions / Coming Soon",
-          "path": "#"
-        },
-        {
-          "name": "Keynotes / Coming Soon",
           "path": "#"
         },
         {
