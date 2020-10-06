@@ -45,8 +45,12 @@
           "path": "/registration"
         },
         {
-          "name": "Financial Aid",
+          "name": "Financial Aid Programme",
           "path": "/financial-aid"
+        },
+        {
+          "name": "Conference Posters",
+          "path": "/conference-posters"
         },
         {
           "name": "LOC",

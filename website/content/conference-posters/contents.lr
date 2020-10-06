@@ -1,0 +1,14 @@
+_template: page-md.html
+---
+title: Conference Posters
+---
+body: 
+
+<p align="center">
+<a href="../static/media/posters/ADASSXXXPosterDay.pdf">
+<img src="../static/media/posters/ADASSXXXPosterDay.png">
+</a>
+<a href="../static/media/posters/ADASSXXXPosterNight.pdf">
+<img src="../static/media/posters/ADASSXXXPosterNight.png">
+</a>
+</p>
