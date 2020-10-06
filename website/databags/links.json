@@ -4,11 +4,11 @@
       "name": "Program",
       "submenu": [
         {
-          "name": "Themes / New",
+          "name": "Themes",
           "path": "/themes"
         },
         {
-          "name": "Invited Speakers / New",
+          "name": "Invited Speakers",
           "path": "/news//invited-speakers"
         },
         {
@@ -45,15 +45,6 @@
           "path": "/registration"
         },
         {
-          "name": "Venue",
-          "path": "/venue"
-        },
-        {
-          "name": "Accommodation",
-          "path": "/accommodation",
-          "target": "_self"
-        },
-        {
           "name": "Financial Aid",
           "path": "/financial-aid"
         },
@@ -78,12 +69,12 @@
           "path": "/volunteer"
         },
         {
-          "name": "Admin (POC/LOC Only)",
-          "path": "/admin-info"
-        },
-        {
           "name": "Contact Us",
           "path": "/contact"
+        },
+        {
+          "name": "Admin (POC/LOC Only)",
+          "path": "/admin-info"
         }
       ]
     },
