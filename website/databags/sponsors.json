@@ -12,6 +12,12 @@
                     "description": "RadioNet is a consortium of leading institutions in Europe, Republic of Korea and South Africa, integrating at European level world-class infrastructures for research in radio astronomy. This event has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 730562.",
                     "logo": "/static/media/sponsors/radionet.jpg",
                     "url": "https://www.radionet-org.eu"
+                },
+                {
+                    "name": "EuroPython Scociety",
+                    "description": "Organizers of the EuroPython conference series.",
+                    "logo": "/static/media/sponsors/EuroPythonSociety.png",
+                    "url": "https://www.europython-society.org"
                 }
             ]
         },
@@ -29,6 +35,12 @@
                     "description": "Instituto de Astrofísisca de Andalucía - CSIC",
                     "logo": "/static/media/sponsors/iaa.jpg",
                     "url": "https://www.iaa.csic.es"
+                },
+                 {
+                    "name": "Calar Alto Observatory",
+                    "description": "Centro Astronómico Hispano-Alemán",
+                    "logo": "/static/media/sponsors/CAHA-Logo.gif",
+                    "url": "http://www.caha.es"
                 }
             ]
         },
