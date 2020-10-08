@@ -254,11 +254,11 @@ P10-150 | PINT: A Modern Software Package for Pulsar Timing
 P10-100 | The Pulsar Signal Simulator: A Python-based Package for Simulating Pulsar Data for Science and Education
 P10-97  | Containerised scripting for radio interferometry
 P10-75  | Spectroscopic Data Reduction on your web browser
-P10-70  | gLike: likelihood maximization and profiling for astrophysical (and beyond) applications
 P10-44  | DiSkO: Discrete-sky Bayesian Synthesis Imaging
 P10-18  | A Machine Learning Approach To Sitelle Spectral Analysis
 O11-35  | Organising ADASS in a Pandemic
 B11-143 | BoF: Interoperability of Users Developersand Managers
+P11-69  | agnpy: numerical modelling of AGN spectra in python
 P11-146 | Numerical code generation from symbolic expressions in Python
 P11-172 | STARLINK - the original and best
 P11-188 | It is Tango time:  The M&C system for LOFAR2.0 stations
