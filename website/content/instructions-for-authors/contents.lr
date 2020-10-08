@@ -1,6 +1,6 @@
 _template: page-md.html
 ---
-title: Instructions for Poster/Talk Authors
+title: Instructions for authors
 ---
 body: 
 
@@ -9,8 +9,8 @@ We have setup an anonymous FTP site for authors to upload videos and PDFs of
 their contributions. The FTP server runs on the same host as this website
 (www.adass2020.es).
 
-We suggest using an FTP client like [FileZilla](https://filezilla-project.org) 
-since we encountered some problems in uploading files using, for instance, the
+We suggest using an FTP client like <a href="https://filezilla-project.org" target="_blank">
+FileZilla</a> since we encountered some problems in uploading files using, for instance, the
 macOS finder directly. Connections details are specified at the bottom of this
 page.
 
@@ -19,8 +19,7 @@ Poster authors are encouraged to upload a version of their posters (in PDF, for
 online viewing) to our FTP site.
 
 Talk authors have the option of uploading a copy of their slides (in PDF format)
-to our FTP site (www.adass2020.es) as a backup in case of connection problems
-when delivering their presentation live.
+as a backup in case of connection problems when delivering their presentation live.
 
 Both talk and poster authors have the option of uploading a short (three minutes
 maximum) video in .mp4 format
@@ -37,6 +36,9 @@ unbalanced.
 * N is just a running number.
 
 For instance, a fantastic PID is O11-35 ;-)
+
+Once you are connected to the FTP site, please change into your PID folder assigned before
+uploading any content. <b>You must upload your files into your PID folder assigned.</b>
 
 The list of PIDs can be viewed [here](/paper-ids/).
 
