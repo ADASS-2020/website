@@ -8,6 +8,55 @@ twitter_image: /static/media/logo.png
 ---
 body:
 
-The ADASS XXX Conference will be a virtual conference. In this section you will <b>soon</b> find guidelines on how to attend
-the conference using different platforms and software, as well as how to expose your contribution and participate in
-on-line discussions.
+The ADASS XXX Conference will be a virtual conference. In this section you will <b>soon</b> find guidelines
+on how to attend the conference using different platforms and software, as well as how to expose your
+contribution and participate in on-line discussions.
+
+In the meantime we can offer some answers to the most frequent questions we had.
+
+##### Will speakers share their screen?
+Speakers in oral contributions will be asked to share their screen during the exposition.
+
+##### Could speakers upload their slides?
+You may also upload a copy of the slides (in PDF format) as a backup in case of connection
+problems when delivering their presentation live. See the [instructions for authors](/instructions-for-authors/)
+for more info on how to upload content related with your contribution.
+
+##### Can/should speakers provide a pre-recorded video?
+If you are unsure of your network bandwidth and you would like to send us a pre-recorded version of your talk
+just in case, please do so. See the [instructions for authors](/instructions-for-authors/)
+for more info on how to upload content related with your contribution.
+
+##### If sharing screen, is it ok to switch between applications?
+Switching between applications when exposing your oral contribution is permitted, though we do not recommend
+to do it since it may be the cause of potential technical problems during the fixed time you are allowed
+for your presentation. You will not be given extra time because of problems issued from the use of external
+applications.
+
+##### Is there a recommended aspect ratio for presentations?
+The recommended aspect ratio for presentations is the standard 4:3
+
+##### Are there restrictions on poster format?
+Poster authors are encouraged to upload a version of their posters in PDF, for online viewing, to our FTP site.
+Your posters could be downloaded from this website, so you may choose whatever size, resolution, font type
+and format you think is best to be viewed in a computer screen. See the [instructions for authors](/instructions-for-authors/)
+for more info on how to upload content related with your contribution.
+
+##### How will poster discussions work?
+We plan to use a chat text/voice platform where discussions of any type could be engaged. If needed, specific
+chat channels could be created.
+
+##### What are the deadlines for submission of LaTeX for publication?
+ - The deadline to submit the draft version of your paper is November 1, 2020, 23:59 CEST.
+ - The deadline to submit the final version of your paper is December 6, 2020, 23:59 CEST.
+
+##### What are the page limits?
+- Invited Oral Papers: 10 pages
+- Contributed Oral Papers: 4 pages
+- Poster Papers: 4 pages
+- Focus Demos: 4 pages
+- Tutorials: 4 pages
+- BoFs: 4 pages
+- Demo Booths: 4 pages
+
+See the [conference proceedings](/proceedings/) section for more info.
