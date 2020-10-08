@@ -61,6 +61,14 @@
           "path": "/guidelines"
         },
         {
+          "name": "Information for Poster/Talk Authors",
+          "path": "/instructions-for-authors"
+        },
+        {
+          "name": "Contribution IDs",
+          "path": "/paper-ids"
+        },
+        {
           "name": "LOC",
           "path": "/loc"
         },
