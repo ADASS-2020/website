@@ -45,12 +45,20 @@
           "path": "/registration"
         },
         {
-          "name": "Financial Aid Programme",
+          "name": "Financial aid programme",
           "path": "/financial-aid"
         },
         {
-          "name": "Conference Posters",
+          "name": "Conference posters",
           "path": "/conference-posters"
+        },
+        {
+          "name": "Instructions for authors",
+          "path": "/instructions-for-authors"
+        },
+        {
+          "name": "Contribution IDs",
+          "path": "/paper-ids"
         },
         {
           "name": "Proceedings",
@@ -59,14 +67,6 @@
         {
           "name": "Guidelines",
           "path": "/guidelines"
-        },
-        {
-          "name": "Information for Poster/Talk Authors",
-          "path": "/instructions-for-authors"
-        },
-        {
-          "name": "Contribution IDs",
-          "path": "/paper-ids"
         },
         {
           "name": "LOC",
