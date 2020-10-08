@@ -32,993 +32,252 @@ For instance, a fantastic PID is O11-35 ;-)
 * 11: Other
 
 ### PIDs
-
-<table>
-<thead><tr>
-<th style="width:7ch">PID</th>
-<th>Title</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="width:7ch">O1-22</td>
-<td>TOPCAT Visualisation over the Web</td>
-</tr>
-<tr>
-<td>O1-32</td>
-<td>Serving power-users and novices. Architecture and lessons learned with science platform MuseWISE.</td>
-</tr>
-<tr>
-<td>P1-59</td>
-<td>Discovering data with the ESCAPE Science Analysis Platform</td>
-</tr>
-<tr>
-<td>P1-82</td>
-<td>Data Central Science Platform (Astronomy and Beyond)</td>
-</tr>
-<tr>
-<td>D1-102</td>
-<td>CheckpointRestoreand Live Migration for Science Platforms</td>
-</tr>
-<tr>
-<td>P1-121</td>
-<td>The architectural design for the loggingmonitoring and alarm systems for the ASTRI mini-array</td>
-</tr>
-<tr>
-<td>O1-124</td>
-<td>A microservice-oriented science platform architecture</td>
-</tr>
-<tr>
-<td>I1-159</td>
-<td>Enabling next-generation science investigations with the NASA Astrophysics Archives</td>
-</tr>
-<tr>
-<td>P1-184</td>
-<td>Developmentdeploymentand testing of Jupyter notebooks at Astro Data Lab</td>
-</tr>
-<tr>
-<td>P1-190</td>
-<td>ASTRI Virtual Test Bed: from Prototype to Mini-Array</td>
-</tr>
-<tr>
-<td>P1-248</td>
-<td>A prototype for handling observations proposals for the CTA observatory</td>
-</tr>
-<tr>
-<td>P1-255</td>
-<td>Requiement analysis for HPC&amp;HTC infrastructures integration in ESCAPE Science Analysis Platform</td>
-</tr>
-<tr>
-<td>P1-228</td>
-<td>CV Portal: A collaborative cataclysmic variables web-based portal</td>
-</tr>
-<tr>
-<td>P1-186</td>
-<td>Accessing Radio Data with the NRAO NINE Program</td>
-</tr>
-<tr>
-<td>P1-165</td>
-<td>LOFAR strides towards a truly multi-tasking radio telescope with its mega mode correlator</td>
-</tr>
-<tr>
-<td>O1-115</td>
-<td>Development of Scientific Data Applications for Science Cloud Platforms</td>
-</tr>
-<tr>
-<td>O1-112</td>
-<td>Realtime Data Transferring and Processing from Remote Telescopes Using Apache NiFi and MongoDB</td>
-</tr>
-<tr>
-<td>O1-98</td>
-<td>Interactive exploration framework for big data sets</td>
-</tr>
-<tr>
-<td>O1-68</td>
-<td>Aladin Lite v3: behind the scenes of a major overhaul</td>
-</tr>
-<tr>
-<td>D1-66</td>
-<td>Radiopadre: remoteinteractivezero-admin visualization of data pipeline products</td>
-</tr>
-<tr>
-<td>I2-60</td>
-<td>All the shades of the Cloud</td>
-</tr>
-<tr>
-<td>B2-73</td>
-<td>Cost Management on Commercial Cloud Platforms</td>
-</tr>
-<tr>
-<td>O2-157</td>
-<td>Calibrating Hubble Data in the Commercial Cloud</td>
-</tr>
-<tr>
-<td>P2-263</td>
-<td>ChiVOData:  A scalable data science platform for  the heterogeneity of astronomical data in an HPC environment.</td>
-</tr>
-<tr>
-<td>P2-259</td>
-<td>SKA Regional Centre Prototype at IAA-CSIC: building an Open Science platform based on cloud services</td>
-</tr>
-<tr>
-<td>P2-246</td>
-<td>xova - a Baseline-Dependent Time and Channel Averaging Implementation</td>
-</tr>
-<tr>
-<td>P2-236</td>
-<td>Implementing a NUFFT in Dask for Radio Astronomy Applications</td>
-</tr>
-<tr>
-<td>P2-230</td>
-<td>Advanced Analysis Systems at CASU</td>
-</tr>
-<tr>
-<td>P2-219</td>
-<td>Application of Commercial Cloud Platforms in Astrophysics. The case of Amazon Web Services</td>
-</tr>
-<tr>
-<td>P2-205</td>
-<td>Next Generation CASA</td>
-</tr>
-<tr>
-<td>P2-122</td>
-<td>SCIMMA: Scalable Cyberinfrastructure to support Multi-Messenger Astrophysics</td>
-</tr>
-<tr>
-<td>D2-109</td>
-<td>Introducing the Trillian Framework and Science Data Descriptors</td>
-</tr>
-<tr>
-<td>P2-108</td>
-<td>Removing What’s Unnecessary: A New Design Language for Working With Astronomical Data</td>
-</tr>
-<tr>
-<td>D2-29</td>
-<td>Pangeo Data Analysis Platform at CNES and Astronomical Use Cases</td>
-</tr>
-<tr>
-<td>P2-16</td>
-<td>Novel EOSC Services for Space challenges: the NEANIAS first outcomes</td>
-</tr>
-<tr>
-<td>O2-14</td>
-<td>ESA Datalabs: an e-Science Platform for Data Exploitation and Preservation at ESAC</td>
-</tr>
-<tr>
-<td>P3-15</td>
-<td>SOCCI - A Multi-Mission Software Engineering Platform for Science Operations</td>
-</tr>
-<tr>
-<td>I3-20</td>
-<td>PySAP: From Galaxies to Brains and Beyond</td>
-</tr>
-<tr>
-<td>P3-204</td>
-<td>ESCAPE - addressing Open Science challenges.</td>
-</tr>
-<tr>
-<td>P3-266</td>
-<td>Improvements to development and operations practices in data processing pipelines and astronomy software</td>
-</tr>
-<tr>
-<td>P3-257</td>
-<td>FITS2OSC. A Sonification Pipeline for Lightcurve Interactive Auditory Exploration</td>
-</tr>
-<tr>
-<td>P3-231</td>
-<td>Colibri - The coincidence library for real-time inquiry for multi-messenger astrophysics</td>
-</tr>
-<tr>
-<td>P3-227</td>
-<td>A Multi-protocol Communication System for maintenance procedures of the ASTRI-Horn Cherenkov Camera</td>
-</tr>
-<tr>
-<td>P3-181</td>
-<td>MANGO: a VO Model for Source Data</td>
-</tr>
-<tr>
-<td>P3-171</td>
-<td>Efficient machine learning methods for cosmology</td>
-</tr>
-<tr>
-<td>P3-169</td>
-<td>Results from the ESA Astronomy Space Science Archives User Survey</td>
-</tr>
-<tr>
-<td>P3-162</td>
-<td>Open-source Scientific Software and Service Repository</td>
-</tr>
-<tr>
-<td>O3-137</td>
-<td>Exploring the Universe with pyESASky JupyterLab widget</td>
-</tr>
-<tr>
-<td>O3-136</td>
-<td>Analyzing Scientific Big Data with the Helmholtz Analytics Toolkit (HeAT)</td>
-</tr>
-<tr>
-<td>P3-134</td>
-<td>Disentangled Representation Learning for Astronomical Chemical Tagging</td>
-</tr>
-<tr>
-<td>O3-130</td>
-<td>iDaVIE-v: immersive Data Visualisation Interactive Explorer for volumetric rendering</td>
-</tr>
-<tr>
-<td>O3-78</td>
-<td>Holding the Cosmos in Your Hand: Developing 3D Data Pipelines</td>
-</tr>
-<tr>
-<td>P3-42</td>
-<td>deep-REMAP: Probabilistic Parameterization of StellarSpectra Using Regularized Multi-Task Learning</td>
-</tr>
-<tr>
-<td>P3-41</td>
-<td>mirkwook: SED Fitting for the Twenty First Century</td>
-</tr>
-<tr>
-<td>P4-34</td>
-<td>On the cosmic isotropic background from the radio to the far-IR: a new method for theoretical predictions of the frequency spectrum from monopole to higher multipoles for a moving observer</td>
-</tr>
-<tr>
-<td>O4-79</td>
-<td>On the capability to encoding gravitational-wave sky localizations with the Multi Order Coverage data structure: present and future developments</td>
-</tr>
-<tr>
-<td>P4-126</td>
-<td>The real-time supernova search of KM3NeT</td>
-</tr>
-<tr>
-<td>P4-127</td>
-<td>Status of the real-time multi-messenger program of KM3NeT</td>
-</tr>
-<tr>
-<td>O4-144</td>
-<td>Supporting observatory coordination with new standards: current status</td>
-</tr>
-<tr>
-<td>P4-167</td>
-<td>GWSky: an Augmented Reality Mobile App for Gravitational Waves Sky Localization</td>
-</tr>
-<tr>
-<td>P4-174</td>
-<td>Optical identification of X-ray sources in the HS47.5-22 field</td>
-</tr>
-<tr>
-<td>P4-176</td>
-<td>ShowerModel: A Python package for modeling cosmic-ray induced air showerstheir light production and detection</td>
-</tr>
-<tr>
-<td>P4-185</td>
-<td>Hybrid SEDs for neutrino events integrated in the SEDBuilder tool of the ASI-SSDC MWL envinronment.</td>
-</tr>
-<tr>
-<td>P4-252</td>
-<td>Search for Spatial and Temporal Coincidence Between LAT/Fermi Exposure Maps and GW Sky Localizations</td>
-</tr>
-<tr>
-<td>P4-243</td>
-<td>Discussion towards reliable and productive astronomical data archives</td>
-</tr>
-<tr>
-<td>B4-154</td>
-<td>Standardizing New and Improving Old Data Formats in Astronomy</td>
-</tr>
-<tr>
-<td>O4-151</td>
-<td>Using Artificial Neural Networks to detect astronomical transients</td>
-</tr>
-<tr>
-<td>P4-149</td>
-<td>Exploiting multi-messenger data through hierarchical modelling</td>
-</tr>
-<tr>
-<td>B4-95</td>
-<td>It worked on my laptop! - how to approach reproducibility in astronomy?</td>
-</tr>
-<tr>
-<td>P4-76</td>
-<td>A Next-Generation Data Processing Framework for Pulsar-based Gravitational Wave Detectors</td>
-</tr>
-<tr>
-<td>P4-24</td>
-<td>RTApipea framework to develop Astronomical pipelines for the real-time analysis of scientific data.</td>
-</tr>
-<tr>
-<td>P5-19</td>
-<td>Bayesian Gaussian decomposition of multi-wavelength molecular spectra with Amoeba</td>
-</tr>
-<tr>
-<td>O5-37</td>
-<td>Probing neural networks for science: What is it they are learning?</td>
-</tr>
-<tr>
-<td>P5-48</td>
-<td>Reconstruction of stereoscopic IACT events using deep learning techniques with CTLearn</td>
-</tr>
-<tr>
-<td>P5-51</td>
-<td>Event analysis in KM3NeT using machine learning</td>
-</tr>
-<tr>
-<td>P5-54</td>
-<td>An astronomical image content-based recommendation system using combined deep learning models in a fully unsupervised mode</td>
-</tr>
-<tr>
-<td>P5-58</td>
-<td>A practical pre-conditioner for wide-field continuum imaging of radio interferometric data:</td>
-</tr>
-<tr>
-<td>P5-62</td>
-<td>Single Imaging Atmospheric Cherenkov Telescope full-event reconstruction with a deep multi-task learning architecture</td>
-</tr>
-<tr>
-<td>O5-77</td>
-<td>Exploring the use of Graph and Machine / Deep Learning technologies with the NASA ADS content</td>
-</tr>
-<tr>
-<td>P5-80</td>
-<td>An Iterative Reconstruction Algorithm for Faraday Tomography</td>
-</tr>
-<tr>
-<td>P5-83</td>
-<td>Exploring Coronal Heating Using Unsupervised Machine-Learning</td>
-</tr>
-<tr>
-<td>P5-87</td>
-<td>Data scientific approaches to efficient sky noise removal in submillimeter single-dish spectroscopy</td>
-</tr>
-<tr>
-<td>P5-88</td>
-<td>Analyzing data from unknown statistical distribution.</td>
-</tr>
-<tr>
-<td>P5-106</td>
-<td>Studying Morphology &amp; Quenching of Galaxies in Large Datasets using Interpretable Machine Learning Algorithms</td>
-</tr>
-<tr>
-<td>P5-107</td>
-<td>Imbalanced Learning for RR Lyrae Star Detection</td>
-</tr>
-<tr>
-<td>P5-116</td>
-<td>Finding new QSOs in photometric catalogs using machine learning: the QUBRICS survey.</td>
-</tr>
-<tr>
-<td>P5-140</td>
-<td>The Gaia Archive Users</td>
-</tr>
-<tr>
-<td>P5-163</td>
-<td>Complementary Theory and Data Driven Analysis for Sky Surveys</td>
-</tr>
-<tr>
-<td>P5-164</td>
-<td>Photometric Classification of 2315 Pan-STARRS1 Supernovae with Superphot</td>
-</tr>
-<tr>
-<td>P5-168</td>
-<td>Athena/X-IFU pulse identification using Convolutional Neural Networks</td>
-</tr>
-<tr>
-<td>P5-173</td>
-<td>Machine Learning using the Nvidia Jetson Nano</td>
-</tr>
-<tr>
-<td>I5-175</td>
-<td>From Photometric Redshifts to Improved Weather Forecasts: an interdisciplinary view on machine learning in astronomy</td>
-</tr>
-<tr>
-<td>P5-177</td>
-<td>Chemo-kinematic analysis of metal-poor stars with unsupervised machine learning</td>
-</tr>
-<tr>
-<td>P5-183</td>
-<td>Classification of Astrophysics Journal Articles with Machine Learning</td>
-</tr>
-<tr>
-<td>P5-187</td>
-<td>VLASS Quicklook Image Classifier using PyTorch</td>
-</tr>
-<tr>
-<td>P5-213</td>
-<td>Fitting of optical galaxy spectra based on machine learning</td>
-</tr>
-<tr>
-<td>P5-215</td>
-<td>Probabilistic photo-z machine learning models for X-ray sky surveys</td>
-</tr>
-<tr>
-<td>P5-217</td>
-<td>Transfer Learning in Large Spectroscopic Surveys</td>
-</tr>
-<tr>
-<td>P5-223</td>
-<td>Stellar Formation in NGC 2366: Searching for clusters and associations using unsupervised algorithms</td>
-</tr>
-<tr>
-<td>P5-225</td>
-<td>A solar spectral irradiance prediction workflow using a recurrent neural network in a reproducible and replicable approach</td>
-</tr>
-<tr>
-<td>P5-242</td>
-<td>21st Century Supermoon Estimation in R</td>
-</tr>
-<tr>
-<td>P5-256</td>
-<td>SRGz: machine learning engine for cross-matchclassification and photo-z measurements in the SRG/eROSITA sky survey</td>
-</tr>
-<tr>
-<td>P5-260</td>
-<td>Predicting Star Formation Rates Using SDSS Data</td>
-</tr>
-<tr>
-<td>P5-262</td>
-<td>Tensor Mask R-CNN: A Tensor-based Deep Learning approach for fast morphological classification and segmentation of Galaxies.</td>
-</tr>
-<tr>
-<td>P5-245</td>
-<td>Neural network for stellar spectrum normalization</td>
-</tr>
-<tr>
-<td>P5-64</td>
-<td>Astrocook: quasar spectral analysis made easy</td>
-</tr>
-<tr>
-<td>P5-61</td>
-<td>A Two-Stage Deep Learning Detection Classifier for the ATLAS Asteroid Survey</td>
-</tr>
-<tr>
-<td>O5-36</td>
-<td>Machine-Assisted Discovery Through Identification and Explanation of Anomalies in Astronomical Surveys</td>
-</tr>
-<tr>
-<td>O6-30</td>
-<td>Storage Schema of Time Series Astronomical Data for Artificial Intelligence Analysis</td>
-</tr>
-<tr>
-<td>P6-110</td>
-<td>Systematic search for gamma-ray periodicity in active galactic nuclei detected by the Fermi-Large Area Telescope</td>
-</tr>
-<tr>
-<td>P6-125</td>
-<td>Real-time triggering capabilities for Fast Radio Bursts at the MeerKAT telescope</td>
-</tr>
-<tr>
-<td>I6-265</td>
-<td>What did we get right? Lessons learned from the first 300 million alerts of ZTF</td>
-</tr>
-<tr>
-<td>P6-251</td>
-<td>Two co-addition and image subtraction codes: properimage and ois</td>
-</tr>
-<tr>
-<td>P6-234</td>
-<td>Using Convolutional Neural Networks along image subtraction for detecting weak optical transients</td>
-</tr>
-<tr>
-<td>P6-224</td>
-<td>IVOA Data Access Layer: roadmap as of year 2020</td>
-</tr>
-<tr>
-<td>P6-218</td>
-<td>Transient processing and analysis with AMPEL</td>
-</tr>
-<tr>
-<td>P6-194</td>
-<td>Microlensing Modeling Code - MulensModel</td>
-</tr>
-<tr>
-<td>P6-158</td>
-<td>Working with large catalogs using the Astronomy eXtensions for Spark (AXS) framework</td>
-</tr>
-<tr>
-<td>P6-152</td>
-<td>The Time-series Integrated Knowledge Engine</td>
-</tr>
-<tr>
-<td>O6-104</td>
-<td>Astronify: listening to the stars</td>
-</tr>
-<tr>
-<td>P6-92</td>
-<td>Observation meta data plotting tool - Omedaplot</td>
-</tr>
-<tr>
-<td>P6-43</td>
-<td>Orchestration of Dockerized Data Reduction Pipelines from a RESTful Web Service</td>
-</tr>
-<tr>
-<td>P6-40</td>
-<td>Data handling at the IRAM 30m for NIKA2 operations</td>
-</tr>
-<tr>
-<td>I6-31</td>
-<td>Machine Learning for the Zwicky Transient Facility</td>
-</tr>
-<tr>
-<td>I6-25</td>
-<td>Developing a Data Carpentry Curriculum for the Astronomical Community</td>
-</tr>
-<tr>
-<td>O7-153</td>
-<td>Hubble Asteroid Hunter: exploring the ESA Hubble archives with citizen science</td>
-</tr>
-<tr>
-<td>P7-166</td>
-<td>First data release of the SuperWASP Variable Stars Zooniverse project</td>
-</tr>
-<tr>
-<td>P7-237</td>
-<td>Variable Stars in Gaia DR2: A Citizen Science project</td>
-</tr>
-<tr>
-<td>P7-206</td>
-<td>Morphological classification of astronomical images with limited labelling</td>
-</tr>
-<tr>
-<td>O7-155</td>
-<td>The Hubble Image Similarity Project</td>
-</tr>
-<tr>
-<td>P7-139</td>
-<td>Using deep learning to identify asteroid trails on ESA's Hubble data archive</td>
-</tr>
-<tr>
-<td>D7-114</td>
-<td>Arcsecond.io: an hybrid commercial/citizen-science project for astronomical observations</td>
-</tr>
-<tr>
-<td>P7-74</td>
-<td>Data-driven fitness functions for optimizing simulations of interacting galaxies</td>
-</tr>
-<tr>
-<td>O7-52</td>
-<td>Citizen science with the TESS photometer network</td>
-</tr>
-<tr>
-<td>O7-45</td>
-<td>CICLOPS: CItizen Computing Pulsar Searches</td>
-</tr>
-<tr>
-<td>I7-21</td>
-<td>Galaxy Zoo &amp; The Zooniverse - citizen science as a powerful tool in the age of big data</td>
-</tr>
-<tr>
-<td>P8-17</td>
-<td>Prototyping astronomical science pipelines with script generators</td>
-</tr>
-<tr>
-<td>P8-26</td>
-<td>A Novel Real-Time Radio Transient Imager for LWA-SV</td>
-</tr>
-<tr>
-<td>P8-28</td>
-<td>Proof-of-concept gridded visibility stacking pipeline for deep spectral line interferometric imaging</td>
-</tr>
-<tr>
-<td>P8-38</td>
-<td>Validating data reduction algorithms through advanced instrument simulation - the case of HARMONI</td>
-</tr>
-<tr>
-<td>P8-46</td>
-<td>The CFIS processing pipeline</td>
-</tr>
-<tr>
-<td>P8-47</td>
-<td>The data reduction and analysis software of the ASTRI Project</td>
-</tr>
-<tr>
-<td>P8-55</td>
-<td>QuartiCal - Accelerating calibration using Numba and Dask</td>
-</tr>
-<tr>
-<td>I8-57</td>
-<td>NOEMA: How 1Million lines of code make the optically dark universe visible</td>
-</tr>
-<tr>
-<td>O8-63</td>
-<td>Tiling the Euclid Sky</td>
-</tr>
-<tr>
-<td>P8-67</td>
-<td>The ALMA Re-Imaging for Legacy Project</td>
-</tr>
-<tr>
-<td>P8-84</td>
-<td>lstchain: An analysis pipeline for LST-the first prototype Large Size Telescope of CTA</td>
-</tr>
-<tr>
-<td>P8-90</td>
-<td>The High Level Data Reduction Library</td>
-</tr>
-<tr>
-<td>P8-91</td>
-<td>Quasar continuum fitting with the ESPRESSO Data Analysis software</td>
-</tr>
-<tr>
-<td>I8-105</td>
-<td>The Pan-STARRS IPP : Lessons Learned and Looking Forward</td>
-</tr>
-<tr>
-<td>O8-111</td>
-<td>A scalable transient detection pipeline for the Australian SKA Pathfinder VAST survey</td>
-</tr>
-<tr>
-<td>P8-117</td>
-<td>The evolution of the MeerLICHT and BlackGEM data pipelines</td>
-</tr>
-<tr>
-<td>P8-118</td>
-<td>rta-dq-lib: a library to perform online data quality analysis of scientific data</td>
-</tr>
-<tr>
-<td>P8-128</td>
-<td>Enriching Data Archives with Science Products</td>
-</tr>
-<tr>
-<td>O8-131</td>
-<td>Distributed Streaming Radio Astronomy Reduction with Dask</td>
-</tr>
-<tr>
-<td>D8-132</td>
-<td>Parallel Radio Astronomy Application Development with Dask and Numba</td>
-</tr>
-<tr>
-<td>P8-138</td>
-<td>Onsite processing pipeline for the CTA Large Size Telescope prototype</td>
-</tr>
-<tr>
-<td>P8-142</td>
-<td>Automatic science-quality processing of the Gemini NIFS archive</td>
-</tr>
-<tr>
-<td>P8-145</td>
-<td>Parallelisation of the wide-band wide-field spectral deconvolution framework DDFacet on distributed memory HPC system</td>
-</tr>
-<tr>
-<td>P8-148</td>
-<td>Correcting Inter-Waveband Positional Errors in Sloan Images</td>
-</tr>
-<tr>
-<td>P8-182</td>
-<td>Filabres: a new pipeline for the automatic data reduction of CAFOS direct imaging</td>
-</tr>
-<tr>
-<td>P8-191</td>
-<td>shadeMS: rapid plotting of Big radio interferometry Data</td>
-</tr>
-<tr>
-<td>P8-193</td>
-<td>The CASA Software for Radio Astronomy: Status Update from ADASS 2020</td>
-</tr>
-<tr>
-<td>P8-195</td>
-<td>Performance improvement of the Data Acquisition System to support the observation quality system of the ASTRI Mini-Array</td>
-</tr>
-<tr>
-<td>P8-198</td>
-<td>Pipeline Calibration and Imaging for the Nobeyama 45m Radio Telescope</td>
-</tr>
-<tr>
-<td>P8-210</td>
-<td>The Light Curve Fitter: A novel application for deconvolving two superimposed sinusoidal waves.</td>
-</tr>
-<tr>
-<td>P8-221</td>
-<td>Implementing CUDA Streams into AstroAccelerate – A Case Study</td>
-</tr>
-<tr>
-<td>P8-222</td>
-<td>Processing and calibration of the deepest low frequency images of the sky</td>
-</tr>
-<tr>
-<td>P8-235</td>
-<td>Implementation of the 3D degridding for the NVIDIA GPUs using CUDA</td>
-</tr>
-<tr>
-<td>P8-238</td>
-<td>Development of a widefield mosaic imaging pipeline for e-MERLIN</td>
-</tr>
-<tr>
-<td>P8-247</td>
-<td>PyCPL: the ESO Common Pipeline Library in the Python age</td>
-</tr>
-<tr>
-<td>P8-249</td>
-<td>Sensitivity of Line Emissivities to Atomic Uncertainties with PyAtomDB</td>
-</tr>
-<tr>
-<td>P8-258</td>
-<td>Crystalballa Dask and Numba accelerated DFT Model Predict</td>
-</tr>
-<tr>
-<td>P8-264</td>
-<td>ChiVo-Tools: a deep learning tool for exploratory analysis of astronomical data for the Jupyter notebook</td>
-</tr>
-<tr>
-<td>I9-23</td>
-<td>Data Interoperability - the CDS experience</td>
-</tr>
-<tr>
-<td>B9-56</td>
-<td>Practical Provenance in Astronomy</td>
-</tr>
-<tr>
-<td>P9-72</td>
-<td>Radio Astronomy visibility data discovery and access using IVOA standards</td>
-</tr>
-<tr>
-<td>P9-89</td>
-<td>OPUS: an interoperable job control system based on VO standards</td>
-</tr>
-<tr>
-<td>O9-120</td>
-<td>Data Interoperability at the core of The Euclid Scientific Archive System</td>
-</tr>
-<tr>
-<td>P9-178</td>
-<td>The Common Archive Observation Model at MAST</td>
-</tr>
-<tr>
-<td>P9-201</td>
-<td>Hipsgen: the Hierarchical Progressive Survey generation tool</td>
-</tr>
-<tr>
-<td>P9-202</td>
-<td>Re-engineered ISO Data Archive. An infrared astronomy legacy treasure</td>
-</tr>
-<tr>
-<td>P9-216</td>
-<td>Exploring Provenance tracing for VizieR catalogues</td>
-</tr>
-<tr>
-<td>P9-233</td>
-<td>Building a Search Discovery System Powered by Graphs at MAST</td>
-</tr>
-<tr>
-<td>P9-250</td>
-<td>Storing Provenance information in a data processing workflow: CTA usecase</td>
-</tr>
-<tr>
-<td>P9-253</td>
-<td>CDS 'virtual' Simple Image Access service</td>
-</tr>
-<tr>
-<td>P9-226</td>
-<td>The KM3NeT Open Science Portal</td>
-</tr>
-<tr>
-<td>P9-170</td>
-<td>Innovative tools fostered by the HiPS ecosystem</td>
-</tr>
-<tr>
-<td>P9-141</td>
-<td>Preparation for Gaia EDR3 in the ESA Gaia Archive</td>
-</tr>
-<tr>
-<td>P9-119</td>
-<td>Hangar at VIRGO</td>
-</tr>
-<tr>
-<td>P9-113</td>
-<td>A modular web application for astronomical instrument data analysis and monitoring services</td>
-</tr>
-<tr>
-<td>P9-103</td>
-<td>ASCL's New API: Query Our Database</td>
-</tr>
-<tr>
-<td>O9-94</td>
-<td>Using Docker in a radio-astronomy environment</td>
-</tr>
-<tr>
-<td>B9-86</td>
-<td>Standardisation of Data Formats in Gamma-ray astronomy</td>
-</tr>
-<tr>
-<td>P9-81</td>
-<td>CARACal - The Containerized Automated Radio Astronomy Calibration Pipeline</td>
-</tr>
-<tr>
-<td>B9-50</td>
-<td>Radio data archives round table</td>
-</tr>
-<tr>
-<td>P9-49</td>
-<td>Spreading the word – current status of VO tutorials and schools</td>
-</tr>
-<tr>
-<td>O9-27</td>
-<td>The Advanced Scientific Data Format (ASDF): Why you should use it</td>
-</tr>
-<tr>
-<td>P10-33</td>
-<td>Bibmanager: Automated BibTeX Management for Astronomers</td>
-</tr>
-<tr>
-<td>I10-39</td>
-<td>Astropy</td>
-</tr>
-<tr>
-<td>O10-53</td>
-<td>The Multi-Mission Maximum Likelihood Framework threeML: Multi-wavelength astronomy in practice</td>
-</tr>
-<tr>
-<td>P10-71</td>
-<td>Intuitive GUI to restore Corrupted Data: A Support for Preservation and Curation of the Astronomical Data</td>
-</tr>
-<tr>
-<td>P10-101</td>
-<td>Gammapy: An open-source Python package for gamma-ray astronomy</td>
-</tr>
-<tr>
-<td>P10-123</td>
-<td>Agilepy: A Python framework for scientific analysis of AGILE data</td>
-</tr>
-<tr>
-<td>B10-129</td>
-<td>How to better describe software for discovery and citation</td>
-</tr>
-<tr>
-<td>B10-133</td>
-<td>Best licensing practices</td>
-</tr>
-<tr>
-<td>P10-135</td>
-<td>CLU: a new framework for message passing for operations software</td>
-</tr>
-<tr>
-<td>P10-161</td>
-<td>Herschel PACS Integral Field Unit data visualisation and analysis: an ESAC Science Data Centre notebook for Datalabs</td>
-</tr>
-<tr>
-<td>P10-179</td>
-<td>Controlling and Monitoring Logging of the New Archiving Distributed Infrastructure (NADIR)</td>
-</tr>
-<tr>
-<td>P10-192</td>
-<td>The International Virtual Observatory Alliance (IVOA)  in 2020</td>
-</tr>
-<tr>
-<td>P10-209</td>
-<td>RaGaVi: A Radio Astronomy Gains and Visibilities Inspector</td>
-</tr>
-<tr>
-<td>P10-212</td>
-<td>Making organizational software easier to find in ASCL and ADS</td>
-</tr>
-<tr>
-<td>H10-232</td>
-<td>CFITSIO - 3 decades of collaborative software development</td>
-</tr>
-<tr>
-<td>P10-244</td>
-<td>Tricolour: an optimized parallel sumthreshold flagger for MeerKAT</td>
-</tr>
-<tr>
-<td>P10-241</td>
-<td>An update on the development of ASPIRED</td>
-</tr>
-<tr>
-<td>P10-229</td>
-<td>Community engagement in pipeline development using CWLa case study for LOFAR</td>
-</tr>
-<tr>
-<td>P10-207</td>
-<td>The KERN Suite: Taming the Radio Astronomy Software Ecosystem</td>
-</tr>
-<tr>
-<td>P10-150</td>
-<td>PINT: A Modern Software Package for Pulsar Timing</td>
-</tr>
-<tr>
-<td>P10-100</td>
-<td>The Pulsar Signal Simulator: A Python-based Package for Simulating Pulsar Data for Science and Education</td>
-</tr>
-<tr>
-<td>P10-97</td>
-<td>Containerised scripting for radio interferometry</td>
-</tr>
-<tr>
-<td>P10-75</td>
-<td>Spectroscopic Data Reduction on your web browser</td>
-</tr>
-<tr>
-<td>P10-70</td>
-<td>gLike: likelihood maximization and profiling for astrophysical (and beyond) applications</td>
-</tr>
-<tr>
-<td>P10-44</td>
-<td>DiSkO: Discrete-sky Bayesian Synthesis Imaging</td>
-</tr>
-<tr>
-<td>P10-18</td>
-<td>A Machine Learning Approach To Sitelle Spectral Analysis</td>
-</tr>
-<tr>
-<td>O11-35</td>
-<td>Organising ADASS in a Pandemic</td>
-</tr>
-<tr>
-<td>B11-143</td>
-<td>BoF: Interoperability of UsersDevelopersand Managers</td>
-</tr>
-<tr>
-<td>P11-146</td>
-<td>Numerical code generation from symbolic expressions in Python</td>
-</tr>
-<tr>
-<td>P11-172</td>
-<td>STARLINK - the original and best</td>
-</tr>
-<tr>
-<td>P11-188</td>
-<td>It is Tango time:  The M&amp;C system for LOFAR2.0 stations</td>
-</tr>
-<tr>
-<td>P11-189</td>
-<td>Observing scripts in kosma_software used on GREAT/SOFIA: modularityflexibilityefficiency</td>
-</tr>
-<tr>
-<td>P11-196</td>
-<td>How reliable are galaxies physical parameters estimations for LSST main sequence sample?</td>
-</tr>
-<tr>
-<td>P11-197</td>
-<td>VIPERS: Fundamental Metallicity Relation and its projections. How observational bias affect their shape</td>
-</tr>
-<tr>
-<td>P11-203</td>
-<td>Dust attenuation in ALMA-detected dusty star-forming galaxies in the COSMOS field</td>
-</tr>
-<tr>
-<td>P11-211</td>
-<td>Five years of the new 'Hedwig' proposal system at the JCMT</td>
-</tr>
-<tr>
-<td>P11-239</td>
-<td>Lessons Learned regarding Software Tools used during the 1st DKIST Proposal Call</td>
-</tr>
-<tr>
-<td>P11-254</td>
-<td>Improving the good: the upgrade of the IRAM 30-meter millimetre telescope</td>
-</tr>
-<tr>
-<td>P11-240</td>
-<td>HII regions in the CALIFA survey</td>
-</tr>
-<tr>
-<td>P11-220</td>
-<td>Automated system to generate calibrated MeasurementSet in East Asian ALMA Regional Center</td>
-</tr>
-<tr>
-<td>P11-214</td>
-<td>Efficient image visualization with CARTA - introduction and development update</td>
-</tr>
-<tr>
-<td>P11-208</td>
-<td>An automated pipeline for the VST data log analysis</td>
-</tr>
-<tr>
-<td>P11-199</td>
-<td>JVO Subaru Suprime-Cam Mosaic Image Archive DR2</td>
-</tr>
-<tr>
-<td>P11-180</td>
-<td>APECS - The APEX Control System</td>
-</tr>
-<tr>
-<td>O11-156</td>
-<td>astroquery: a community driven collaboration of data providers and data consumers</td>
-</tr>
-<tr>
-<td>P11-147</td>
-<td>The technical challenges of implementing DOIs at the ESA Science Data Center (ESDC)</td>
-</tr>
-<tr>
-<td>O11-96</td>
-<td>Astronomical research in the next decade: trendsbarriers and needs in data accessmanagementvisualization and analysis</td>
-</tr>
-</tbody>
-</table>
+<pre>
+PID | Title
+--- | ---
+O1-22 | TOPCAT Visualisation over the Web
+O1-32 | Serving power-users and novices. Architecture and lessons learned with science platform MuseWISE.
+P1-59 | Discovering data with the ESCAPE Science Analysis Platform
+P1-82 | Data Central Science Platform (Astronomy and Beyond)
+D1-102 | CheckpointRestoreand Live Migration for Science Platforms
+P1-121 | The architectural design for the logging monitoring and alarm systems for the ASTRI mini-array
+O1-124 | A microservice-oriented science platform architecture
+I1-159 | Enabling next-generation science investigations with the NASA Astrophysics Archives
+P1-184 | Development deployment and testing of Jupyter notebooks at Astro Data Lab
+P1-190 | ASTRI Virtual Test Bed: from Prototype to Mini-Array
+P1-248 | A prototype for handling observations proposals for the CTA observatory
+P1-255 | Requirement analysis for HPC&HTC infrastructures integration in ESCAPE Science Analysis Platform
+P1-228 | CV Portal: A collaborative cataclysmic variables web-based portal
+P1-186 | Accessing Radio Data with the NRAO NINE Program
+P1-165 | LOFAR strides towards a truly multi-tasking radio telescope with its mega mode correlator
+O1-115 | Development of Scientific Data Applications for Science Cloud Platforms
+O1-112 | Realtime Data Transferring and Processing from Remote Telescopes Using Apache NiFi and MongoDB
+O1-98 | Interactive exploration framework for big data sets
+O1-68 | Aladin Lite v3: behind the scenes of a major overhaul
+D1-66 | Radiopadre: remote interactive zero-admin visualization of data pipeline products
+I2-60 | All the shades of the Cloud
+B2-73 | Cost Management on Commercial Cloud Platforms
+O2-157 | Calibrating Hubble Data in the Commercial Cloud
+P2-263 | ChiVOData:  A scalable data science platform for  the heterogeneity of astronomical data in an HPC environment.
+P2-259 | SKA Regional Centre Prototype at IAA-CSIC: building an Open Science platform based on cloud services
+P2-246 | xova - a Baseline-Dependent Time and Channel Averaging Implementation
+P2-236 | Implementing a NUFFT in Dask for Radio Astronomy Applications
+P2-230 | Advanced Analysis Systems at CASU
+P2-219 | Application of Commercial Cloud Platforms in Astrophysics. The case of Amazon Web Services
+P2-205 | Next Generation CASA
+P2-122 | SCIMMA: Scalable Cyberinfrastructure to support Multi-Messenger Astrophysics
+D2-109 | Introducing the Trillian Framework and Science Data Descriptors
+P2-108 | Removing What’s Unnecessary: A New Design Language for Working With Astronomical Data
+D2-29 | Pangeo Data Analysis Platform at CNES and Astronomical Use Cases
+P2-16 | Novel EOSC Services for Space challenges: the NEANIAS first outcomes
+O2-14 | ESA Datalabs: an e-Science Platform for Data Exploitation and Preservation at ESAC
+P3-15 | SOCCI - A Multi-Mission Software Engineering Platform for Science Operations
+I3-20 | PySAP: From Galaxies to Brains and Beyond
+P3-204 | ESCAPE - addressing Open Science challenges.
+P3-266 | Improvements to development and operations practices in data processing pipelines and astronomy software
+P3-257 | FITS2OSC. A Sonification Pipeline for Lightcurve Interactive Auditory Exploration
+P3-231 | Colibri - The coincidence library for real-time inquiry for multi-messenger astrophysics
+P3-227 | A Multi-protocol Communication System for maintenance procedures of the ASTRI-Horn Cherenkov Camera
+P3-181 | MANGO: a VO Model for Source Data
+P3-171 | Efficient machine learning methods for cosmology
+P3-169 | Results from the ESA Astronomy Space Science Archives User Survey
+P3-162 | Open-source Scientific Software and Service Repository
+O3-137 | Exploring the Universe with pyESASky JupyterLab widget
+O3-136 | Analyzing Scientific Big Data with the Helmholtz Analytics Toolkit (HeAT)
+P3-134 | Disentangled Representation Learning for Astronomical Chemical Tagging
+O3-130 | iDaVIE-v: immersive Data Visualisation Interactive Explorer for volumetric rendering
+O3-78 | Holding the Cosmos in Your Hand: Developing 3D Data Pipelines
+P3-42 | deep-REMAP: Probabilistic Parameterization of StellarSpectra Using Regularized Multi-Task Learning
+P3-41 | mirkwook: SED Fitting for the Twenty First Century
+P4-34 | On the cosmic isotropic background from the radio to the far-IR: a new method for theoretical predictions of the frequency spectrum from monopole to higher multipoles for a moving observer
+O4-79 | On the capability to encoding gravitational-wave sky localizations with the Multi Order Coverage data structure: present and future developments
+P4-126 | The real-time supernova search of KM3NeT
+P4-127 | Status of the real-time multi-messenger program of KM3NeT
+O4-144 | Supporting observatory coordination with new standards: current status
+P4-167 | GWSky: an Augmented Reality Mobile App for Gravitational Waves Sky Localization
+P4-174 | Optical identification of X-ray sources in the HS47.5-22 field
+P4-176 | ShowerModel: A Python package for modeling cosmic-ray induced air showers their light production and detection
+P4-185 | Hybrid SEDs for neutrino events integrated in the SEDBuilder tool of the ASI-SSDC MWL environment.
+P4-252 | Search for Spatial and Temporal Coincidence Between LAT/Fermi Exposure Maps and GW Sky Localizations
+P4-243 | Discussion towards reliable and productive astronomical data archives
+B4-154 | Standardizing New and Improving Old Data Formats in Astronomy
+O4-151 | Using Artificial Neural Networks to detect astronomical transients
+P4-149 | Exploiting multi-messenger data through hierarchical modelling
+B4-95 | It worked on my laptop! - how to approach reproducibility in astronomy?
+P4-76 | A Next-Generation Data Processing Framework for Pulsar-based Gravitational Wave Detectors
+P4-24 | RTApipea framework to develop Astronomical pipelines for the real-time analysis of scientific data.
+P5-19 | Bayesian Gaussian decomposition of multi-wavelength molecular spectra with Amoeba
+O5-37 | Probing neural networks for science: What is it they are learning?
+P5-48 | Reconstruction of stereoscopic IACT events using deep learning techniques with CTLearn
+P5-51 | Event analysis in KM3NeT using machine learning
+P5-54 | An astronomical image content-based recommendation system using combined deep learning models in a fully unsupervised mode
+P5-58 | A practical pre-conditioner for wide-field continuum imaging of radio interferometric data:
+P5-62 | Single Imaging Atmospheric Cherenkov Telescope full-event reconstruction with a deep multi-task learning architecture
+O5-77 | Exploring the use of Graph and Machine / Deep Learning technologies with the NASA ADS content
+P5-80 | An Iterative Reconstruction Algorithm for Faraday Tomography
+P5-83 | Exploring Coronal Heating Using Unsupervised Machine-Learning
+P5-87 | Data scientific approaches to efficient sky noise removal in submillimeter single-dish spectroscopy
+P5-88 | Analyzing data from unknown statistical distribution.
+P5-106 | Studying Morphology & Quenching of Galaxies in Large Datasets using Interpretable Machine Learning Algorithms
+P5-107 | Imbalanced Learning for RR Lyrae Star Detection
+P5-116 | Finding new QSOs in photometric catalogs using machine learning: the QUBRICS survey.
+P5-140 | The Gaia Archive Users
+P5-163 | Complementary Theory and Data Driven Analysis for Sky Surveys
+P5-164 | Photometric Classification of 2315 Pan-STARRS1 Supernovae with Superphot
+P5-168 | Athena/X-IFU pulse identification using Convolutional Neural Networks
+P5-173 | Machine Learning using the Nvidia Jetson Nano
+I5-175 | From Photometric Redshifts to Improved Weather Forecasts: an interdisciplinary view on machine learning in astronomy
+P5-177 | Chemo-kinematic analysis of metal-poor stars with unsupervised machine learning
+P5-183 | Classification of Astrophysics Journal Articles with Machine Learning
+P5-187 | VLASS Quicklook Image Classifier using PyTorch
+P5-213 | Fitting of optical galaxy spectra based on machine learning
+P5-215 | Probabilistic photo-z machine learning models for X-ray sky surveys
+P5-217 | Transfer Learning in Large Spectroscopic Surveys
+P5-223 | Stellar Formation in NGC 2366: Searching for clusters and associations using unsupervised algorithms
+P5-225 | A solar spectral irradiance prediction workflow using a recurrent neural network in a reproducible and replicable approach
+P5-242 | 21st Century Supermoon Estimation in R
+P5-256 | SRGz: machine learning engine for cross-match classification and photo-z measurements in the SRG/eROSITA sky survey
+P5-260 | Predicting Star Formation Rates Using SDSS Data
+P5-262 | Tensor Mask R-CNN: A Tensor-based Deep Learning approach for fast morphological classification and segmentation of Galaxies.
+P5-245 | Neural network for stellar spectrum normalization
+P5-64 | Astrocook: quasar spectral analysis made easy
+P5-61 | A Two-Stage Deep Learning Detection Classifier for the ATLAS Asteroid Survey
+O5-36 | Machine-Assisted Discovery Through Identification and Explanation of Anomalies in Astronomical Surveys
+O6-30 | Storage Schema of Time Series Astronomical Data for Artificial Intelligence Analysis
+P6-110 | Systematic search for gamma-ray periodicity in active galactic nuclei detected by the Fermi-Large Area Telescope
+P6-125 | Real-time triggering capabilities for Fast Radio Bursts at the MeerKAT telescope
+I6-265 | What did we get right? Lessons learned from the first 300 million alerts of ZTF
+P6-251 | Two co-addition and image subtraction codes: proper image and ois
+P6-234 | Using Convolutional Neural Networks along image subtraction for detecting weak optical transients
+P6-224 | IVOA Data Access Layer: roadmap as of year 2020
+P6-218 | Transient processing and analysis with AMPEL
+P6-194 | Microlensing Modeling Code - MulensModel
+P6-158 | Working with large catalogs using the Astronomy eXtensions for Spark (AXS) framework
+P6-152 | The Time-series Integrated Knowledge Engine
+O6-104 | Astronify: listening to the stars
+P6-92 | Observation meta data plotting tool - Omedaplot
+P6-43 | Orchestration of Dockerized Data Reduction Pipelines from a RESTful Web Service
+P6-40 | Data handling at the IRAM 30m for NIKA2 operations
+I6-31 | Machine Learning for the Zwicky Transient Facility
+I6-25 | Developing a Data Carpentry Curriculum for the Astronomical Community
+O7-153 | Hubble Asteroid Hunter: exploring the ESA Hubble archives with citizen science
+P7-166 | First data release of the SuperWASP Variable Stars Zooniverse project
+P7-237 | Variable Stars in Gaia DR2: A Citizen Science project
+P7-206 | Morphological classification of astronomical images with limited labelling
+O7-155 | The Hubble Image Similarity Project
+P7-139 | Using deep learning to identify asteroid trails on ESA's Hubble data archive
+D7-114 | Arcsecond.io: an hybrid commercial/citizen-science project for astronomical observations
+P7-74 | Data-driven fitness functions for optimizing simulations of interacting galaxies
+O7-52 | Citizen science with the TESS photometer network
+O7-45 | CICLOPS: CItizen Computing Pulsar Searches
+I7-21 | Galaxy Zoo & The Zooniverse - citizen science as a powerful tool in the age of big data
+P8-17 | Prototyping astronomical science pipelines with script generators
+P8-26 | A Novel Real-Time Radio Transient Imager for LWA-SV
+P8-28 | Proof-of-concept gridded visibility stacking pipeline for deep spectral line interferometric imaging
+P8-38 | Validating data reduction algorithms through advanced instrument simulation - the case of HARMONI
+P8-46 | The CFIS processing pipeline
+P8-47 | The data reduction and analysis software of the ASTRI Project
+P8-55 | QuartiCal - Accelerating calibration using Numba and Dask
+I8-57 | NOEMA: How 1Million lines of code make the optically dark universe visible
+O8-63 | Tiling the Euclid Sky
+P8-67 | The ALMA Re-Imaging for Legacy Project
+P8-84 | lstchain: An analysis pipeline for LST-the first prototype Large Size Telescope of CTA
+P8-90 | The High Level Data Reduction Library
+P8-91 | Quasar continuum fitting with the ESPRESSO Data Analysis software
+I8-105 | The Pan-STARRS IPP : Lessons Learned and Looking Forward
+O8-111 | A scalable transient detection pipeline for the Australian SKA Pathfinder VAST survey
+P8-117 | The evolution of the MeerLICHT and BlackGEM data pipelines
+P8-118 | rta-dq-lib: a library to perform online data quality analysis of scientific data
+P8-128 | Enriching Data Archives with Science Products
+O8-131 | Distributed Streaming Radio Astronomy Reduction with Dask
+D8-132 | Parallel Radio Astronomy Application Development with Dask and Numba
+P8-138 | Onsite processing pipeline for the CTA Large Size Telescope prototype
+P8-142 | Automatic science-quality processing of the Gemini NIFS archive
+P8-145 | Parallelisation of the wide-band wide-field spectral deconvolution framework DDFacet on distributed memory HPC system
+P8-148 | Correcting Inter-Waveband Positional Errors in Sloan Images
+P8-182 | Filabres: a new pipeline for the automatic data reduction of CAFOS direct imaging
+P8-191 | shadeMS: rapid plotting of Big radio interferometry Data
+P8-193 | The CASA Software for Radio Astronomy: Status Update from ADASS 2020
+P8-195 | Performance improvement of the Data Acquisition System to support the observation quality system of the ASTRI Mini-Array
+P8-198 | Pipeline Calibration and Imaging for the Nobeyama 45m Radio Telescope
+P8-210 | The Light Curve Fitter: A novel application for deconvolving two superimposed sinusoidal waves.
+P8-221 | Implementing CUDA Streams into AstroAccelerate – A Case Study
+P8-222 | Processing and calibration of the deepest low frequency images of the sky
+P8-235 | Implementation of the 3D degridding for the NVIDIA GPUs using CUDA
+P8-238 | Development of a widefield mosaic imaging pipeline for e-MERLIN
+P8-247 | PyCPL: the ESO Common Pipeline Library in the Python age
+P8-249 | Sensitivity of Line Emissivities to Atomic Uncertainties with PyAtomDB
+P8-258 | Crystalballa Dask and Numba accelerated DFT Model Predict
+P8-264 | ChiVo-Tools: a deep learning tool for exploratory analysis of astronomical data for the Jupyter notebook
+I9-23 | Data Interoperability - the CDS experience
+B9-56 | Practical Provenance in Astronomy
+P9-72 | Radio Astronomy visibility data discovery and access using IVOA standards
+P9-89 | OPUS: an interoperable job control system based on VO standards
+O9-120 | Data Interoperability at the core of The Euclid Scientific Archive System
+P9-178 | The Common Archive Observation Model at MAST
+P9-201 | Hipsgen: the Hierarchical Progressive Survey generation tool
+P9-202 | Re-engineered ISO Data Archive. An infrared astronomy legacy treasure
+P9-216 | Exploring Provenance tracing for VizieR catalogues
+P9-233 | Building a Search Discovery System Powered by Graphs at MAST
+P9-250 | Storing Provenance information in a data processing workflow: CTA use case
+P9-253 |CDS 'virtual' Simple Image Access service
+P9-226 | The KM3NeT Open Science Portal
+P9-170 | Innovative tools fostered by the HiPS ecosystem
+P9-141 | Preparation for Gaia EDR3 in the ESA Gaia Archive
+P9-119 | Hangar at VIRGO
+P9-113 | A modular web application for astronomical instrument data analysis and monitoring services
+P9-103 | ASCL's New API: Query Our Database
+O9-94 | Using Docker in a radio-astronomy environment
+B9-86 | Standardisation of Data Formats in Gamma-ray astronomy
+P9-81 | CARACal - The Containerized Automated Radio Astronomy Calibration Pipeline
+B9-50 | Radio data archives round table
+P9-49 | Spreading the word – current status of VO tutorials and schools
+O9-27 | The Advanced Scientific Data Format (ASDF): Why you should use it
+P10-33 | Bibmanager: Automated BibTeX Management for Astronomers
+I10-39 | Astropy
+O10-53 | The Multi-Mission Maximum Likelihood Framework threeML: Multi-wavelength astronomy in practice
+P10-71 | Intuitive GUI to restore Corrupted Data: A Support for Preservation and Curation of the Astronomical Data
+P10-101 | Gammapy: An open-source Python package for gamma-ray astronomy
+P10-123 | Agilepy: A Python framework for scientific analysis of AGILE data
+B10-129 | How to better describe software for discovery and citation
+B10-133 | Best licensing practices
+P10-135 | CLU: a new framework for message passing for operations software
+P10-161 | Herschel PACS Integral Field Unit data visualisation and analysis: an ESAC Science Data Centre notebook for Datalabs
+P10-179 | Controlling and Monitoring Logging of the New Archiving Distributed Infrastructure (NADIR)
+P10-192 | The International Virtual Observatory Alliance (IVOA)  in 2020
+P10-209 | RaGaVi: A Radio Astronomy Gains and Visibilities Inspector
+P10-212 | Making organizational software easier to find in ASCL and ADS
+H10-232 | CFITSIO - 3 decades of collaborative software development
+P10-244 | Tricolour: an optimized parallel sum threshold flagger for MeerKAT
+P10-241 | An update on the development of ASPIRED
+P10-229 | Community engagement in pipeline development using CWLa case study for LOFAR
+P10-207 | The KERN Suite: Taming the Radio Astronomy Software Ecosystem
+P10-150 | PINT: A Modern Software Package for Pulsar Timing
+P10-100 | The Pulsar Signal Simulator: A Python-based Package for Simulating Pulsar Data for Science and Education
+P10-97 | Containerised scripting for radio interferometry
+P10-75 | Spectroscopic Data Reduction on your web browser
+P10-70 | gLike: likelihood maximization and profiling for astrophysical (and beyond) applications
+P10-44 | DiSkO: Discrete-sky Bayesian Synthesis Imaging
+P10-18 | A Machine Learning Approach To Sitelle Spectral Analysis
+O11-35 | Organising ADASS in a Pandemic
+B11-143 | BoF: Interoperability of Users Developersand Managers
+P11-146 | Numerical code generation from symbolic expressions in Python
+P11-172 | STARLINK - the original and best
+P11-188 | It is Tango time:  The M&C system for LOFAR2.0 stations
+P11-189 | Observing scripts in kosma_software used on GREAT/SOFIA: modularity flexibility efficiency
+P11-196 | How reliable are galaxies physical parameters estimations for LSST main sequence sample?
+P11-197 | VIPERS: Fundamental Metallicity Relation and its projections. How observational bias affect their shape
+P11-203 | Dust attenuation in ALMA-detected dusty star-forming galaxies in the COSMOS field
+P11-211 | Five years of the new 'Hedwig' proposal system at the JCMT
+P11-239 | Lessons Learned regarding Software Tools used during the 1st DKIST Proposal Call
+P11-254 | Improving the good: the upgrade of the IRAM 30-meter millimetre telescope
+P11-240 | HII regions in the CALIFA survey
+P11-220 | Automated system to generate calibrated MeasurementSet in East Asian ALMA Regional Center
+P11-214 | Efficient image visualization with CARTA - introduction and development update
+P11-208 | An automated pipeline for the VST data log analysis
+P11-199 | JVO Subaru Suprime-Cam Mosaic Image Archive DR2
+P11-180 | APECS - The APEX Control System
+O11-156 | astroquery: a community driven collaboration of data providers and data consumers
+P11-147 | The technical challenges of implementing DOIs at the ESA Science Data Center (ESDC)
+O11-96 | Astronomical research in the next decade: trends barriers and needs in data access management visualization and analysis
+</pre>
