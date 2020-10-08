@@ -53,6 +53,14 @@
           "path": "/conference-posters"
         },
         {
+          "name": "Proceedings",
+          "path": "/proceedings"
+        },
+        {
+          "name": "Guidelines",
+          "path": "/guidelines"
+        },
+        {
           "name": "LOC",
           "path": "/loc"
         },
