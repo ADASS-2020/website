@@ -7,12 +7,12 @@ body:
 ### Resources
 Please make sure to check out other relevant pages on this website as well:
 
-* [FAQ for Authors](/frequently-asked-questions#authors)
+* [FAQ for authors](/frequently-asked-questions#authors)
 * [Proceedings Instructions](/proceedings)
 * [User guide](/user-guide)
 
 
-### FTP Site
+### FTP site
 We have setup an anonymous FTP site for authors to upload videos and PDFs of
 their contributions. The FTP server runs on the same host as this website
 (www.adass2020.es).
@@ -22,7 +22,7 @@ FileZilla</a> since we encountered some problems in uploading files using, for i
 macOS finder directly. Connections details are specified at the bottom of this
 page.
 
-### What to Upload
+### What to upload
 Poster authors are encouraged to upload a version of their posters (in PDF, for
 online viewing) to our FTP site. Your posters could be downloaded from this website,
 so you may choose whatever size, resolution, font type and format you think is best to
@@ -34,7 +34,7 @@ as a backup in case of connection problems when delivering their presentation li
 Both talk and poster authors have the option of uploading a short (three minutes
 maximum) video in .mp4 format
 
-### Where to Upload
+### Where to upload
 All contributions to ADASS 2020 have been assigned a unique identifier of the
 form XT-N, where:
 
@@ -66,19 +66,19 @@ links in conference contributions lists or scheduling programs, as well as to pr
 If your files do not follow this nomenclature they could not be reached from the links neither your paper added
 to the proceedings.
 
-### When to Upload
+### When to upload
 Authors are encouraged to upload their files to their own PID directories at
 their earlier convenience, ideally by Oct. 23 for poster PDFs. For proceedings, please
 see the deadlines in [our proceedings instruction page](/proceedings).
 
-### Notes on Overwriting Files
+### Notes on overwriting files
 As a (simple) security measure our FTP site does not allow neither overwriting
 files. If authors wanted to upload a new version of their files, they should specify
 a new version number in the file name. For instance the first version of poster P99-99
 could be P99-99_v1.pdf; the next version after that could be P99-99_v2.pdf etc.
 **Attempting to upload a new file with the same name would result in an error.**
 
-### FTP Connection Details
+### FTP connection details
 * Host: www.adass2020.es
 * User: anonymous (the password is your own email address)
 * Path: your PID (e.g. P20-99, O3-99 etc.)
