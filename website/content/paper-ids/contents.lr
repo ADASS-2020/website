@@ -116,7 +116,6 @@ P5-80   | An Iterative Reconstruction Algorithm for Faraday Tomography
 P5-83   | Exploring Coronal Heating Using Unsupervised Machine-Learning
 P5-87   | Data scientific approaches to efficient sky noise removal in submillimeter single-dish spectroscopy
 P5-88   | Analyzing data from unknown statistical distribution.
-P5-106  | Studying Morphology & Quenching of Galaxies in Large Datasets using Interpretable Machine Learning Algorithms
 P5-107  | Imbalanced Learning for RR Lyrae Star Detection
 P5-116  | Finding new QSOs in photometric catalogs using machine learning: the QUBRICS survey.
 P5-140  | The Gaia Archive Users
@@ -174,7 +173,6 @@ P8-26   | A Novel Real-Time Radio Transient Imager for LWA-SV
 P8-28   | Proof-of-concept gridded visibility stacking pipeline for deep spectral line interferometric imaging
 P8-38   | Validating data reduction algorithms through advanced instrument simulation - the case of HARMONI
 P8-46   | The CFIS processing pipeline
-P8-47   | The data reduction and analysis software of the ASTRI Project
 P8-55   | QuartiCal - Accelerating calibration using Numba and Dask
 I8-57   | NOEMA: How 1Million lines of code make the optically dark universe visible
 O8-63   | Tiling the Euclid Sky
