@@ -50,7 +50,8 @@ For instance, a fantastic PID is O11-35 ;-)
 Once you are connected to the FTP site, please change into your PID folder assigned before
 uploading any content. <b>You must upload your files into your PID folder assigned.</b>
 
-The list of PIDs can be viewed [here](/paper-ids/).
+The list of PIDs can be viewed [here](/paper-ids/) with links to your personal template
+tar file to prepare your manuscript.
 
 ### Files nomenclature
 You can upload 4 different types of files to your FTP folder.
@@ -59,6 +60,11 @@ You can upload 4 different types of files to your FTP folder.
 - A lightning talk video in .mp4 format with max duration of 3 min. and file name &lt;PID&gt;.LT.mp4
 - A backup video of your talk in .mp4 format with max duration of 15 min. and file name &lt;PID&gt;.BCK.mp4
 - The proceedings package for your paper in .tar format with file name &lt;PID&gt;.tar
+
+You should take into account that this file nomenclature will be used to automatically create the
+links in conference contributions lists or scheduling programs, as well as to process your paper contribution.
+If your files do not follow this nomenclature they could not be reached from the links neither your paper added
+to the proceedings.
 
 ### When to Upload
 Authors are encouraged to upload their files to their own PID directories at
