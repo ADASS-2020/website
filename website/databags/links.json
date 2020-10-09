@@ -65,8 +65,8 @@
           "path": "/proceedings"
         },
         {
-          "name": "Guidelines",
-          "path": "/guidelines"
+          "name": "User guide",
+          "path": "/user-guide"
         },
         {
           "name": "LOC",
