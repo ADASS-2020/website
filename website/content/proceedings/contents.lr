@@ -38,12 +38,18 @@ The more issues are solved early on in the process, the more time we all save.
 
 ##### Prepare your manuscript
 
-The best usage is to prepare your paper in the Author_Template folder issued from unpacking the
-<a href="../static/files/ADASS2020.tar">Proceedings package archive</a>. If you author two papers, that will work too,
+The best usage is to prepare your paper in the Author_Template folder issued from unpacking your
+proceedings package archive. If you author two papers, that will work too,
 but preparing your tar or zip file is much easier if you use a parallel Author_Template.
 
 - Read the ManuscriptInstructions.pdf file.
 - The ADASS_template.tex file gives you a basic template for your ADASS paper.
+
+<b>Note</b>: We have also prepared personalized package templates, based on your title, author name and abstract of your
+contribution. You may download this personalized package from your PID link in the list of
+<a href="paper-ids">Contribution IDs</a>,
+unpack it, replace the unpacked files in your Author_Template folder, and use the &lt;PID&gt;.tex file to prepare
+your manuscript.
 
 For additional details look in the first section of the ASP’s Instructions for Authors and Editors, but note that this
 is now some years old and current requirements have changed slightly. In particular, ADASS papers that cite references
