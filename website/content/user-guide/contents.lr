@@ -1,0 +1,116 @@
+title: User Guide
+---
+_template: page-md.html
+---
+description: User Guide
+---
+twitter_image: /static/media/logo.png
+---
+body:
+
+### Introduction
+The technology stack used for ADASS 2020 is made of
+
+* Discord (https://discord.com)
+* Zoom Webinar (https://zoom.us)
+* YouTube Live (https://youtube.com)
+
+Discord is used for
+
+* Registration
+* Support
+* General chat (text, audio, audio & video)
+* Networking
+* Speaker coordination
+* Volunteer coordination
+
+Zoom Webinar is used for
+
+* Tutorials
+* Talks
+* BoF
+* Playing pre-recorded videos
+* (Possibly) Interactive Q&A during presentations
+
+YouTube Live is used for
+* Tutorials
+* Talks
+* Playing pre-recorded videos
+
+
+### Getting Started
+The first step in attending ADASS 2020 is to register, just like for an
+in-person conference. Head over the [ADASS Discord
+server](https://discord.gg/6WPtkws) and create a user account. We plan on
+leaving the ADASS Discord server running potentially forever.
+
+On your first visit, you will not see much on the ADASS server: just a
+registration channel and a general help-desk.
+
+![alt text](/static/media/discord_first_step.png "First connection to Discord.")
+
+Head over to `#registration`  to interact with our registration bot. The bot
+responds to the following commands (note the prefix character):
+* `!help` displays general help for the bot.
+* `!register <full name>, <registration reference>` to register yourself.
+
+For instance, user John Wayne bought an entrance to ADASS 2020. He received a
+confirmation email from Eurocongres with the “XXXX-ADASS-INS” reference. He
+would simply enter the `#registration` channel and type
+
+<pre>
+!register John Wayne, XXXX-ADASS-INS
+</pre>
+
+The registration bot would reply with a direct message to John telling him that
+registration was successful. The following screenshots illustrate the process.
+
+Step 1: enter the `#registration` channel and look at the bot help message
+(typing `!help`):
+![alt text](/static/media/discord_reg_channel.png "The Discord registration channel.")
+
+Step 2: register yourself (by typing `!register Full Name, Reference`):
+![alt text](/static/media/discord_register.png "Use !register to register for the conference.")
+
+Step 3: You are registered and all channels become visible. You will not be
+able to use the registration channel anymore:
+![alt text](/static/media/discord_registered.png "Now you are registed and #registration disappears.")
+
+It is important to notice a few things:
+
+1. While the ADASS Discord server is available to anybody with its link (which
+   is published on the ADASS 2020 website), unless you register there is not
+   much you can do.
+1. The bot queries the registration database, which is updated manually by the
+   LOC. We are trying to find a way to make this process automatic.
+1. Because of 2, there might be a delay between the moment you get your
+   registration reference and are able to register via the Discord server. If
+   that were the case, you will get an error from the registration bot. Please
+   contact `@loc` on `#help-desk`.
+1. Once you successfully register on discord, the `#registration` channel will
+   disappear. We do this to reduce clutter.
+1. Your Discord nickname on the ADASS server will be changed to your real name
+   if you are a speaker or poster author. We do this so that folks can
+   recognize you if they want to ask questions about your
+   poster/talk/BoF/tutorial.
+
+In case of registration errors, you will receive a message from our friendly
+bot. Try again, correcting any typos etc. If you still cannot register, please
+let @loc know by chatting with us in `#help-desk`.
+
+Once you are registered, feel free to look around. One good place to hang out
+is `#plenary-talks`. This is a general chat channel about what is going on in the
+plenary sessions. We expect most people will hang out there most of the time.
+
+If you click on the text next to the `#plenary-talks` heading, you will see the
+Zoom Webinar and YouTube Live links for today sessions. **Please do not
+distribute them: they are for ADASS attendees only.**
+
+Click on the `#plenary-talks` heading to get to the Zoom & YouTube links:
+![alt text](/static/media/discord_title_click.png "Click on channel title to see links")
+
+The links will appear in a popup dialog. Again, please do not redistribute them:
+![alt text](/static/media/discord_links.png "Zoom and YouTube links appear after clicking on channel title.")
+
+As you will see, there are other channels, both text and audio/video. Feel free
+to explore and stop by `#social` for some fun and networking. See you soon!
