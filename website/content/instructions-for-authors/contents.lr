@@ -52,6 +52,14 @@ uploading any content. <b>You must upload your files into your PID folder assign
 
 The list of PIDs can be viewed [here](/paper-ids/).
 
+### Files nomenclature
+You can upload 4 different types of files to your FTP folder.
+
+- You contribution slides or poster in .pdf format with file name &lt;PID&gt;.pdf
+- A lightning talk video in .mp4 format with max duration of 3 min. and file name &lt;PID&gt;.LT.mp4
+- A backup video of your talk in .mp4 format with max duration of 15 min. and file name &lt;PID&gt;.BCK.mp4
+- The proceedings package for your paper in .tar format with file name &lt;PID&gt;.tar
+
 ### When to Upload
 Authors are encouraged to upload their files to their own PID directories at
 their earlier convenience, ideally by Oct. 23 for poster PDFs. For proceedings, please
