@@ -8,19 +8,19 @@
           "path": "/themes"
         },
         {
-          "name": "Invited Speakers",
+          "name": "Invited speakers",
           "path": "/news//invited-speakers"
         },
         {
-          "name": "Schedule / Coming Soon",
+          "name": "Schedule / Coming soon",
           "path": "#"
         },
         {
-          "name": "Talks / Coming Soon",
+          "name": "Talks / Coming soon",
           "path": "#"
         },
         {
-          "name": "Tutorials / Coming Soon",
+          "name": "Tutorials / Coming soon",
           "path": "#"
         }
       ]
@@ -41,7 +41,7 @@
       "name": "Info",
       "submenu": [
         {
-          "name": "Registration and CfP (Call for Papers)",
+          "name": "Registration",
           "path": "/registration"
         },
         {
@@ -89,22 +89,22 @@
           "path": "/volunteer"
         },
         {
-          "name": "Contact Us",
+          "name": "Contact",
           "path": "/contact"
         },
         {
-          "name": "Admin (POC/LOC Only)",
+          "name": "Admin (POC/LOC)",
           "path": "/admin-info"
         }
       ]
     },
     {
-      "name": "Code of Conduct",
+      "name": "Code of conduct",
       "path": "/code-of-conduct/"
     }
   ],
   "legal": {
-    "/privacy-policy/": "Terms & Privacy Policy",
-    "/code-of-conduct/": "Code of Conduct"
+    "/privacy-policy/": "Terms & privacy policy",
+    "/code-of-conduct/": "Code of conduct"
   }
 }
