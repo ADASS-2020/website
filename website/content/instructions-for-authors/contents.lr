@@ -7,9 +7,9 @@ body:
 ### Resources
 Please make sure to check out other relevant pages on this website as well:
 
-* [Conference Guidelines](/guidelines)
+* [FAQ for Authors](/frequently-asked-questions#authors)
 * [Proceedings Instructions](/proceedings)
-* [FAQ](/frequently-asked-questions)
+* [User guide](/user-guide)
 
 
 ### FTP Site
@@ -73,14 +73,12 @@ see the deadlines in [our proceedings instruction page](/proceedings).
 
 ### Notes on Overwriting Files
 As a (simple) security measure our FTP site does not allow neither overwriting
-files nor listing directory contents. If authors wanted to upload a new version
-of their files, they should specify a new version number in the file name. For
-instance the first version of poster P99-99 could be P99-99_v1.pdf; the next
-version after that could be P99-99_v2.pdf etc. **Attempting to upload a new
-file with the same name would result in an error.**
+files. If authors wanted to upload a new version of their files, they should specify
+a new version number in the file name. For instance the first version of poster P99-99
+could be P99-99_v1.pdf; the next version after that could be P99-99_v2.pdf etc.
+**Attempting to upload a new file with the same name would result in an error.**
 
 ### FTP Connection Details
-
 * Host: www.adass2020.es
 * User: anonymous (the password is your own email address)
 * Path: your PID (e.g. P20-99, O3-99 etc.)
