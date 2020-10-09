@@ -1,4 +1,4 @@
-title: Administrative Info
+title: Administrative info
 ---
 _template: page-md.html
 ---
@@ -8,7 +8,7 @@ twitter_image: /static/media/logo.png
 ---
 body:
 
-### The Website
+### The website
 
 We use a static website that is generated from a bunch of Markdown files. The site generator is called
 Lektor.
@@ -19,7 +19,7 @@ Useful links
 - Markdown: https://daringfireball.net/projects/markdown/syntax
 
 
-### The CfP Page(s)
+### The CfP page(s)
 
 We use Pretalx to handle all the Call for Papers cycle.
 
