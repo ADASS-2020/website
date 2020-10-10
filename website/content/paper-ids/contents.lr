@@ -273,4 +273,8 @@ PID     | Title
 <a href="../static/files/templates/O11-156.tar">O11-156</a> | astroquery: a community driven collaboration of data providers and data consumers
 <a href="../static/files/templates/P11-147.tar">P11-147</a> | The technical challenges of implementing DOIs at the ESA Science Data Center (ESDC)
 <a href="../static/files/templates/O11-96.tar">O11-96</a>  | Astronomical research in the next decade: trends barriers and needs in data access management visualization and analysis
+<a href="../static/files/templates/T1.tar">T1</a>      | A Hands-on Introduction to Deep Learning with DeepForge
+<a href="../static/files/templates/T2.tar">T2</a>      | Interactively exploring and visualizing data on the sky with Jupyter and pywwt
+<a href="../static/files/templates/T3.tar">T3</a>      | From Semantic segmentation to Instance Segmentation using DeepLearning
+<a href="../static/files/templates/T4.tar">T4</a>      | Multimessenger Astronomy with ObsTAP and pyVO
 </pre>
