@@ -22,8 +22,8 @@ The proceedings editors are Jose Enrique Ruiz and Francesco Pierfedereci.
 
 #### Instructions for paper preparation
 
-We provide a <a href="../static/files/ADASS2020.tar">Proceedings package archive</a> with style files, check scripts and
-documentation available. After downloading this file, you may save it in a suitable directory and unpack it using the command:
+We provide a <a href="../static/files/ADASS2020.tar">ADASS2020.tar</a> proceedings package archive with style files,
+check scripts and documentation available. After downloading this file, you may save it in a suitable directory and unpack it using the command:
 `tar xvf ADASS2020.tar`
 
 This package of files is supplied to help you prepare papers for submission in the Proceedings for the ADASS 2020 conference.

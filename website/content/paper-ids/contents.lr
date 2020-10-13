@@ -5,7 +5,7 @@ title: Contribution IDs
 body: 
 
 ### Introduction
-All contributions to ADASS 2020 have been assigned a unique identifier of the
+All contributions to ADASS 2020 have been assigned a unique identifier in the
 form XT-N, where:
 
 * X is P for posters, O for talks, I for invited talks, B for
@@ -16,6 +16,8 @@ unbalanced.
 * N is just a running number.
 
 For instance, a fantastic PID is O11-35 ;-)
+
+**We call these unique identifiers PIDs.**
 
 ### Themes
 
@@ -32,6 +34,17 @@ For instance, a fantastic PID is O11-35 ;-)
 * 11: Other
 
 ### PIDs
+The PID codes below determine the FPT folder and file nomenclature you must follow when uploading to the ADASS 2020 FTP
+site any content related to your contribution. See [Instructions for authors](/instructions-for-authors/) for
+more details.
+
+To help you in preparing your proceedings manuscript, we offer personalized archive packages. You may
+download yours from your PID link in the list below, unpack it, replace the unpacked files in the Author_Template
+folder issued from <a href="../static/files/ADASS2020.tar">ADASS2020.tar</a>, and use the &lt;PID&gt;.tex file to
+prepare your manuscript. See [Proceedings](/proceedings/) for
+more details.
+
+
 <pre>
 PID     | Title
 <a href="../static/files/templates/O1-22.tar">O1-22</a>   | TOPCAT Visualisation over the Web
