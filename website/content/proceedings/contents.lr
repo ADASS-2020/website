@@ -51,14 +51,14 @@ contribution. You may download this personalized package from your PID link in t
 unpack it, replace the unpacked files in your Author_Template folder, and use the &lt;PID&gt;.tex file to prepare
 your manuscript.
 
-For additional details look in the first section of the ASP’s Instructions for Authors and Editors, but note that this
-is now some years old and current requirements have changed slightly. In particular, ADASS papers that cite references
-MUST supply these references in a .bib BibTeX file like the example.bib file provided.
-
 You will need to run LaTeX on your .tex file, then run BibTeX to process the references, and then will need to run
 LaTeX again up to three times to get all the cross-references right. We recommend that you use the provided Makefile,
 but if you prefer building manually that should work as well. ASP does not use pdflatex, so try and stick to latex
 (we only allow EPS figures, not PNG or JPG).
+
+Editing your paper in [Overleaf](https://www.overleaf.com/) is also known to work: simply upload (as a ZIP file produced
+by command `make overleaf` is the easiest) the template, the two asp2014 files, and optionally your BIB file and EPS
+figures. Don't start from scratch, or your file will be likely named main.tex
 
 ##### Check your manuscript
 
@@ -84,6 +84,18 @@ starting at 1. e.g. example P10-3_v1.tar. This should contain:
 
 The command to build, check, and package the manuscript is:
 `make pdf check tar`
+
+##### Makefile commands
+
+If everything in your Author_Template is set correctly, you should be able to run the following make commands:
+
+<pre>
+    make pdf      : Build the PDF file (possibly twice to rid some errors)
+    make check    : Check the manuscript for issues
+    make tar      : Build the tar file for submission
+    make all      : Do all of the above
+    make overleaf : Prepare a ZIP file to bootstrap your overleaf project
+</pre>
 
 ##### Upload your proceedings contribution
 
