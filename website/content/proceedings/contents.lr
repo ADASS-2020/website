@@ -47,7 +47,7 @@ but preparing your tar or zip file is much easier if you use a parallel Author_T
 
 <b>Note</b>: We have also prepared personalized package templates, based on your title, author name and abstract of your
 contribution. You may download this personalized package from your PID link in the list of
-<a href="paper-ids">Contribution IDs</a>,
+[Contribution IDs](/paper-ids/),
 unpack it, replace the unpacked files in your Author_Template folder, and use the &lt;PID&gt;.tex file to prepare
 your manuscript.
 
