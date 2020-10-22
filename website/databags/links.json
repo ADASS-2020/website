@@ -12,16 +12,23 @@
           "path": "/news//invited-speakers"
         },
         {
-          "name": "Schedule / Coming soon",
-          "path": "#"
+          "name": "Schedule (New)",
+          "path": "https://schedule.adass2020.es/adass2020/schedule/",
+          "target": "_schedule"
         },
         {
-          "name": "Talks / Coming soon",
-          "path": "#"
+          "name": "Talks (New)",
+          "path": "https://schedule.adass2020.es/adass2020/talk/",
+          "target": "_schedule"
         },
         {
-          "name": "Tutorials / Coming soon",
-          "path": "#"
+          "name": "Speakers (New)",
+          "path": "https://schedule.adass2020.es/adass2020/speaker/",
+          "target": "_schedule"
+        },
+        {
+          "name": "Schedule (iCal Integration)",
+          "path": "https://schedule.adass2020.es/adass2020/schedule/export/schedule.ics"
         }
       ]
     },
