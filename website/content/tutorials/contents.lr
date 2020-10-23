@@ -8,7 +8,7 @@ description: Tutorials
 _template: page-md.html
 ---
 body:   
-<b><a href='https://schedule.adass2020.es/adass2020/talk/WZ9YVR' target='_blank'>A Hands-on Introduction to Deep Learning with DeepForge</a></b>
+<b><a href='https://schedule.adass2020.es/adass2020/talk/WZ9YVR' target='_schedule'>A Hands-on Introduction to Deep Learning with DeepForge</a></b>
 
 <b>Brian Broll</b>
 
@@ -18,7 +18,7 @@ The tutorial will start with a brief background on some of the basics of machine
 
 The tutorial will be provided using DeepForge, attendees will need a laptop with a web browser and a (free) SciServer account.
 
-<b><a href='https://schedule.adass2020.es/adass2020/talk/GEJ3BT' target='_blank'>From Semantic segmentation to Instance Segmentation using DeepLearning.</a></b>
+<b><a href='https://schedule.adass2020.es/adass2020/talk/GEJ3BT' target='_schedule'>From Semantic segmentation to Instance Segmentation using DeepLearning.</a></b>
 
 <b>Humberto Farias</b>
 
@@ -34,13 +34,13 @@ Prerequisites: Intermediate Python knowledge is strongly recommended.
 
 Level: We assume you are comfortable with deep learning basics as layers, neuron, activation function, loss function among other basics concepts.
 
-<b><a href='https://schedule.adass2020.es/adass2020/talk/SKDNHX' target='_blank'>Interactively exploring and visualizing data on the sky with Jupyter and pywwt</a></b>
+<b><a href='https://schedule.adass2020.es/adass2020/talk/SKDNHX' target='_schedule'>Interactively exploring and visualizing data on the sky with Jupyter and pywwt</a></b>
 
 <b>Peter K. G. Williams</b>
 
 Astronomers routinely work with images of the sky or tables of celestial objects. In this tutorial, participants will learn how to explore such data sets interactively, and in their astronomical context, inside Jupyter notebooks. The key enabling technology is pywwt, a module that allows researchers to embed the AAS WorldWide Telescope (WWT) visualization engine in Python applications and Jupyter notebooks, providing a sophisticated “ds9-like” experience inside the notebook that can be controlled through code as well as manually. Hands-on activities will stitch this Python module together with other elements of the Python ecosystem for working with astronomical data such as astroquery. Participants will learn how to explore their sky-based data sets using a modern suite of software tools.
 
-<b><a href='https://schedule.adass2020.es/adass2020/talk/ECLRSH' target='_blank'>Multimessenger Astronomy with ObsTAP and pyVO</a></b>
+<b><a href='https://schedule.adass2020.es/adass2020/talk/ECLRSH' target='_schedule'>Multimessenger Astronomy with ObsTAP and pyVO</a></b>
 
 <b>Hendrik Heinl</b>
 

@@ -11,68 +11,68 @@ body:
 
 **SCIENCE PLATFORMS AND DATA LAKES**
 
-- <a href='https://schedule.adass2020.es/adass2020/talk/BGV8W9' target='_blank'>Aladin Lite v3: behind the scenes of a major overhaul</a>, Matthieu Baumann
-- <a href='https://schedule.adass2020.es/adass2020/talk/FMZC87' target='_blank'>A microservice-oriented science platform architecture</a>, Stefano Alberto Russo
-- <a href='https://schedule.adass2020.es/adass2020/talk/GVP8JE' target='_blank'>Development of Scientific Data Applications for Science Cloud Platforms</a>, Nick Cox
-- <a href='https://schedule.adass2020.es/adass2020/talk/YPXJXW' target='_blank'>Interactive exploration framework for big data sets</a>, Fenja Kollasch
-- <a href='https://schedule.adass2020.es/adass2020/talk/UGAKRL' target='_blank'>Realtime Data Transferring and Processing from Remote Telescopes Using Apache NiFi and MongoDB</a>, Lloyd Harischandra
-- <a href='https://schedule.adass2020.es/adass2020/talk/L7Y7WS' target='_blank'>Serving power-users and novices. Architecture and lessons learned with science platform MuseWISE.</a>, Gijs Verdoes Kleijn
-- <a href='https://schedule.adass2020.es/adass2020/talk/PE3FXM' target='_blank'>TOPCAT Visualisation over the Web</a>, Mark Taylor
+- <a href='https://schedule.adass2020.es/adass2020/talk/BGV8W9' target='_schedule'>Aladin Lite v3: behind the scenes of a major overhaul</a>, Matthieu Baumann
+- <a href='https://schedule.adass2020.es/adass2020/talk/FMZC87' target='_schedule'>A microservice-oriented science platform architecture</a>, Stefano Alberto Russo
+- <a href='https://schedule.adass2020.es/adass2020/talk/GVP8JE' target='_schedule'>Development of Scientific Data Applications for Science Cloud Platforms</a>, Nick Cox
+- <a href='https://schedule.adass2020.es/adass2020/talk/YPXJXW' target='_schedule'>Interactive exploration framework for big data sets</a>, Fenja Kollasch
+- <a href='https://schedule.adass2020.es/adass2020/talk/UGAKRL' target='_schedule'>Realtime Data Transferring and Processing from Remote Telescopes Using Apache NiFi and MongoDB</a>, Lloyd Harischandra
+- <a href='https://schedule.adass2020.es/adass2020/talk/L7Y7WS' target='_schedule'>Serving power-users and novices. Architecture and lessons learned with science platform MuseWISE.</a>, Gijs Verdoes Kleijn
+- <a href='https://schedule.adass2020.es/adass2020/talk/PE3FXM' target='_schedule'>TOPCAT Visualisation over the Web</a>, Mark Taylor
 
 **CLOUD COMPUTING AT DIFFERENT SCALES**
 
-- <a href='https://schedule.adass2020.es/adass2020/talk/Y9U73R' target='_blank'>Calibrating Hubble Data in the Commercial Cloud</a>, Brian Hayden
-- <a href='https://schedule.adass2020.es/adass2020/talk/NPA3EC' target='_blank'>ESA Datalabs: an e-Science Platform for Data Exploitation and Preservation at ESAC</a>, Vicente Navarro
+- <a href='https://schedule.adass2020.es/adass2020/talk/Y9U73R' target='_schedule'>Calibrating Hubble Data in the Commercial Cloud</a>, Brian Hayden
+- <a href='https://schedule.adass2020.es/adass2020/talk/NPA3EC' target='_schedule'>ESA Datalabs: an e-Science Platform for Data Exploitation and Preservation at ESAC</a>, Vicente Navarro
 
 **CROSS-DISCIPLINE PROJECTS**
 
-- <a href='https://schedule.adass2020.es/adass2020/talk/E9HAQN' target='_blank'>Analyzing Scientific Big Data with the Helmholtz Analytics Toolkit (HeAT)</a>, Claudia Comito
-- <a href='https://schedule.adass2020.es/adass2020/talk/K8GNNF' target='_blank'>Exploring the Universe with pyESASky JupyterLab widget</a>, Marcos López-Caniego
-- <a href='https://schedule.adass2020.es/adass2020/talk/EHFF7Y' target='_blank'>Holding the Cosmos in Your Hand: Developing 3D Data Pipelines</a>, Kimberly Kowal Arcand
-- <a href='https://schedule.adass2020.es/adass2020/talk/CEY87L' target='_blank'>iDaVIE-v: immersive Data Visualisation Interactive Explorer for volumetric rendering</a>, Lucia Marchetti
+- <a href='https://schedule.adass2020.es/adass2020/talk/E9HAQN' target='_schedule'>Analyzing Scientific Big Data with the Helmholtz Analytics Toolkit (HeAT)</a>, Claudia Comito
+- <a href='https://schedule.adass2020.es/adass2020/talk/K8GNNF' target='_schedule'>Exploring the Universe with pyESASky JupyterLab widget</a>, Marcos López-Caniego
+- <a href='https://schedule.adass2020.es/adass2020/talk/EHFF7Y' target='_schedule'>Holding the Cosmos in Your Hand: Developing 3D Data Pipelines</a>, Kimberly Kowal Arcand
+- <a href='https://schedule.adass2020.es/adass2020/talk/CEY87L' target='_schedule'>iDaVIE-v: immersive Data Visualisation Interactive Explorer for volumetric rendering</a>, Lucia Marchetti
 
 **MULTI-MESSENGER ASTRONOMY**
 
-- <a href='https://schedule.adass2020.es/adass2020/talk/WUBSFS' target='_blank'>On the capability to encoding gravitational-wave sky localizations with the Multi Order Coverage data structure: present and future developments</a>, Giuseppe Greco
-- <a href='https://schedule.adass2020.es/adass2020/talk/KRCTJU' target='_blank'>Supporting observatory coordination with new standards: current status</a>, Aitor Ibarra Ibaibarriaga
-- <a href='https://schedule.adass2020.es/adass2020/talk/AFHRD8' target='_blank'>Using Artificial Neural Networks to detect astronomical transients</a>, Katarzyna Wardęga
+- <a href='https://schedule.adass2020.es/adass2020/talk/WUBSFS' target='_schedule'>On the capability to encoding gravitational-wave sky localizations with the Multi Order Coverage data structure: present and future developments</a>, Giuseppe Greco
+- <a href='https://schedule.adass2020.es/adass2020/talk/KRCTJU' target='_schedule'>Supporting observatory coordination with new standards: current status</a>, Aitor Ibarra Ibaibarriaga
+- <a href='https://schedule.adass2020.es/adass2020/talk/AFHRD8' target='_schedule'>Using Artificial Neural Networks to detect astronomical transients</a>, Katarzyna Wardęga
 
 **MACHINE LEARNING, STATISTICS, AND ALGORITHMS**
 
-- <a href='https://schedule.adass2020.es/adass2020/talk/VCKBWE' target='_blank'>Exploring the use of Graph and Machine / Deep Learning technologies with the NASA ADS content</a>, Sergi Blanco-Cuaresma
-- <a href='https://schedule.adass2020.es/adass2020/talk/7K78FW' target='_blank'>Machine-Assisted Discovery Through Identification and Explanation of Anomalies in Astronomical Surveys</a>, Kiri Wagstaff
-- <a href='https://schedule.adass2020.es/adass2020/talk/CJZJJP' target='_blank'>Probing neural networks for science: What is it they are learning?</a>, Colin Jacobs
+- <a href='https://schedule.adass2020.es/adass2020/talk/VCKBWE' target='_schedule'>Exploring the use of Graph and Machine / Deep Learning technologies with the NASA ADS content</a>, Sergi Blanco-Cuaresma
+- <a href='https://schedule.adass2020.es/adass2020/talk/7K78FW' target='_schedule'>Machine-Assisted Discovery Through Identification and Explanation of Anomalies in Astronomical Surveys</a>, Kiri Wagstaff
+- <a href='https://schedule.adass2020.es/adass2020/talk/CJZJJP' target='_schedule'>Probing neural networks for science: What is it they are learning?</a>, Colin Jacobs
 
 **TIME-DOMAIN ECOSYSTEM**
 
-- <a href='https://schedule.adass2020.es/adass2020/talk/PXRXFJ' target='_blank'>Astronify: listening to the stars</a>, Clara Brasseur
-- <a href='https://schedule.adass2020.es/adass2020/talk/SUMMZS' target='_blank'>Storage Schema of Time Series Astronomical Data for Artificial Intelligence Analysis</a>, Kun Li
+- <a href='https://schedule.adass2020.es/adass2020/talk/PXRXFJ' target='_schedule'>Astronify: listening to the stars</a>, Clara Brasseur
+- <a href='https://schedule.adass2020.es/adass2020/talk/SUMMZS' target='_schedule'>Storage Schema of Time Series Astronomical Data for Artificial Intelligence Analysis</a>, Kun Li
 
 **CITIZEN SCIENCE PROJECTS IN ASTRONOMY**
 
-- <a href='https://schedule.adass2020.es/adass2020/talk/99FANT' target='_blank'>CICLOPS: CItizen Computing Pulsar Searches</a>, Matteo Bachetti
-- <a href='https://schedule.adass2020.es/adass2020/talk/937GTP' target='_blank'>Citizen science with the TESS photometer network</a>, Sergio Pascual
-- <a href='https://schedule.adass2020.es/adass2020/talk/E8KYJU' target='_blank'>Hubble Asteroid Hunter: exploring the ESA Hubble archives with citizen science</a>, Sandor Kruk
-- <a href='https://schedule.adass2020.es/adass2020/talk/MHJASE' target='_blank'>The Hubble Image Similarity Project</a>, Joshua Peek
+- <a href='https://schedule.adass2020.es/adass2020/talk/99FANT' target='_schedule'>CICLOPS: CItizen Computing Pulsar Searches</a>, Matteo Bachetti
+- <a href='https://schedule.adass2020.es/adass2020/talk/937GTP' target='_schedule'>Citizen science with the TESS photometer network</a>, Sergio Pascual
+- <a href='https://schedule.adass2020.es/adass2020/talk/E8KYJU' target='_schedule'>Hubble Asteroid Hunter: exploring the ESA Hubble archives with citizen science</a>, Sandor Kruk
+- <a href='https://schedule.adass2020.es/adass2020/talk/MHJASE' target='_schedule'>The Hubble Image Similarity Project</a>, Joshua Peek
 
 **DATA PROCESSING PIPELINES AND SCIENCE-READY DATA**
 
-- <a href='https://schedule.adass2020.es/adass2020/talk/FVGRSE' target='_blank'>A scalable transient detection pipeline for the Australian SKA Pathfinder VAST survey</a>, Sergio Pintaldi
-- <a href='https://schedule.adass2020.es/adass2020/talk/KPMRYS' target='_blank'>Distributed Streaming Radio Astronomy Reduction with Dask</a>, Simon Perkins
-- <a href='https://schedule.adass2020.es/adass2020/talk/BKKMKS' target='_blank'>Tiling the Euclid Sky</a>, Martin Kuemmel
+- <a href='https://schedule.adass2020.es/adass2020/talk/FVGRSE' target='_schedule'>A scalable transient detection pipeline for the Australian SKA Pathfinder VAST survey</a>, Sergio Pintaldi
+- <a href='https://schedule.adass2020.es/adass2020/talk/KPMRYS' target='_schedule'>Distributed Streaming Radio Astronomy Reduction with Dask</a>, Simon Perkins
+- <a href='https://schedule.adass2020.es/adass2020/talk/BKKMKS' target='_schedule'>Tiling the Euclid Sky</a>, Martin Kuemmel
 
 **DATA INTEROPERABILITY**
 
-- <a href='https://schedule.adass2020.es/adass2020/talk/S37EFZ' target='_blank'>Data Interoperability at the core of The Euclid Scientific Archive System</a>, Pilar de Teodoro
-- <a href='https://schedule.adass2020.es/adass2020/talk/FCAQHS' target='_blank'>The Advanced Scientific Data Format (ASDF): Why you should use it</a>, Perry Greenfield
-- <a href='https://schedule.adass2020.es/adass2020/talk/YQXPDK' target='_blank'>Using Docker in a radio-astronomy environment</a>, Mateusz Malenta
+- <a href='https://schedule.adass2020.es/adass2020/talk/S37EFZ' target='_schedule'>Data Interoperability at the core of The Euclid Scientific Archive System</a>, Pilar de Teodoro
+- <a href='https://schedule.adass2020.es/adass2020/talk/FCAQHS' target='_schedule'>The Advanced Scientific Data Format (ASDF): Why you should use it</a>, Perry Greenfield
+- <a href='https://schedule.adass2020.es/adass2020/talk/YQXPDK' target='_schedule'>Using Docker in a radio-astronomy environment</a>, Mateusz Malenta
 
 **OPEN SOURCE SOFTWARE AND COMMUNITY DEVELOPMENT IN ASTRONOMY**
 
-- <a href='https://schedule.adass2020.es/adass2020/talk/W7CC37' target='_blank'>The Multi-Mission Maximum Likelihood Framework threeML: Multi-wavelength astronomy in practice</a>, Henrike Fleischhack
+- <a href='https://schedule.adass2020.es/adass2020/talk/W7CC37' target='_schedule'>The Multi-Mission Maximum Likelihood Framework threeML: Multi-wavelength astronomy in practice</a>, Henrike Fleischhack
 
 **OTHER**
 
-- <a href='https://schedule.adass2020.es/adass2020/talk/SMVNME' target='_blank'>Astronomical research in the next decade: trends, barriers and needs in data access, management, visualization and analysis</a>, Cristobal Bordiu
-- <a href='https://schedule.adass2020.es/adass2020/talk/PYSMVH' target='_blank'>astroquery: a community driven collaboration of data providers and data consumers</a>, Brigitta Sipőcz
-- <a href='https://schedule.adass2020.es/adass2020/talk/RTYCBN' target='_blank'>Organising ADASS in a Pandemic</a>, Francesco Pierfederici
+- <a href='https://schedule.adass2020.es/adass2020/talk/SMVNME' target='_schedule'>Astronomical research in the next decade: trends, barriers and needs in data access, management, visualization and analysis</a>, Cristobal Bordiu
+- <a href='https://schedule.adass2020.es/adass2020/talk/PYSMVH' target='_schedule'>astroquery: a community driven collaboration of data providers and data consumers</a>, Brigitta Sipőcz
+- <a href='https://schedule.adass2020.es/adass2020/talk/RTYCBN' target='_schedule'>Organising ADASS in a Pandemic</a>, Francesco Pierfederici

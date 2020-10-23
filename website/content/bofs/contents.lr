@@ -8,7 +8,7 @@ description: BOFs
 _template: page-md.html
 ---
 body:   
-<b><a href='https://schedule.adass2020.es/adass2020/talk/DUE8F7' target='_blank'>Best licensing practices</a></b>
+<b><a href='https://schedule.adass2020.es/adass2020/talk/DUE8F7' target='_schedule'>Best licensing practices</a></b>
 
 <b>Yan Grange</b>
 
@@ -18,7 +18,7 @@ Among these digital assets, software plays a special role, as software as a tool
 
 During ADASS XXIX it became clear that several groups worldwide are working on formalising the licensing of software and other digital assets. For this session, we will coordinate a discussion focused on what policies and tools help in making software open and accessible, and thus more suited for community reuse.
 
-<b><a href='https://schedule.adass2020.es/adass2020/talk/B39YMM' target='_blank'>BoF: Interoperability of Users, Developers, and Managers</a></b>
+<b><a href='https://schedule.adass2020.es/adass2020/talk/B39YMM' target='_schedule'>BoF: Interoperability of Users, Developers, and Managers</a></b>
 
 <b>Jan Noordam</b>
 
@@ -73,7 +73,7 @@ will eventually adopt the stuff that we develop ourselves.
 
 Keywords: interface, evolution
 
-<b><a href='https://schedule.adass2020.es/adass2020/talk/KYWYND' target='_blank'>Cost Management on Commercial Cloud Platforms</a></b>
+<b><a href='https://schedule.adass2020.es/adass2020/talk/KYWYND' target='_schedule'>Cost Management on Commercial Cloud Platforms</a></b>
 
 <b>G. Bruce Berriman</b>
 
@@ -98,7 +98,7 @@ This BoF aims to quantify the above statement by presenting case studies of the 
 
 Organizers: Bruce Berriman (Caltech/IPAC-NExScI); Gerard Lemson (JHU); William O'Mullane (Rubin Observatory); Ivelina Momcheva (STScI); Andreas Wicenic (ICRAR).
 
-<b><a href='https://schedule.adass2020.es/adass2020/talk/QVVWXR' target='_blank'>How to better describe software for discovery and citation</a></b>
+<b><a href='https://schedule.adass2020.es/adass2020/talk/QVVWXR' target='_schedule'>How to better describe software for discovery and citation</a></b>
 
 <b>Peter Teuben</b>
 
@@ -126,7 +126,7 @@ for this).
 
 We encourage contributions to this BoF.
 
-<b><a href='https://schedule.adass2020.es/adass2020/talk/DDNRT3' target='_blank'>It worked on my laptop! - how to approach reproducibility in astronomy?</a></b>
+<b><a href='https://schedule.adass2020.es/adass2020/talk/DDNRT3' target='_schedule'>It worked on my laptop! - how to approach reproducibility in astronomy?</a></b>
 
 <b>Mateusz Malenta</b>
 
@@ -134,20 +134,20 @@ With large observatories that provide data to thousands of astronomers around th
 
 Considering all of the above, what do we expect from reproducibility? What are we willing to sacrifice to achieve it (and do we have to sacrifice anything at all?)? Can we as a wider community come together and develop a clear set of guidelines and standards that will ensure the maximum possible reproducibility? If 100% reproducibility is not possible, how can we ensure that all the relevant parties are aware of the possible shortcomings and can include them in their analysis?
 
-<b><a href='https://schedule.adass2020.es/adass2020/talk/P3FK9U' target='_blank'>Practical Provenance in Astronomy</a></b>
+<b><a href='https://schedule.adass2020.es/adass2020/talk/P3FK9U' target='_schedule'>Practical Provenance in Astronomy</a></b>
 
 <b>Mathieu Servillat</b>
 
 Recently the IVOA released a standard to structure provenance metadata and several implementations are in development in order to capture, store, access and visualize the provenance of astronomy data products. This BoF will be focused on practical needs for provenance in astronomy. A growing number of projects express the requirement to propose FAIR data (Findable, Accessible, Interoperable and Reusable) and thus manage provenance information to ensure the quality, reliability and trustworthiness of this data. The concepts are in place, but now, applied specifications and practical tools are needed to answer concrete use cases. We propose to discuss which strategies are considered by your projects (observatories or data providers) to capture provenance in your context and how you consider a end-user might query the provenance information to enhance her/his data selection and retrieval. The objective is to identify the development of tools and formats now needed to make provenance more practical.
 
-<b><a href='https://schedule.adass2020.es/adass2020/talk/LWKWMC' target='_blank'>Radio data archives round table</a></b>
+<b><a href='https://schedule.adass2020.es/adass2020/talk/LWKWMC' target='_schedule'>Radio data archives round table</a></b>
 
 <b>Katharina Lutz</b>
 
 With SKA precursor and pathfinder operations in full swing, radio and (sub-)mm astronomy is entering the era of super big data. The big questions is how to make (sub-)mm and radio data available to the astronomical community, preferably using FAIR (findable, accessible, interoperable and re-useable) principles. There are already a lot of efforts going on around the globe: facilities such as ALMA, LOFAR, MWA, NRAO and ASKAP are already publishing much of their data in the form of "science ready" image products, SKA regional centres are being formed and a radio astronomy interest group has been initiated within the IVOA. We want to use this BoF to bring everyone interested in this topic around one informal, friendly, virtual table to hear about and discuss the following questions: Where are different groups in their efforts to expose both visibility and science ready data? What is already there, maybe has been used for decades by traditional observatories? Which pieces of information or technology are still missing? Where do we want to go, what needs to happen next?
 We will start the BoF with short presentations from active players around the world and then look forward to a discussion with all attendees.
 
-<b><a href='https://schedule.adass2020.es/adass2020/talk/DHNJ9D' target='_blank'>Standardisation of Data Formats in Gamma-ray astronomy</a></b>
+<b><a href='https://schedule.adass2020.es/adass2020/talk/DHNJ9D' target='_schedule'>Standardisation of Data Formats in Gamma-ray astronomy</a></b>
 
 <b>Cosimo Nigro</b>
 
@@ -162,7 +162,7 @@ Open-source softwares for gamma-ray analyses have recently developed to support 
 
 This talk will provide a discussion on the standardisation effort and an overview of the projects that have already employed it.
 
-<b><a href='https://schedule.adass2020.es/adass2020/talk/B83JBH' target='_blank'>Standardizing New and Improving Old Data Formats in Astronomy</a></b>
+<b><a href='https://schedule.adass2020.es/adass2020/talk/B83JBH' target='_schedule'>Standardizing New and Improving Old Data Formats in Astronomy</a></b>
 
 <b>Jessica Mink</b>
 
