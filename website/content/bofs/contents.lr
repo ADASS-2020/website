@@ -1,0 +1,170 @@
+
+ _model: page
+---
+title: BOFs 
+---
+description: BOFs 
+---
+_template: page-md.html
+---
+body:   
+<b><a href='https://schedule.adass2020.es/adass2020/talk/DUE8F7' target='_blank'>Best licensing practices</a></b>
+
+<b>Yan Grange</b>
+
+In 2016 the FAIR principles, aimed at improving the Findability, Accessibility, Interoperability, and Reuse of digital assets were postulated. Since then the scientific community has been working on interpreting those standards and applying them to their data. 
+
+Among these digital assets, software plays a special role, as software as a tool for data exploitation is diversely used and dynamically developed. Therefore, principles that apply to data can not literally be copied to software, especially in relation to licensing and citation.
+
+During ADASS XXIX it became clear that several groups worldwide are working on formalising the licensing of software and other digital assets. For this session, we will coordinate a discussion focused on what policies and tools help in making software open and accessible, and thus more suited for community reuse.
+
+<b><a href='https://schedule.adass2020.es/adass2020/talk/B39YMM' target='_blank'>BoF: Interoperability of Users, Developers, and Managers</a></b>
+
+<b>Jan Noordam</b>
+
+Listening to the presentations of a wide-ranging software survey by
+the Radio Camera Initiative (RCI), one message emerges loud and clear:
+"We have the algorithms and the tools (e.g. containers etc), but we
+are still failing to bring these to bear in such a way that users,
+developers and managers are induced to work together effectively".
+
+This BOF continues a venerable ADASS tradition of offering a platform
+to participants for formulating and discussing profound thoughts on
+the Future of Astronomical Dataprocessing Software (FADS). In one way
+or another, over the years, the FADS discussions have always revolved
+around this question. It is perhaps time to put it to rest, if we can.
+
+
+     Developers (15 min)
+
+There are many clever developers all over the world (cheap too), but
+we are not very good at adopting their stuff and integrating it into
+our systems.  There are many valid practical reasons for this, but it
+slows evolution.
+
+     Users (15 min)
+
+The trend is towards processing pipelines that nobody dares to touch
+once they work. This begets ignorant users, and slows evolution. Users
+should be able to experiment, and to interact with developers.
+
+     Software Managers (15 min)
+
+Managers should not concern themselves with content. Their role is to
+quietly create the conditions in which users and developers can evolve
+our systems together.
+
+
+     Tentative Conclusion (15 min)
+
+The easy answer is that Python already offers many of the things we
+need. Users around the globe can easily access a huge variety of high
+quality software by means of a single powerful interface (the Python
+language). They can combine these into custom recipes (pipelines!),
+which they can share with others via email. Very importantly, the
+interface disciplines the many developers, while allowing them to
+concentrate on whatever they are good at. The Python system is managed
+by invisible guardians, and is freely available.
+
+So, is Python sufficient, and can we limit ourselves to writing a few
+Python modules of our own? Or do we have to create possibilities which
+Python does not provide (yet). In that case we should hope that Python
+will eventually adopt the stuff that we develop ourselves.
+
+Keywords: interface, evolution
+
+<b><a href='https://schedule.adass2020.es/adass2020/talk/KYWYND' target='_blank'>Cost Management on Commercial Cloud Platforms</a></b>
+
+<b>G. Bruce Berriman</b>
+
+Commercial cloud platforms are a powerful technology for astronomical research. The Event Horizon Telescope has processed much of its raw data on cloud platforms (Akiyama et al. 2019 - ApJL 875, L1; Kim et al. 2020; A & A, 640, A69 ) The Ice Cube neutrino experiment recently performed a similation experiment with 15,000 GPUs on three cloud platforms. Despite the benefits of cloud computing - such as on-demand scalability, and reduction of systems management overhead - confusion over how to manage costs remains for many one of the biggest barriers to entry, exacerbated by the rapid growth in services offered by commercial providers, and by the growth in the number of these providers. The confuses arises because storage, compute, and I/O are metered at separate rates, all of which can change without notice. As a rule, processing is very cheap, storage is more expensive, and downloading is very expensive. Thus an application that produces large image data sets for download will be far more expensive than an application that performs extensive processing on a small data set.
+
+This BoF aims to quantify the above statement by presenting case studies of the costing of astronomy applications on commercal clouds, covering a range of processing scenarios, including:
+
+- Hosting the Rubin Observatory Interim Data Facility on a cloud platform.
+- Creating an all-sky mosaic of TESS survey images.
+- Summary of a cost management workshop at IPAC.
+- Launching Sci Server on a cloud platform.
+- Managing cloud services at STScI
+
+​ Discussion of these and other cases are intended to answer the address the following questions:
+
+- What are the best practices that I can employ for estimating costs?
+- How do I pick the best platform for my application?
+- How do I take advantage of free or reduced costs services (educators or researchers credits; spot pricing; use an academic cloud...)?
+- What are the best practices for optimizing performance and reducing my costs?
+- What are the fiscal "black holes" that I can fall into?
+- Where can I find all this information?
+
+Organizers: Bruce Berriman (Caltech/IPAC-NExScI); Gerard Lemson (JHU); William O'Mullane (Rubin Observatory); Ivelina Momcheva (STScI); Andreas Wicenic (ICRAR).
+
+<b><a href='https://schedule.adass2020.es/adass2020/talk/QVVWXR' target='_blank'>How to better describe software for discovery and citation</a></b>
+
+<b>Peter Teuben</b>
+
+In this BoF we propose to discuss a variety of items to improve how
+software is described and can be discovered. We will invite and
+actively search for contributions to this discussion. Some examples of
+what we could cover:
+
+1. The codemeta.json file, under control of software
+authors. Including a working session to write your own (or base it on
+the ASCL starter file). This file (or itâs cousin
+CITATION.cff) will also improve software citation, and we will explain
+how.
+
+2. Possible options to expand the codemeta file, e.g. keywords
+describing the API and its one-liners.
+
+3. Improvements to the Unified Astronomy Thesaurus (UAT) such that
+software is better covered.
+
+4. Define a well defined field in astrophysics and take an inventory
+of the software used to categorize them. A conference would be an
+ideal event to get all the stakeholders together (we have a candidate
+for this).
+
+We encourage contributions to this BoF.
+
+<b><a href='https://schedule.adass2020.es/adass2020/talk/DDNRT3' target='_blank'>It worked on my laptop! - how to approach reproducibility in astronomy?</a></b>
+
+<b>Mateusz Malenta</b>
+
+With large observatories that provide data to thousands of astronomers around the world already online or in the design phase and under construction, it is now more important than ever to approach the problem of reproducibility in astronomy. The last few years have seen a wide adoption of solutions that aim to address some of the reproducibility concerns, such as containers and Jupyter Notebooks. They help to provide a consistent processing environment by, for example, locking users to a single version of Python. This can, however, provide a false sense of security as on the lowest level, these solutions do not take any possible hardware differences into account. On the higher level, the lack of clear software and data format documentation can lead to easily-avoided mistakes. This is especially important in the new era of multi-wavelength astronomy where teams from different backgrounds, using different tools and file formats, come together to solve the same problem.  
+
+Considering all of the above, what do we expect from reproducibility? What are we willing to sacrifice to achieve it (and do we have to sacrifice anything at all?)? Can we as a wider community come together and develop a clear set of guidelines and standards that will ensure the maximum possible reproducibility? If 100% reproducibility is not possible, how can we ensure that all the relevant parties are aware of the possible shortcomings and can include them in their analysis?
+
+<b><a href='https://schedule.adass2020.es/adass2020/talk/P3FK9U' target='_blank'>Practical Provenance in Astronomy</a></b>
+
+<b>Mathieu Servillat</b>
+
+Recently the IVOA released a standard to structure provenance metadata and several implementations are in development in order to capture, store, access and visualize the provenance of astronomy data products. This BoF will be focused on practical needs for provenance in astronomy. A growing number of projects express the requirement to propose FAIR data (Findable, Accessible, Interoperable and Reusable) and thus manage provenance information to ensure the quality, reliability and trustworthiness of this data. The concepts are in place, but now, applied specifications and practical tools are needed to answer concrete use cases. We propose to discuss which strategies are considered by your projects (observatories or data providers) to capture provenance in your context and how you consider a end-user might query the provenance information to enhance her/his data selection and retrieval. The objective is to identify the development of tools and formats now needed to make provenance more practical.
+
+<b><a href='https://schedule.adass2020.es/adass2020/talk/LWKWMC' target='_blank'>Radio data archives round table</a></b>
+
+<b>Katharina Lutz</b>
+
+With SKA precursor and pathfinder operations in full swing, radio and (sub-)mm astronomy is entering the era of super big data. The big questions is how to make (sub-)mm and radio data available to the astronomical community, preferably using FAIR (findable, accessible, interoperable and re-useable) principles. There are already a lot of efforts going on around the globe: facilities such as ALMA, LOFAR, MWA, NRAO and ASKAP are already publishing much of their data in the form of "science ready" image products, SKA regional centres are being formed and a radio astronomy interest group has been initiated within the IVOA. We want to use this BoF to bring everyone interested in this topic around one informal, friendly, virtual table to hear about and discuss the following questions: Where are different groups in their efforts to expose both visibility and science ready data? What is already there, maybe has been used for decades by traditional observatories? Which pieces of information or technology are still missing? Where do we want to go, what needs to happen next?
+We will start the BoF with short presentations from active players around the world and then look forward to a discussion with all attendees.
+
+<b><a href='https://schedule.adass2020.es/adass2020/talk/DHNJ9D' target='_blank'>Standardisation of Data Formats in Gamma-ray astronomy</a></b>
+
+<b>Cosimo Nigro</b>
+
+The operation of the next-generation of gamma-ray telescopes as observatories poses gamma-ray astronomers the issue of opening their data and software to a wider community.    
+A first attempt at defining a common scheme for high-level gamma-ray astronomical data has been initiated by members of different Imaging Atmospheric Cherenkov Telescopes (IACT)  experiments with the "Data formats for gamma-ray astronomy" forum (https://gamma-astro-data-formats.readthedocs.io/en/latest/).    
+The forum, consisting of a series of documentation pages hosted on git, defines specifications to reduce high-level gamma-ray data to lists of candidate photons and instrument response function, stored in FITS files.    
+Open-source softwares for gamma-ray analyses have recently developed to support this format and, as a result, a series of publications relying on standardised datasets and software have been recently issued, among them:
+- The first public release of H.E.S.S. data (https://arxiv.org/abs/1810.04516);
+- the first reproducible multi-instrument analysis of the Crab Nebula (https://arxiv.org/abs/1903.06621);
+- an analysis of the H.E.S.S. data with the open-source software ctools (https://arxiv.org/abs/1910.09456);
+- a validation of open-source gamma-ray analysis software employing the same dataset (https://arxiv.org/abs/1910.08088).     
+
+This talk will provide a discussion on the standardisation effort and an overview of the projects that have already employed it.
+
+<b><a href='https://schedule.adass2020.es/adass2020/talk/B83JBH' target='_blank'>Standardizing New and Improving Old Data Formats in Astronomy</a></b>
+
+<b>Jessica Mink</b>
+
+While FITS is still our most common standard data format, incremental improvements could better carry it into the future as part of an ecosystem including other formats, both coequal and structural. What are those formats, and where are they in the standardization process? We'll have our annual status reports and maybe some new ideas.
+

@@ -1,0 +1,95 @@
+
+ _model: page
+---
+title: Demos 
+---
+description: Demos 
+---
+_template: page-md.html
+---
+body:   
+<b><a href='https://schedule.adass2020.es/adass2020/talk/H79LWX' target='_blank'>Arcsecond.io: an hybrid commercial/citizen-science project for astronomical observations</a></b>
+
+<b>Cédric Foellmi</b>
+
+Arcsecond.io is an online SaaS platform aiming at offering cloud services for astronomers, collaborations and observatories. A significant part of it is public and free, with some pro tools that have been collected on the web and rewritten using modern techniques. It is backed by a rich backend of REST APIs, which offers a large number of free and public endpoints too.
+
+However, Arcsecond.io is also a commercial venture, proposing cloud services dedicated to astronomical observations. In particular, small observatories can benefit from very competitive data storage dedicated to astronomical data, as well as sophisticated management tools to handle Night Logs, Datasets, Data Packages etc.
+
+This focus demo will attempt to show parts of Arcsecond.io: Pro Tools, iObserve on the web with Startrack satellite checks, as well as Data Storage, Collaborations and Observatory Portals.
+
+<b><a href='https://schedule.adass2020.es/adass2020/talk/FUEHAY' target='_blank'>Checkpoint, Restore, and Live Migration for Science Platforms</a></b>
+
+<b>Mario Juric</b>
+
+We demonstrate and discuss a functional prototype of (per-user) checkpoint, restore, and live migration capabilities for JupyterHub platforms. Checkpointing -- the ability to freeze and suspend to disk the running state (contents of memory, registers, open files, etc.) of a set of processes -- enables the system to snapshot a user's Jupyter session to permanent storage. The restore functionality brings a checkpointed session back to a running state, to continue where it left off at a later time and potentially on a different machine. Finally, live migration enables moving running Jupyter notebook servers between different machines, transparent to the analysis code and w/o disconnecting the user. Our implementation of these capabilities works at the system level, with few limitations, and typical checkpoint/restore times of O(10s) with a pathway to O(1s) live migrations. It opens a myriad of interesting use cases, especially for cloud-based deployments: from checkpointing idle sessions w/o interruption of the user's work (achieving cost reductions of 4x or more), execution on spot instances w. transparent migration on eviction (with cost reductions up to 3x), to automated migration of workloads to ideally suited instances (e.g. moving an analysis to a machine with more or less RAM or cores based on observed resource utilization). The capabilities we demonstrate can make science platforms fully elastic and scalable while retaining excellent user experience.
+
+<b><a href='https://schedule.adass2020.es/adass2020/talk/MCHRKR' target='_blank'>Introducing the Trillian Framework and Science Data Descriptors</a></b>
+
+<b>Demitri Muna</b>
+
+This demo is a hands on introduction to the newly released Trillian framework. The Python package and supporting API will allow astronomers to retrieve data by simply describing it. For example, consider the statement "all Galex images within two square degrees of ra=12°34’42”, dec=47°22’52” ”. This description completely and unambiguously defines a known set of data. The Trillian framework will allow one to directly work with data from nothing more than such a description, regardless of where the data is, what interface is required to retrieve it, what files are needed, and what format it is in. The demonstration that can be followed along with will show how multiple data sets can be accessed and how to contribute to the project to add more, plus how this framework is designed to scale from a laptop to a full cloud computing solution. A detailed description of scientific data descriptors will be also presented, a new scheme for addressing data that is one of the components of Trillian but is useful independently outside of the framework. Finally, a brief demonstration will be given of Cornish, a new Python interface around the Starlink AST library that is used to work with regions on a sphere.
+
+<b><a href='https://schedule.adass2020.es/adass2020/talk/YJE9SU' target='_blank'>Pangeo Data Analysis Platform at CNES and Astronomical Use Cases</a></b>
+
+<b>Guillaume Eynard Bontemps</b>
+
+Pangeo is first a scientific community, but also a Python software ecosystem and a platform that can be deployed on many infrastructures. Its goal is to provide means ways to make scientific research and programming easier on big datasets coming from simulations ran on HPC clusters (climatic model) or from sensors like observation satellites.
+
+In this demo or talk, we will see how a scientist or an engineer will be able to analyze and process huge data volumes interactively, in a few lines of code, using the software components that are at the heart of Pangeo: Jupyter, Dask and Xarray.
+
+These main pieces of software will be presented:
+- Jupyter is the main graphical interface, it advantageously replaces a terminal.
+- Dask allows scaling computations and data analysis through many nodes or virtual machines.
+- Xarray gives a high level representation of multi-dimensional scientific data.  
+
+We will also describe the main possibilities for deploying a Pangeo platform: your personal laptop, a public cloud provider or an HPC cluster.
+
+Finally, we will demonstrate Pangeo stack usage through some concrete use cases:
+- Statistic computations and visualisation of Gaia data catalog.
+- A multi-temporal analysis on Sentinel 2 satellite tiles, in order to watch the evolution of the NDVI (Normalized Difference Vegetation Index) on its pixels.
+
+<b><a href='https://schedule.adass2020.es/adass2020/talk/CCABCE' target='_blank'>Parallel Radio Astronomy Application Development with Dask and Numba</a></b>
+
+<b>Simon Perkins</b>
+
+Dask is a lightweight Python parallelisation and distribution framework that seamlessly integrates with the PyData ecosystem to provide a rich framework for developing Parallel and Distributed Radio Astronomy Applications.
+
+In this demo, we will demonstrate how to create a multi-core radio astronomy application using a combination of Dask and Numba. 
+
+Time permitting, we aim to cover the following topics:
+
+Dask
+
+* General compute graph concepts.
+* The Dask Array abstraction and its relation to NumPy arrays
+* Dask Array chunk size effects on application memory and performance.
+
+dask-ms 
+
+* Exposing CASA Tables as xarray Datasets and Table Columns as Dask Arrays
+* Choosing appropriate chunking strategies
+* Updating and writing CASA Tables from Dask Arrays
+
+Numba
+
+* JIT-compiling Python code to speeds similar to the equivalent C/Fortran code.
+* The relation between performance, input size and dropping the Python Global Interpreter Lock.
+* Wrapping accelerated Numba code in Dask for multi-core performance.
+
+Dask Distributed
+
+* Scaling a Dask application up to a High Performance Computing cluster.
+* Management of the cluster with dask_jobqueue.
+* Annotation and manual scheduling of specific tasks for optimal placement and performance.
+
+<b><a href='https://schedule.adass2020.es/adass2020/talk/MMYRNB' target='_blank'>Radiopadre: remote, interactive, zero-admin visualization of data pipeline products</a></b>
+
+<b>Oleg Smirnov</b>
+
+Modern [not only radio] astronomers are coming to terms with being separated from their data and pipelines. Sheer data size alone dictates that data reductions are hardly ever “local” in any sense, but rather have to run on a big node or cluster somewhere remote, with SSH gateways and network latency in between. The new work patterns of the covid-19 pandemic only exacerbate this separation. At the same time, the complexity of new telescopes and pipelines results in a far greater volume and variety of intermediate diagnostics and final data products. The following scenario is becoming familiar: my pipeline run has finished (or crashed), it’s produced 300 log files, 200 intermediate plots, 50 FITS images, and a dozen HTML reports -- on a remote cluster node, which doesn’t even have a basic image viewer installed (and which network lag would have made difficult to use in any case). How do I make sense of all this, without transferring gigabytes of products to my laptop or local workstation first?
+
+Radiopadre (Python Astronomy Data Reductions Examiner, https://github.com/ratt-ru/radiopadre) provides (at least part of) the answer. It is a combination of a client-side script, Docker or Singularity images, a Jupyter Notebook framework, and integrated browser-based FITS viewers (CARTA and JS9) which allows for quick visualization of remote data products. Radiopadre is virtually zero-admin, in the sense that it requires nothing more than a web browser on the client side, an SSH connection, and Docker or Singularity support on the remote end. It allows for both interactive (exploratory) visualization via a Jupyter Notebook, as well as the development of rich, extensive report-style notebooks tuned to the outputs of a particular pipeline.
+
+The demo will showcase the interactive visualization capabilities of Radiopadre, using the output of various MeerKAT imaging pipelines as a working example.
+

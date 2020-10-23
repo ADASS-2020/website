@@ -1,0 +1,49 @@
+
+ _model: page
+---
+title: Invited talks 
+---
+description: Invited talks 
+---
+_template: page-md.html
+---
+body:   
+
+**SCIENCE PLATFORMS AND DATA LAKES**
+
+- <a href='https://schedule.adass2020.es/adass2020/talk/UB8AAK' target='_blank'>Enabling next-generation science investigations with the NASA Astrophysics Archives</a>, Vandana Desai
+
+**CLOUD COMPUTING AT DIFFERENT SCALES**
+
+- <a href='https://schedule.adass2020.es/adass2020/talk/VXVTKF' target='_blank'>All the shades of the Cloud</a>, Giuliano Taffoni
+
+**CROSS-DISCIPLINE PROJECTS**
+
+- <a href='https://schedule.adass2020.es/adass2020/talk/9CBVK8' target='_blank'>PySAP: From Galaxies to Brains and Beyond</a>, Samuel Farrens
+
+**MACHINE LEARNING, STATISTICS, AND ALGORITHMS**
+
+- <a href='https://schedule.adass2020.es/adass2020/talk/QFK89Z' target='_blank'>From Photometric Redshifts to Improved Weather Forecasts: an interdisciplinary view on machine learning in astronomy</a>, Kai Polsterer
+
+**TIME-DOMAIN ECOSYSTEM**
+
+- <a href='https://schedule.adass2020.es/adass2020/talk/HD8WPL' target='_blank'>Developing a Data Carpentry Curriculum for the Astronomical Community</a>, K. Azalee Bostroem
+- <a href='https://schedule.adass2020.es/adass2020/talk/KC7SDK' target='_blank'>Machine Learning for the Zwicky Transient Facility</a>, Dmitry Duev
+- <a href='https://schedule.adass2020.es/adass2020/talk/JWYBYG' target='_blank'>What did we get right? Lessons learned from the first 300 million alerts of ZTF</a>, Matthew J Graham
+
+**CITIZEN SCIENCE PROJECTS IN ASTRONOMY**
+
+- <a href='https://schedule.adass2020.es/adass2020/talk/NWNWS3' target='_blank'>Galaxy Zoo & The Zooniverse - citizen science as a powerful tool in the age of big data</a>, Becky Smethurst
+
+**DATA PROCESSING PIPELINES AND SCIENCE-READY DATA**
+
+- <a href='https://schedule.adass2020.es/adass2020/talk/LXNDWE' target='_blank'>NOEMA: How 1Million lines of code make the optically dark universe visible</a>, Melanie Krips
+- <a href='https://schedule.adass2020.es/adass2020/talk/K8VGLC' target='_blank'>The Pan-STARRS IPP : Lessons Learned and Looking Forward</a>, Eugene Magnier
+
+**DATA INTEROPERABILITY**
+
+- <a href='https://schedule.adass2020.es/adass2020/talk/GMKZGD' target='_blank'>Data Interoperability - the CDS experience</a>, Fernique Pierre
+
+**OPEN SOURCE SOFTWARE AND COMMUNITY DEVELOPMENT IN ASTRONOMY**
+
+- <a href='https://schedule.adass2020.es/adass2020/talk/Y9LCMW' target='_blank'>Astropy</a>, Kelle Cruz

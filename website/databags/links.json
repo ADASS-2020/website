@@ -8,23 +8,42 @@
           "path": "/themes"
         },
         {
-          "name": "Invited speakers",
-          "path": "/news//invited-speakers"
-        },
-        {
-          "name": "Schedule (New)",
+          "name": "Schedule",
           "path": "https://schedule.adass2020.es/adass2020/schedule/",
           "target": "_schedule"
         },
         {
-          "name": "Talks (New)",
-          "path": "https://schedule.adass2020.es/adass2020/talk/",
+          "name": "Invited talks",
+          "path": "/invited-talks"
+        },
+        {
+          "name": "Talks",
+          "path": "/talks"
+        },
+        {
+          "name": "Tutorials",
+          "path": "/tutorials"
+        },
+        {
+          "name": "Demos",
+          "path": "/demos"
+        },
+        {
+          "name": "BOFs",
+          "path": "/bofs"
+        },
+        {
+          "name": "Posters",
+          "path": "/posters"
+        },
+        {
+          "name": "Speakers",
+          "path": "https://schedule.adass2020.es/adass2020/speaker/",
           "target": "_schedule"
         },
         {
-          "name": "Speakers (New)",
-          "path": "https://schedule.adass2020.es/adass2020/speaker/",
-          "target": "_schedule"
+          "name": "Invited speakers",
+          "path": "/news/invited-speakers"
         },
         {
           "name": "Schedule (iCal Integration)",
@@ -48,20 +67,16 @@
       "name": "Info",
       "submenu": [
         {
-          "name": "Registration",
-          "path": "/registration"
-        },
-        {
           "name": "Financial aid programme",
           "path": "/financial-aid"
         },
         {
-          "name": "Conference posters",
-          "path": "/conference-posters"
-        },
-        {
           "name": "Instructions for authors",
           "path": "/instructions-for-authors"
+        },
+        {
+          "name": "Conference posters",
+          "path": "/conference-posters"
         },
         {
           "name": "Contribution IDs",
@@ -72,7 +87,7 @@
           "path": "/proceedings"
         },
         {
-          "name": "User guide",
+          "name": "Users guide",
           "path": "/user-guide"
         },
         {
