@@ -86,6 +86,11 @@
           "path": "/user-guide"
         },
         {
+          "name": "CfP Platform",
+          "path": "https://pretalx.adass2020.es/adass2020/cfp",
+          "target": "_schedule"
+        },
+        {
           "name": "Participants",
           "path": "/participants"
         },

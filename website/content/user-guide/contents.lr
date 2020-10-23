@@ -114,3 +114,11 @@ The links will appear in a popup dialog. Again, please do not redistribute them:
 
 As you will see, there are other channels, both text and audio/video. Feel free
 to explore and stop by `#social` for some fun and networking. See you soon!
+
+--
+
+*Technical note for Ubuntu Linux*
+
+Some issues have been addressed from the Linux community related to Discord filling the syslog.
+You may find more information and how to fix it
+in this [forum](https://askubuntu.com/questions/1244368/syslog-filling-with-this-error-message-discord)

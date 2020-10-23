@@ -15,6 +15,7 @@ body:
 - <a href='https://schedule.adass2020.es/adass2020/talk/UUWKC7' target='_blank'>ASTRI Virtual Test Bed: from Prototype to Mini-Array</a>, Fulvio Gianotti
 - <a href='https://schedule.adass2020.es/adass2020/talk/GDGKDK' target='_blank'>CV Portal: A collaborative cataclysmic variables web-based portal</a>, Rafael Duarte Coelho dos Santos
 - <a href='https://schedule.adass2020.es/adass2020/talk/FU7WZU' target='_blank'>Development, deployment, and testing of Jupyter notebooks at Astro Data Lab</a>, Robert Nikutta
+- <a href='https://schedule.adass2020.es/adass2020/talk/L33E3D' target='_blank'>Discovering data with the ESCAPE Science Analysis Platform</a>, Hugh Dickinson
 
 **CLOUD COMPUTING AT DIFFERENT SCALES**
 
@@ -57,9 +58,11 @@ body:
 - <a href='https://schedule.adass2020.es/adass2020/talk/UPL9PQ' target='_blank'>Classification of Astrophysics Journal Articles with Machine Learning</a>, Tracy Chen
 - <a href='https://schedule.adass2020.es/adass2020/talk/BYQWYH' target='_blank'>Exploring Coronal Heating Using Unsupervised Machine-Learning</a>, Shabbir Nuruddin Bawaji
 - <a href='https://schedule.adass2020.es/adass2020/talk/NVWFB7' target='_blank'>Fitting of optical galaxy spectra based on machine learning</a>, Kazumi Murata
+- <a href='https://schedule.adass2020.es/adass2020/talk/UCGPDP' target='_blank'>Machine Learning using the Nvidia Jetson Nano</a>, Brian Kent
 - <a href='https://schedule.adass2020.es/adass2020/talk/BQETW3' target='_blank'>Neural network for stellar spectrum normalization</a>, Tomasz Różański
 - <a href='https://schedule.adass2020.es/adass2020/talk/LRJN7V' target='_blank'>Predicting Star Formation Rates Using SDSS Data</a>, Aidan Berres
 - <a href='https://schedule.adass2020.es/adass2020/talk/KDBE7R' target='_blank'>Probabilistic photo-z machine learning models for X-ray sky surveys</a>, Viktor Borisov
+- <a href='https://schedule.adass2020.es/adass2020/talk/PQFA9X' target='_blank'>Reconstruction of IACT events using deep learning techniques with CTLearn</a>, Daniel Nieto Castaño
 - <a href='https://schedule.adass2020.es/adass2020/talk/ZU7TYD' target='_blank'>Single Imaging Atmospheric Cherenkov Telescope full-event reconstruction with a deep multi-task learning architecture</a>, Mikaël Jacquemont
 - <a href='https://schedule.adass2020.es/adass2020/talk/TGMFDT' target='_blank'>SRGz: machine learning engine for cross-match, classification and photo-z measurements in the SRG/eROSITA sky survey</a>, Alex Meshcheryakov
 - <a href='https://schedule.adass2020.es/adass2020/talk/AQR399' target='_blank'>Stellar Formation in NGC 2366: Searching for clusters and associations using unsupervised algorithms</a>, Carlos Feinstein
