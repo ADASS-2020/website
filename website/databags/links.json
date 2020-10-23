@@ -38,8 +38,7 @@
         },
         {
           "name": "Speakers",
-          "path": "https://schedule.adass2020.es/adass2020/speaker/",
-          "target": "_schedule"
+          "path": "/speakers"
         },
         {
           "name": "Invited speakers",

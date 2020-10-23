@@ -1,0 +1,81 @@
+
+ _model: page
+---
+title: Speakers 
+---
+description: Speakers 
+---
+_template: page-md.html
+---
+body:   
+- <a href='https://schedule.adass2020.es/adass2020/speaker//XRQVPQ' target='_blank'>Alice Allen</a> - Astrophysics Source Code Library
+- <a href='https://schedule.adass2020.es/adass2020/speaker//N3CBCH' target='_blank'>Kim Arcand</a> - CfA
+- <a href='https://schedule.adass2020.es/adass2020/speaker//SBV78M' target='_blank'>Matteo Bachetti</a> - INAF-Osservatorio Astronomico di Cagliari
+- <a href='https://schedule.adass2020.es/adass2020/speaker//TWCXGU' target='_blank'>Matthieu Baumann</a> - CDS / Observatoire de Strasbourg
+- <a href='https://schedule.adass2020.es/adass2020/speaker//KKFCFS' target='_blank'>Jeronimo Bernard Salas</a> - ACRI-ST
+- <a href='https://schedule.adass2020.es/adass2020/speaker//FVMB7F' target='_blank'>Bruce Berriman</a> - 
+- <a href='https://schedule.adass2020.es/adass2020/speaker//SQK7ZV' target='_blank'>Sergi Blanco-Cuaresma</a> - Harvard-Smithsonian Center for Astrophysics
+- <a href='https://schedule.adass2020.es/adass2020/speaker//9SFRHM' target='_blank'>François Bonnarel</a> - CDS, Observatoire astronomique de Strasbourg
+- <a href='https://schedule.adass2020.es/adass2020/speaker//Y7X8S8' target='_blank'>Cristobal Bordiu</a> - INAF Osservatorio Astrofisico di Catania
+- <a href='https://schedule.adass2020.es/adass2020/speaker//AEKFJM' target='_blank'>Azalee Bostroem</a> - UC Davis
+- <a href='https://schedule.adass2020.es/adass2020/speaker//ZG8WEH' target='_blank'>Clara Brasseur</a> - AURA - Space Telescope Science Institute
+- <a href='https://schedule.adass2020.es/adass2020/speaker//JEXG98' target='_blank'>Claudia Comito</a> - Jülich Supercomputing Center
+- <a href='https://schedule.adass2020.es/adass2020/speaker//SJWEH9' target='_blank'>Nick Cox</a> - ACRI-ST
+- <a href='https://schedule.adass2020.es/adass2020/speaker//UWHZES' target='_blank'>Kelle Cruz</a> - Astropy
+- <a href='https://schedule.adass2020.es/adass2020/speaker//E888ME' target='_blank'>James Dempsey</a> - CSIRO Australia
+- <a href='https://schedule.adass2020.es/adass2020/speaker//EQXTUL' target='_blank'>Vandana Desai</a> - IPAC
+- <a href='https://schedule.adass2020.es/adass2020/speaker//398MNX' target='_blank'>Dmitry Duev</a> - Caltech
+- <a href='https://schedule.adass2020.es/adass2020/speaker//89Z8CE' target='_blank'>Samuel Farrens</a> - CEA/COSMOS
+- <a href='https://schedule.adass2020.es/adass2020/speaker//U9AYAG' target='_blank'>Pierre Fernique</a> - Centre de Données astronomiques de Strasbourg
+- <a href='https://schedule.adass2020.es/adass2020/speaker//KYE8EH' target='_blank'>Henrike Fleischhack</a> - CUA/NASA GSFC/CRESST II
+- <a href='https://schedule.adass2020.es/adass2020/speaker//U9N9FY' target='_blank'>Cédric Foellmi</a> - F52 Technologies
+- <a href='https://schedule.adass2020.es/adass2020/speaker//S3BB9B' target='_blank'>Matthias Fuessling</a> - CTA Observatory gGmbH
+- <a href='https://schedule.adass2020.es/adass2020/speaker//T9QV79' target='_blank'>Matthew Graham</a> - Caltech
+- <a href='https://schedule.adass2020.es/adass2020/speaker//SMCNFK' target='_blank'>Yan Grange</a> - SDC software developer
+- <a href='https://schedule.adass2020.es/adass2020/speaker//G89QUG' target='_blank'>Giuseppe Greco</a> - INFN-Perugia
+- <a href='https://schedule.adass2020.es/adass2020/speaker//S9HZMP' target='_blank'>Perry Greenfield</a> - Space Telescope Science Institute (STScI)
+- <a href='https://schedule.adass2020.es/adass2020/speaker//ZFGVAQ' target='_blank'>Lloyd Harischandra</a> - AAO-MQ
+- <a href='https://schedule.adass2020.es/adass2020/speaker//J9GJVD' target='_blank'>Tarek Hassan</a> - CIEMAT
+- <a href='https://schedule.adass2020.es/adass2020/speaker//MQGMED' target='_blank'>Brian Hayden</a> - STScI - Space Telescope Science Institute
+- <a href='https://schedule.adass2020.es/adass2020/speaker//FADKVZ' target='_blank'>Hendrik Heinl</a> - CDS, Observatoire astronomique de Strasbourg
+- <a href='https://schedule.adass2020.es/adass2020/speaker//M8NH8G' target='_blank'>Aitor Ibarra Ibairriaga</a> - XMM-Newton Science Operation Centre
+- <a href='https://schedule.adass2020.es/adass2020/speaker//AX78ZL' target='_blank'>Colin Jacobs</a> - Swinburne University of Technology
+- <a href='https://schedule.adass2020.es/adass2020/speaker//ESY8RW' target='_blank'>Mario Juric</a> - DiRAC Institute, University of Washington
+- <a href='https://schedule.adass2020.es/adass2020/speaker//VTNMHK' target='_blank'>Mark Kettenis</a> - 
+- <a href='https://schedule.adass2020.es/adass2020/speaker//PEMRKK' target='_blank'>Fenja Kollasch</a> - HITS
+- <a href='https://schedule.adass2020.es/adass2020/speaker//GPMMFX' target='_blank'>Melanie Krips</a> - IRAM
+- <a href='https://schedule.adass2020.es/adass2020/speaker//FD3JNC' target='_blank'>Sandor Kruk</a> - European Space Agency
+- <a href='https://schedule.adass2020.es/adass2020/speaker//SZ3CN7' target='_blank'>Martin Kuemmel</a> - LMU Faculty of Physics
+- <a href='https://schedule.adass2020.es/adass2020/speaker//UPLTCN' target='_blank'>Mark Lacy</a> - NRAO
+- <a href='https://schedule.adass2020.es/adass2020/speaker//PZS8TS' target='_blank'>Marcos Lopez-Caniego</a> - ESA/ESAC
+- <a href='https://schedule.adass2020.es/adass2020/speaker//JVWMYK' target='_blank'>Mireille Louys</a> - CDS, Observatoire astronomique de Strasbourg
+- <a href='https://schedule.adass2020.es/adass2020/speaker//GBZLAZ' target='_blank'>Katharina Lutz</a> - CDS / Observatoire de Strasbourg
+- <a href='https://schedule.adass2020.es/adass2020/speaker//ER3KD3' target='_blank'>Eugene Magnier</a> - Pan-STARRS
+- <a href='https://schedule.adass2020.es/adass2020/speaker//8Q7FCZ' target='_blank'>Mateusz Malenta</a> - The University of Manchester
+- <a href='https://schedule.adass2020.es/adass2020/speaker//FXZCZR' target='_blank'>Lucia Marchetti</a> - University of Cape Town
+- <a href='https://schedule.adass2020.es/adass2020/speaker//88FSYC' target='_blank'>Jessica Mink</a> - Smithsonian Astrophysical Observatory
+- <a href='https://schedule.adass2020.es/adass2020/speaker//P7XCA3' target='_blank'>Demitri Muna</a> - University of Texas, San Antonio
+- <a href='https://schedule.adass2020.es/adass2020/speaker//CQSDEK' target='_blank'>Vicente Navarro</a> - 
+- <a href='https://schedule.adass2020.es/adass2020/speaker//VS9BKA' target='_blank'>Cosimo Nigro</a> - Institut de Fisica d'Altes Energies (IFAE)
+- <a href='https://schedule.adass2020.es/adass2020/speaker//BLHRSH' target='_blank'>Sergio Pascual</a> - Universidad Complutense de Madrid
+- <a href='https://schedule.adass2020.es/adass2020/speaker//WS3WPX' target='_blank'>Josh Peek</a> - Space Telescope Science Institute
+- <a href='https://schedule.adass2020.es/adass2020/speaker//HKBY9M' target='_blank'>William Pence</a> - NASA
+- <a href='https://schedule.adass2020.es/adass2020/speaker//RCTNZE' target='_blank'>Simon Perkins</a> - South African Radio Astronomy Observatory
+- <a href='https://schedule.adass2020.es/adass2020/speaker//UJ9BZW' target='_blank'>Francesco Pierfederici</a> - IRAM
+- <a href='https://schedule.adass2020.es/adass2020/speaker//BJN3KR' target='_blank'>Kai Polsterer</a> - HITS
+- <a href='https://schedule.adass2020.es/adass2020/speaker//8HTEXD' target='_blank'>Umaa Rebbapragada</a> - Jet Propulsion Laboratory
+- <a href='https://schedule.adass2020.es/adass2020/speaker//QF9YYS' target='_blank'>Stefano Alberto Russo</a> - INAF
+- <a href='https://schedule.adass2020.es/adass2020/speaker//FFDR7M' target='_blank'>Michele Sanguillon</a> - LUPM - CNRS
+- <a href='https://schedule.adass2020.es/adass2020/speaker//PBKFZG' target='_blank'>Jutta Schnabel</a> - Erlangen Centre for Astroparticle Physics (ECAP)
+- <a href='https://schedule.adass2020.es/adass2020/speaker//EKVBEW' target='_blank'>Mathieu Servillat</a> - LUTH - Observatoire de Paris
+- <a href='https://schedule.adass2020.es/adass2020/speaker//GBAJLE' target='_blank'>Brigitta Sipocz</a> - DiRAC Institute, University of Washington
+- <a href='https://schedule.adass2020.es/adass2020/speaker//HGY7PC' target='_blank'>Rebecca Smethurst</a> - Christ Church, Oxford University
+- <a href='https://schedule.adass2020.es/adass2020/speaker//JRWXQK' target='_blank'>Oleg Smirnov</a> - Rhodes University & SARAO
+- <a href='https://schedule.adass2020.es/adass2020/speaker//7DPDHB' target='_blank'>Giuliano Taffoni</a> - INAF
+- <a href='https://schedule.adass2020.es/adass2020/speaker//TKVGVU' target='_blank'>Mark Taylor</a> - University of Bristol
+- <a href='https://schedule.adass2020.es/adass2020/speaker//Q8LQM7' target='_blank'>Peter Teuben</a> - University of Maryland
+- <a href='https://schedule.adass2020.es/adass2020/speaker//ZHF9YD' target='_blank'>Gijs Verdoes Kleijn</a> - OmegaCEN - Kapteyn Astronomical Institute, University of Groningen
+- <a href='https://schedule.adass2020.es/adass2020/speaker//VELQDP' target='_blank'>Kiri Wagstaff</a> - 
+- <a href='https://schedule.adass2020.es/adass2020/speaker//RWALQE' target='_blank'>Katarzyna Wardega</a> - University of Warsaw, University of Texas Rio Grande Valley
+- <a href='https://schedule.adass2020.es/adass2020/speaker//GRZAFG' target='_blank'>Peter Williams</a> - Center for Astrophysics | Harvard & Smithsonian and American Astronomical Society
+- <a href='https://schedule.adass2020.es/adass2020/speaker//KFX8G9' target='_blank'>Pilar de Teodoro</a> - Aurora/ESAC
