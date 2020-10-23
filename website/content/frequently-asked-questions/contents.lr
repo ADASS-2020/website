@@ -33,13 +33,23 @@ been able to afford the attendance costs otherwise.
 
 #### A virtual conference? How does that work?
 
-We are still figuring it out. The basic idea is to have the usual tutorials,
-BoFs, posters and presentations as every other year. How will posters be
-presented? How many of them? How many talks and of which format? These are all
-open questions at this point. We plan on making some decisions in the coming
-weeks. We will update this website accordingly. We will also send out various
-updates and announcements to the community. Stay tuned. Of course, if you have
-ideas and suggestions, please [send them our way](/contact).
+We are trying to stick to a format which is not too dissimilar to an in-person
+conference. This means that ADASS 2020 will have tutorials (on Sunday), talks,
+demos, BoFs and posters line usual.
+
+We have investigated and tested a number of software solutions for the online
+conference and have settled on
+
+ * Zoom Webinar for delivering talks, tutorials etc, and also for watching them
+ * YouTube Streaming for watching (for those who prefer it to Zoom)
+ * Discord for chatting and general interactivity
+
+More information and links to these pieces of software in our
+
+* [User Guide](/user-guide/)
+* [Author Instructions](/instructions-for-authors/)
+* [Volunteer Instructions](/volunteer/)
+
 
 #### Who's behind this conference?
 
@@ -64,14 +74,15 @@ Sign up as a volunteer. See [our volunteer page](/volunteer/) and join our
 
 <h4 id="important-dates">Important dates</h4>
 
-*Preliminary* key dates below. Please check this site for updates.
+Key dates below. Please check this site for updates.
 
 - May 1st, 2020 - first announcement, Registration & Abstract submission open
-- Mid-June, 2020 - submission of letter of intent for tutorials 
+- Mid-June, 2020 - submission of letter of intent for tutorials
 - End of August, 2020 - submission of Complete Tutorial Plan (for selected tutorials only)
 - September 15th, 2020 - deadline for Oral contribution, BOF, Focus demo.
 - September 30th, 2020 - early registration closes
 - October 1st, 2020 - abstract submission deadline for posters
+- October 31st, 2020 - deadline for uploading your videos/poster PDFs
 - November 1st, 2020 - draft papers for proceedings
 - November 8-12, 2020 - ADASS XXX 💃🎉
 - December 6th, 2020 - final papers for proceedings due
@@ -84,26 +95,44 @@ The conference is all in English.
 <h4 id="opening-times">When will the conference open / close?</h4>
 
 As ADASS XXX will be an online conference with attendees spread over the globe,
-we have been trying hard to maximize attendance and reduce the need to stay up
+we have been trying hard to maximise attendance and reduce the need to stay up
 late at night. For this reason, we have chosen, with your help, three 3-hour
 time slots:
 - 06:00 to 09:00 UTC
 - 11:00 to 14:00 UTC
 - 17:00 to 20:00 UTC
 
-We understand that only very few dedicated people will be able to attend all 
+We understand that only very few dedicated people will be able to attend all
 talks and sessions. However we are confident that everybody will be able to at
 lest attend the majority of sessions.
+
+You can use sites like [this](https://www.worldtimebuddy.com) to convert the
+times to your own timezone.
 
 
 #### Is there a conference app?
 
-Maybe: check this site for updates.
+We have investigated and tested a number of software solutions for the online
+conference and have settled on
+
+ * Zoom Webinar for delivering talks, tutorials etc, and also for watching them
+ * YouTube Streaming for watching (for those who prefer it to Zoom)
+ * Discord for chatting and general interactivity
+
+More information and links to these pieces of software in our
+
+* [User Guide](/user-guide/)
+* [Author Instructions](/instructions-for-authors/)
+* [Volunteer Instructions](/volunteer/)
+
 
 #### Will there be a live stream / will talks be recorded?
 
 ADASS XXX will be an online conference and we do plan on recording all talks
 and tutorials. These will be available to registered attendees only.
+
+Live streaming will be on YouTube (and Zoom Webinar). Links will be available
+on Discord to registered participants (see our [User Guide](/user-guide/)).
 
 
 #### Visa - I need a visa to go to Spain. Could you please write me an invitation letter?
@@ -115,44 +144,39 @@ As the meeting will be held online, there is no visa requirement.
 
 #### How will the program look like?
 
-The program will be released sometimes in the fall of 2020. In the mean time,
-feel free to check out 
-[last edition program](https://www.adass2019.nl/conference-info/program/).
+The [ADASS 2020 program](https://schedule.adass2020.es/adass2020/schedule/) is
+live!
 
 #### What about tutorials?
 
-We do offer tutorials on Sunday. As the program is yet to be released, you can
-check out 
-[last edition tutorial schedule](https://www.adass2019.nl/conference-info/program/day1/).
+We do offer tutorials on Sunday. Please check out these pages:
+
+* [Schedule](https://schedule.adass2020.es/adass2020/schedule/)
+* [Tutorial list](https://adass2020.es/tutorials/)
 
 #### Lightning talks
 
 A lightning talk (LT) is a short (three to five minute) presentation of a
 single slide. The aim of ADASS lightning talks is to offer participants the
-chance to highlight their poster contribution. See the [instructions for authors](/instructions-for-authors/)
-for more info on how to upload your contributions and lightning talk.
+chance to highlight their poster contribution. See the [instructions for
+authors](/instructions-for-authors/) for more info on how to upload your
+contributions and lightning talk.
 
 <h3>Social events</h3>
 
 Sadly, no in-person social events this year. We are looking into organising
-some social activities online. Stay tuned.
+some social activities online using Discord or similar apps.
 
 
 <h3 id="cfp">Call for papers</h3>
 
 #### How can I speak at the conference?
 
-The CfP will open sometime in the second half of July.
+The CfP is now closed.
 
 #### Is there a support program for speakers?
 
-We do not have an extra support programme for speakers.  
-
-#### When will I get notified?
-
-We plan of notifying anybody who submitted an abstract of the outcome of the
-selection process sometimes in early October. Non accepted oral contribution
-authors will be given the chance to present a poster instead.
+We do not have an extra support programme for speakers.
 
 
 <h3 id="speaking"> Speaking at the conference</h3>
@@ -163,7 +187,7 @@ Registration, speaker / participant profile handling etc. is done via our
 <a href="https://pretalx.adass2020.es/adass2020/cfp" target="_blank">
 CfP site
 </a>. You will create a profile in there (which you can then delete at any time).
-You can then edit your submission (until the deadline) and change your 
+You can then edit your submission (until the deadline) and change your
 personal details.
 
 #### How can I edit my abstract?
@@ -172,6 +196,8 @@ Please use our
 <a href="https://pretalx.adass2020.es/adass2020/cfp" target="_blank">
 CfP site
 </a>. You can make changes to your abstract until the deadline.
+If you need to make changes after the deadline, please
+[contact the LOC](/contact/).
 
 #### Can I add another speaker to my abstract?
 
@@ -179,6 +205,8 @@ Please use our
 <a href="https://pretalx.adass2020.es/adass2020/cfp" target="_blank">
 CfP site
 </a>. You can make changes to your abstract until the deadline.
+If you need to make changes after the deadline, please
+[contact the LOC](/contact/).
 
 #### I have submitted a talk, but would like to make some edits after the CfP
 
@@ -186,17 +214,19 @@ Please use our
 <a href="https://pretalx.adass2020.es/adass2020/cfp" target="_blank">
 CfP site
 </a>. You can make changes to your abstract until the deadline.
+If you need to make changes after the deadline, please
+[contact the LOC](/contact/).
 
 #### Presenting at the Conference
 
-We do encourage everyone to use gender neutral language at the conference.  
+We do encourage everyone to use gender neutral language at the conference.
 Please make sure to have a good internet connection to be able to share video
-and screen. 
+and screen.
 
-**Important**: if you are unsure of your network bandwidth and would like to send us a
-pre-recorded version of your talk just in case, please do so. Instructions will
-be sent out to all talk presenters. See the [instructions for authors](/instructions-for-authors/)
-for more info on how to upload content related with your contribution.
+**Important**: if you are unsure of your network bandwidth and would like to
+send us a pre-recorded version of your talk just in case, please do so.
+Please see our [instructions for authors](/instructions-for-authors/) for
+details.
 
 #### Are speakers invited to the conference?
 
@@ -215,47 +245,56 @@ self-service, thank you.
 <h4 id="open-space">BoFs</h4>
 
 Birds of a Feather (BoF) sessions are participant-driven conference spaces
-dedicated to topics of interest to specific communities. BoF organisers are
-invited to submit an abstract for their BoF session. 
+dedicated to topics of interest to specific communities. <s>BoF organisers are
+invited to submit an abstract for their BoF session.
 
 Please use our
 <a href="https://pretalx.adass2020.es/adass2020/cfp" target="_blank">
 CfP site
-</a> to submit an abstract for a BoF.
+</a> to submit an abstract for a BoF.</s> The CfP is now closed.
 
 <h3 id="authors">Most frequent questions from authors</h3>
 
 #### Will speakers share their screen?
-Speakers in oral contributions will be asked to share their screen during the exposition.
+Speakers in oral contributions will be asked to share their screen during the
+exposition. Please see our
+[instructions for authors](/instructions-for-authors/).
 
 #### Could speakers upload their slides?
-You may also upload a copy of the slides (in PDF format) as a backup in case of connection
-problems when delivering their presentation live. See the [instructions for authors](/instructions-for-authors/)
+You may also upload a copy of the slides (in PDF format) as a backup in case of
+connection problems when delivering their presentation live.
+See the [instructions for authors](/instructions-for-authors/)
 for more info on how to upload content related with your contribution.
 
 #### Can speakers provide a pre-recorded video?
-If you are unsure of your network bandwidth and you would like to send us a pre-recorded version of your talk
-just in case, please do so in .mp4 format. See the [instructions for authors](/instructions-for-authors/)
+If you are unsure of your network bandwidth and you would like to send us a
+pre-recorded version of your talk just in case, please do so in .mp4 format.
+See the [instructions for authors](/instructions-for-authors/)
 for more info on how to upload content related with your contribution.
 
 #### If sharing screen, is it ok to switch between applications?
-Switching between applications when exposing your oral contribution is permitted, though we do not recommend
-to do it since it may be the cause of potential technical problems during the fixed time you are allowed
-for your presentation. You will not be given extra time because of problems issued from the use of external
-applications.
+Switching between applications when exposing your oral contribution is
+permitted, though we do not recommend to do it since it may be the cause of
+potential technical problems during the fixed time you are allowed for your
+presentation. You will not be given extra time because of problems issued from
+the use of external applications.
 
 #### Is there a recommended aspect ratio for presentations?
 The recommended aspect ratio for presentations is the standard 4:3
 
 #### Are there restrictions on poster format?
-Poster authors are encouraged to upload a version of their posters in PDF, for online viewing, to our FTP site.
-Your posters could be downloaded from this website, so you may choose whatever size, resolution, font type
-and format you think is best to be viewed in a computer screen, **as long as it remains as a single page file**.
-See the [instructions for authors](/instructions-for-authors/) for more info on how to upload content related with your contribution.
+Poster authors are encouraged to upload a version of their posters in PDF, for
+online viewing, to our FTP site.
+Your posters will be downloaded from this website, so you may choose whatever
+size, resolution, font type and format you think is best to be viewed on a
+computer screen, **as long as it remains as a single page file**.
+See the [instructions for authors](/instructions-for-authors/) for more info on
+how to upload content related with your contribution.
 
 #### How will poster discussions work?
-We plan to use a chat text/voice platform where discussions of any type could be engaged. If needed, specific
-chat channels could be created.
+We plan to use Discord, a chat text/voice platform where discussions of any type
+could be organised. If needed, specific chat channels could be created.
+Please see our [User Guide](/user-guide/).
 
 #### What are the deadlines for submission of LaTeX for publication?
  - The deadline to submit the draft version of your paper is November 1, 2020, 23:59 CEST.
@@ -315,17 +354,17 @@ No, we do not offer discounts.
 
 #### When are you going to start selling the tickets?
 
-Ticket sales will open in the second half of July. Please check out site for
-updates.
+Ticket sales are live.
 
 #### How much are the tickets?
 
-Early registration fee is **50 &euro;** while late registration is 
+Early registration fee is **50 &euro;** while late registration is
 **100 &euro;**
 
 #### Why do I have to pay for an online conference?
 
-We would like to be able to afford making ADASS XXX free. However we simply can't. Here is why:
+We would like to be able to afford making ADASS XXX free. However we simply
+can't. Here is why:
 
  * We are paying a technical secretariat to accept and process abstract submissions
  * We are paying for a payment processor (yes, I know)
@@ -346,7 +385,7 @@ apply for a VAT refund from the authorities.
 
 #### Are tickets refundable?
 
-No: given the very low registration fees we simply do not offer refunds. The 
+No: given the very low registration fees we simply do not offer refunds. The
 administrative costs alone make it impractical.
 
 #### How can I change information on my badge?
@@ -369,8 +408,8 @@ No, we don't offer any extra discount codes.
 
 #### Are sponsors free to set up their own sponsoring booth?
 
-We are looking into this. Right now we have a feeling that sponsor booths do
-not really work well in an online format.
+Unfortunately no: we feel that sponsor booths do not really work well in an
+online format.
 
 #### Sponsoring package prices VAT
 
