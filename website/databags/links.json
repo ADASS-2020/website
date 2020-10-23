@@ -87,6 +87,10 @@
           "path": "/user-guide"
         },
         {
+          "name": "Participants",
+          "path": "/participants"
+        },
+        {
           "name": "LOC",
           "path": "/loc"
         },
