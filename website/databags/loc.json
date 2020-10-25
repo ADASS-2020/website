@@ -13,6 +13,12 @@
       "email": "adass2020@eurocongres.es"
     },
     {
+      "name": "Ana Karla Díaz Rodríguez",
+      "affiliation": "UK ARC, JBCA University of Manchester",
+      "img": "/static/media/loc/generic.png",
+      "email": "diaz.rodriguez.a.k@gmail.com"
+    },
+    {
       "name": "Alicia Gambetta",
       "affiliation": "aliciagambetta.com",
       "img": "/static/media/loc/gambetta.png",
@@ -26,7 +32,7 @@
     },
     {
       "name": "Angela Gardini",
-      "affiliation": "UGr",
+      "affiliation": "CAHA",
       "img": "/static/media/loc/generic.png",
       "email": "angelagardini@correo.ugr.es"
     },
@@ -47,12 +53,6 @@
       "affiliation": "IRAM",
       "img": "/static/media/loc/pierfederici.png",
       "email": "fpierfed@iram.es"
-    },
-    {
-      "name": "Ana Karla Díaz Rodríguez",
-      "affiliation": "UK ARC, JBCA University of Manchester",
-      "img": "/static/media/loc/generic.png",
-      "email": "diaz.rodriguez.a.k@gmail.com"
     },
     {
       "name": "José Enrique Ruiz",
