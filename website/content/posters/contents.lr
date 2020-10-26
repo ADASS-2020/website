@@ -56,6 +56,7 @@ body:
 - <a href='https://schedule.adass2020.es/adass2020/talk/KAHMPR' target='_schedule'>Athena/X-IFU pulse identification using Convolutional Neural Networks</a>, Jesús Vega Ferrero
 - <a href='https://schedule.adass2020.es/adass2020/talk/KBERFC' target='_schedule'>Chemo-kinematic analysis of metal-poor stars with unsupervised machine learning</a>, André Rodrigo da Silva
 - <a href='https://schedule.adass2020.es/adass2020/talk/UPL9PQ' target='_schedule'>Classification of Astrophysics Journal Articles with Machine Learning</a>, Tracy Chen
+- <a href='https://schedule.adass2020.es/adass2020/talk/3PBPG7' target='_schedule'>Disentangling the γ-ray Sky with Bayesian Graph Convolutional Neural Networks</a>, Florian List
 - <a href='https://schedule.adass2020.es/adass2020/talk/BYQWYH' target='_schedule'>Exploring Coronal Heating Using Unsupervised Machine-Learning</a>, Shabbir Nuruddin Bawaji
 - <a href='https://schedule.adass2020.es/adass2020/talk/NVWFB7' target='_schedule'>Fitting of optical galaxy spectra based on machine learning</a>, Kazumi Murata
 - <a href='https://schedule.adass2020.es/adass2020/talk/UCGPDP' target='_schedule'>Machine Learning using the Nvidia Jetson Nano</a>, Brian Kent
@@ -72,6 +73,7 @@ body:
 **TIME-DOMAIN ECOSYSTEM**
 
 - <a href='https://schedule.adass2020.es/adass2020/talk/MZLZAZ' target='_schedule'>IVOA Data Access Layer: roadmap as of year 2020</a>, James Dempsey
+- <a href='https://schedule.adass2020.es/adass2020/talk/9A7SL3' target='_schedule'>Microlensing Modeling Code - MulensModel</a>, Radek Poleski
 - <a href='https://schedule.adass2020.es/adass2020/talk/EHHQGC' target='_schedule'>Orchestration of Dockerized Data Reduction Pipelines from a RESTful Web Service</a>, Brent Miszalski
 
 **CITIZEN SCIENCE PROJECTS IN ASTRONOMY**
@@ -104,6 +106,7 @@ body:
 - <a href='https://schedule.adass2020.es/adass2020/talk/37HJNN' target='_schedule'>AIDA, a modular web application for astronomical data analysis and instrument monitoring services</a>, Giuseppe Riccio
 - <a href='https://schedule.adass2020.es/adass2020/talk/E8YXBY' target='_schedule'>Building a Search Discovery System Powered by Graphs at MAST</a>, Sarah Weissman
 - <a href='https://schedule.adass2020.es/adass2020/talk/PCZRGB' target='_schedule'>Exploring Provenance tracing for VizieR catalogues</a>, Gilles Landais
+- <a href='https://schedule.adass2020.es/adass2020/talk/BURTKP' target='_schedule'>Hangar at VIRGO</a>, Filippo Quarenghi
 - <a href='https://schedule.adass2020.es/adass2020/talk/C9DA3D' target='_schedule'>Hipsgen: the Hierarchical Progressive Survey generation tool</a>, Caroline Bot
 - <a href='https://schedule.adass2020.es/adass2020/talk/EELDWW' target='_schedule'>OPUS: an interoperable job control system based on VO standards</a>, Mathieu Servillat
 - <a href='https://schedule.adass2020.es/adass2020/talk/SSTVLZ' target='_schedule'>Radio Astronomy visibility data discovery and access using IVOA standards</a>, Mireille Louys
@@ -120,6 +123,8 @@ body:
 - <a href='https://schedule.adass2020.es/adass2020/talk/3DBBZL' target='_schedule'>An update on the development of ASPIRED</a>, Marco Lam
 - <a href='https://schedule.adass2020.es/adass2020/talk/PFFG9V' target='_schedule'>Community engagement in pipeline development using CWL, a case study for LOFAR</a>, Mattia Mancini
 - <a href='https://schedule.adass2020.es/adass2020/talk/AU3XAP' target='_schedule'>Controlling and Monitoring Logging of the New Archiving Distributed Infrastructure (NADIR)</a>, Cristina Knapic
+- <a href='https://schedule.adass2020.es/adass2020/talk/XCQ3KB' target='_schedule'>Gammapy: An open-source Python package for gamma-ray astronomy</a>, Atreyee Sinha
+- <a href='https://schedule.adass2020.es/adass2020/talk/S3FLYB' target='_schedule'>Herschel PACS Integral Field Unit data visualisation and analysis: an ESAC Science Data Centre notebook for Datalabs</a>, Elena Puga
 - <a href='https://schedule.adass2020.es/adass2020/talk/TAFLQU' target='_schedule'>"Intuitive GUI to restore Corrupted Data: A Support for Preservation and Curation of the Astronomical Data"</a>, Marina Vela Nunez
 - <a href='https://schedule.adass2020.es/adass2020/talk/WGNXTF' target='_schedule'>RaGaVi: A Radio Astronomy Gains and Visibilities Inspector</a>, Lexy Andati
 - <a href='https://schedule.adass2020.es/adass2020/talk/GFLCDM' target='_schedule'>The International Virtual Observatory Alliance (IVOA)  in 2020</a>, G. Bruce Berriman
