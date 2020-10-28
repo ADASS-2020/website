@@ -16,6 +16,7 @@ body:
 - <a href='https://schedule.adass2020.es/adass2020/talk/GDGKDK' target='_schedule'>CV Portal: A collaborative cataclysmic variables web-based portal</a>, Rafael Duarte Coelho dos Santos
 - <a href='https://schedule.adass2020.es/adass2020/talk/FU7WZU' target='_schedule'>Development, deployment, and testing of Jupyter notebooks at Astro Data Lab</a>, Robert Nikutta
 - <a href='https://schedule.adass2020.es/adass2020/talk/L33E3D' target='_schedule'>Discovering data with the ESCAPE Science Analysis Platform</a>, Hugh Dickinson
+- <a href='https://schedule.adass2020.es/adass2020/talk/DMXUK3' target='_schedule'>Requiement analysis for HPC&HTC infrastructures integration in ESCAPE Science Analysis Platform</a>, Sara Bertocco
 - <a href='https://schedule.adass2020.es/adass2020/talk/7PPRYG' target='_schedule'>The architectural design for the logging, monitoring and alarm systems for the ASTRI mini-array</a>, Alessandro Costa
 
 **CLOUD COMPUTING AT DIFFERENT SCALES**
@@ -104,7 +105,7 @@ body:
 **DATA PROCESSING PIPELINES AND SCIENCE-READY DATA**
 
 - <a href='https://schedule.adass2020.es/adass2020/talk/GKD8EP' target='_schedule'>A Novel Real-Time Radio Transient Imager for LWA-SV</a>, Hariharan Krishnan
-- <a href='https://schedule.adass2020.es/adass2020/talk/LPUMKW' target='_schedule'>ChiVo-Tools: a deep learning tool for exploratory analysis of astronomical data for the Jupyter notebook</a>, Ariel Tirado
+- <a href='https://schedule.adass2020.es/adass2020/talk/LPUMKW' target='_schedule'>ChiVo-Tools: a deep learning tool for exploratory analysis of astronomical data for Python and as a Web Service</a>, Ariel Tirado
 - <a href='https://schedule.adass2020.es/adass2020/talk/38MQ8D' target='_schedule'>Correcting Inter-Waveband Positional Errors in Sloan Images</a>, Wayne B. Hayes
 - <a href='https://schedule.adass2020.es/adass2020/talk/8FEHXA' target='_schedule'>Development of a widefield mosaic imaging pipeline for e-MERLIN</a>, Bob Watson
 - <a href='https://schedule.adass2020.es/adass2020/talk/RFVHPV' target='_schedule'>Enriching the ALMA Data Archive with Science Products</a>, Peter Teuben
@@ -126,6 +127,7 @@ body:
 - <a href='https://schedule.adass2020.es/adass2020/talk/CE3HPE' target='_schedule'>The ALMA Re-Imaging for Legacy Project</a>, Felix Stoehr
 - <a href='https://schedule.adass2020.es/adass2020/talk/PLQJSC' target='_schedule'>The CASA Software for Radio Astronomy: Status Update from ADASS 2020</a>, Bjorn Emonts
 - <a href='https://schedule.adass2020.es/adass2020/talk/CYLM87' target='_schedule'>The CFIS processing pipeline</a>, Stephen Gwyn
+- <a href='https://schedule.adass2020.es/adass2020/talk/8BCYBN' target='_schedule'>The High-level Data Reduction Library - A Library for ESO's Data Reduction Pipelines</a>, Andrea Modigliani
 - <a href='https://schedule.adass2020.es/adass2020/talk/CSBJ8G' target='_schedule'>The Light Curve Fitter: A novel application for deconvolving two superimposed sinusoidal waves.</a>, Salam Dulaimi
 - <a href='https://schedule.adass2020.es/adass2020/talk/8ZKJCC' target='_schedule'>Validating data reduction algorithms through advanced instrument simulation - the case of HARMONI</a>, Aurelien Jarno
 
