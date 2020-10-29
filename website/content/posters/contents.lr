@@ -11,8 +11,9 @@ body:
 
 **SCIENCE PLATFORMS AND DATA LAKES**
 
+-  <a href='https://schedule.adass2020.es/adass2020/talk/AH8833' target='_schedule'>Accessing Radio Data with the NRAO NINE Program</a>, John Beasley
 -  <a href='https://schedule.adass2020.es/adass2020/talk/MQ7L9E' target='_schedule'>A prototype for handling observations proposals for the CTA observatory</a>, Bruno Khelifi
--  <a href='https://schedule.adass2020.es/adass2020/talk/UUWKC7' target='_schedule'>ASTRI Virtual Test Bed: from Prototype to Mini-Array</a>, Fulvio Gianotti
+- <a href='https:\/\/adass2020.es/static/ftp/P1-190/P1-190.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/UUWKC7' target='_schedule'>ASTRI Virtual Test Bed: from Prototype to Mini-Array</a>, Fulvio Gianotti
 -  <a href='https://schedule.adass2020.es/adass2020/talk/GDGKDK' target='_schedule'>CV Portal: A collaborative cataclysmic variables web-based portal</a>, Rafael Duarte Coelho dos Santos
 -  <a href='https://schedule.adass2020.es/adass2020/talk/FU7WZU' target='_schedule'>Development, deployment, and testing of Jupyter notebooks at Astro Data Lab</a>, Robert Nikutta
 -  <a href='https://schedule.adass2020.es/adass2020/talk/L33E3D' target='_schedule'>Discovering data with the ESCAPE Science Analysis Platform</a>, Hugh Dickinson
@@ -37,7 +38,7 @@ body:
 -  <a href='https://schedule.adass2020.es/adass2020/talk/3KYH3Y' target='_schedule'>Colibri - The coincidence library for real-time inquiry for multi-messenger astrophysics</a>, Patrick Reichherzer
 - <a href='https:\/\/adass2020.es/static/ftp/P3-171/P3-171.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/RVGLUF' target='_schedule'>Efficient machine learning methods for cosmology</a>, Eric Howard
 - <a href='https:\/\/adass2020.es/static/ftp/P3-204/P3-204.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/NZ3BUW' target='_schedule'>ESCAPE - addressing Open Science challenges.</a>, Mark Allen
-- <a href='https:\/\/adass2020.es/static/ftp/P3-257/P3-257_v2.pdf'>&#x1F4D1;</a><a href='https:\/\/adass2020.es/static/ftp/P3-257/P3-257_v1.mp4'>&#x1F3A6;</a> <a href='https://schedule.adass2020.es/adass2020/talk/RMJSZB' target='_schedule'>FITS2OSC. A Sonification Pipeline for Lightcurve Interactive Auditory Exploration</a>, Adrian Garcia Riber
+- <a href='https:\/\/adass2020.es/static/ftp/P3-257/P3-257_v1.pdf'>&#x1F4D1;</a><a href='https:\/\/adass2020.es/static/ftp/P3-257/P3-257_v2.mp4'>&#x1F3A6;</a> <a href='https://schedule.adass2020.es/adass2020/talk/RMJSZB' target='_schedule'>FITS2OSC. A Sonification Pipeline for Lightcurve Interactive Auditory Exploration</a>, Adrian Garcia Riber
 -  <a href='https://schedule.adass2020.es/adass2020/talk/EFKWXN' target='_schedule'>Improvements to development and operations practices in data processing pipelines and astronomy software</a>, Rosa Diaz
 - <a href='https:\/\/adass2020.es/static/ftp/P3-181/P3-181.pdf'>&#x1F4D1;</a><a href='https:\/\/adass2020.es/static/ftp/P3-181/P3-181.mp4'>&#x1F3A6;</a> <a href='https://schedule.adass2020.es/adass2020/talk/NRLKXD' target='_schedule'>MANGO: a VO Model for Source Data</a>, Laurent Michel
 -  <a href='https://schedule.adass2020.es/adass2020/talk/FAKHNQ' target='_schedule'>mirkwook: SED Fitting for the Twenty First Century</a>, Sankalp Gilda
@@ -65,7 +66,7 @@ body:
 -  <a href='https://schedule.adass2020.es/adass2020/talk/FT8XM3' target='_schedule'>Astrocook: quasar spectral analysis made easy</a>, Guido Cupani
 -  <a href='https://schedule.adass2020.es/adass2020/talk/KAHMPR' target='_schedule'>Athena/X-IFU pulse identification using Convolutional Neural Networks</a>, Jesús Vega Ferrero
 - <a href='https:\/\/adass2020.es/static/ftp/P5-177/P5-177.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/KBERFC' target='_schedule'>Chemo-kinematic analysis of metal-poor stars with unsupervised machine learning</a>, André Rodrigo da Silva
--  <a href='https://schedule.adass2020.es/adass2020/talk/UPL9PQ' target='_schedule'>Classification of Astrophysics Journal Articles with Machine Learning</a>, Tracy Chen
+- <a href='https:\/\/adass2020.es/static/ftp/P5-183/P5-183.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/UPL9PQ' target='_schedule'>Classification of Astrophysics Journal Articles with Machine Learning</a>, Tracy Chen
 -  <a href='https://schedule.adass2020.es/adass2020/talk/3PBPG7' target='_schedule'>Disentangling the γ-ray Sky with Bayesian Graph Convolutional Neural Networks</a>, Florian List
 -  <a href='https://schedule.adass2020.es/adass2020/talk/WLPCDK' target='_schedule'>Event analysis in KM3NeT using machine learning</a>, Bernardino Spisso
 - <a href='https:\/\/adass2020.es/static/ftp/P5-83/P5-83_v1.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/BYQWYH' target='_schedule'>Exploring Coronal Heating Using Unsupervised Machine-Learning</a>, Shabbir Nuruddin Bawaji
@@ -80,12 +81,12 @@ body:
 -  <a href='https://schedule.adass2020.es/adass2020/talk/TGMFDT' target='_schedule'>SRGz: machine learning engine for cross-match, classification and photo-z measurements in the SRG/eROSITA sky survey</a>, Alex Meshcheryakov
 -  <a href='https://schedule.adass2020.es/adass2020/talk/AQR399' target='_schedule'>Stellar Formation in NGC 2366: Searching for clusters and associations using unsupervised algorithms</a>, Carlos Feinstein
 -  <a href='https://schedule.adass2020.es/adass2020/talk/3LMMRA' target='_schedule'>Tensor Mask R-CNN: A Tensor-based Deep Learning approach for fast morphological classification and segmentation of Galaxies.</a>, Humberto Farias
--  <a href='https://schedule.adass2020.es/adass2020/talk/ZA7DRP' target='_schedule'>Transfer Learning in Large Spectroscopic Surveys</a>, Ondřej Podsztavek
+- <a href='https:\/\/adass2020.es/static/ftp/P5-217/P5-217_v1.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/ZA7DRP' target='_schedule'>Transfer Learning in Large Spectroscopic Surveys</a>, Ondřej Podsztavek
 -  <a href='https://schedule.adass2020.es/adass2020/talk/7TRDBF' target='_schedule'>VLASS Quicklook Image Classifier using PyTorch</a>, Mauricio Rodríguez Alas
 
 **TIME-DOMAIN ECOSYSTEM**
 
-- <a href='https:\/\/adass2020.es/static/ftp/P6-224/P6-224.pdf'>&#x1F4D1;</a><a href='https:\/\/adass2020.es/static/ftp/P6-224/P6-224.LT.mp4'>&#x1F3A6;</a> <a href='https://schedule.adass2020.es/adass2020/talk/MZLZAZ' target='_schedule'>IVOA Data Access Layer: roadmap as of year 2020</a>, Marco Molinaro
+- <a href='https:\/\/adass2020.es/static/ftp/P6-224/P6-224_v1.pdf'>&#x1F4D1;</a><a href='https:\/\/adass2020.es/static/ftp/P6-224/P6-224.LT.mp4'>&#x1F3A6;</a> <a href='https://schedule.adass2020.es/adass2020/talk/MZLZAZ' target='_schedule'>IVOA Data Access Layer: roadmap as of year 2020</a>, Marco Molinaro
 -  <a href='https://schedule.adass2020.es/adass2020/talk/9A7SL3' target='_schedule'>Microlensing Modeling Code - MulensModel</a>, Radek Poleski
 -  <a href='https://schedule.adass2020.es/adass2020/talk/8QBGYQ' target='_schedule'>Observation meta data plotting tool - Omedaplot</a>, Jan Snigula
 -  <a href='https://schedule.adass2020.es/adass2020/talk/EHHQGC' target='_schedule'>Orchestration of Dockerized Data Reduction Pipelines from a RESTful Web Service</a>, Brent Miszalski
@@ -114,7 +115,7 @@ body:
 -  <a href='https://schedule.adass2020.es/adass2020/talk/HRLCP9' target='_schedule'>Implementing CUDA Streams into AstroAccelerate – A Case Study</a>, Jan Novotny
 -  <a href='https://schedule.adass2020.es/adass2020/talk/WTAPQD' target='_schedule'>lstchain: An analysis pipeline for LST-1, the first prototype Large Size Telescope of CTA</a>, Ruben Lopez-Coto
 -  <a href='https://schedule.adass2020.es/adass2020/talk/BQ9G8J' target='_schedule'>Onsite processing pipeline for the CTA Large Size Telescope prototype</a>, Jose Enrique Ruiz
-- <a href='https:\/\/adass2020.es/static/ftp/P8-145/P8-145_v2.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/8LNESQ' target='_schedule'>Parallelisation of the wide-band wide-field spectral deconvolution framework DDFacet on distributed memory HPC system</a>, Nicolas Monnier
+- <a href='https:\/\/adass2020.es/static/ftp/P8-145/P8-145_v1.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/8LNESQ' target='_schedule'>Parallelisation of the wide-band wide-field spectral deconvolution framework DDFacet on distributed memory HPC system</a>, Nicolas Monnier
 - <a href='https:\/\/adass2020.es/static/ftp/P8-195/P8-195.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/L8JQEE' target='_schedule'>Performance improvement of the Data Acquisition System to support the observation quality system of the ASTRI Mini-Array</a>, Vito Conforti
 - <a href='https:\/\/adass2020.es/static/ftp/P8-198/P8-198.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/LPDW9H' target='_schedule'>Pipeline Calibration and Imaging for the Nobeyama 45m Radio Telescope</a>, Takeshi Nakazato
 -  <a href='https://schedule.adass2020.es/adass2020/talk/EAJSVP' target='_schedule'>Processing and calibration of the deepest low frequency images of the sky</a>, Jose Sabater
@@ -136,17 +137,17 @@ body:
 - <a href='https:\/\/adass2020.es/static/ftp/P9-113/P9-113.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/37HJNN' target='_schedule'>AIDA, a modular web application for astronomical data analysis and instrument monitoring services</a>, Giuseppe Riccio
 -  <a href='https://schedule.adass2020.es/adass2020/talk/E8YXBY' target='_schedule'>Building a Search Discovery System Powered by Graphs at MAST</a>, Sarah Weissman
 -  <a href='https://schedule.adass2020.es/adass2020/talk/EUJPCE' target='_schedule'>CARACal - The Containerized Automated Radio Astronomy Calibration Pipeline</a>, Gyula I. G. Jozsa
-- <a href='https:\/\/adass2020.es/static/ftp/P9-216/P9-216_v2.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/PCZRGB' target='_schedule'>Exploring Provenance tracing for VizieR catalogues</a>, Gilles Landais
+- <a href='https:\/\/adass2020.es/static/ftp/P9-216/P9-216.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/PCZRGB' target='_schedule'>Exploring Provenance tracing for VizieR catalogues</a>, Gilles Landais
 -  <a href='https://schedule.adass2020.es/adass2020/talk/BURTKP' target='_schedule'>Hangar at VIRGO</a>, Filippo Quarenghi
 - <a href='https:\/\/adass2020.es/static/ftp/P9-201/P9-201.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/C9DA3D' target='_schedule'>Hipsgen: the Hierarchical Progressive Survey generation tool</a>, Caroline Bot
 -  <a href='https://schedule.adass2020.es/adass2020/talk/XN7P8Q' target='_schedule'>Innovative tools fostered by the HiPS ecosystem</a>, Thomas Boch
 -  <a href='https://schedule.adass2020.es/adass2020/talk/EELDWW' target='_schedule'>OPUS: an interoperable job control system based on VO standards</a>, Mathieu Servillat
 -  <a href='https://schedule.adass2020.es/adass2020/talk/MD8XDJ' target='_schedule'>Preparation for Gaia EDR3 in the ESA Gaia Archive</a>, Juan Gonzalez-Nuñez
 -  <a href='https://schedule.adass2020.es/adass2020/talk/SSTVLZ' target='_schedule'>Radio Astronomy visibility data discovery and access using IVOA standards</a>, Mireille Louys
-- <a href='https:\/\/adass2020.es/static/ftp/P9-202/P9-202.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/LJ3C7W' target='_schedule'>Re-engineered ISO Data Archive. An infrared astronomy legacy treasure</a>, Jesus Salgado
+- <a href='https:\/\/adass2020.es/static/ftp/P9-202/P9-202_1.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/LJ3C7W' target='_schedule'>Re-engineered ISO Data Archive. An infrared astronomy legacy treasure</a>, Jesus Salgado
 -  <a href='https://schedule.adass2020.es/adass2020/talk/ELWVRC' target='_schedule'>Spreading the word – current status of VO tutorials and schools</a>, Katharina Lutz
 -  <a href='https://schedule.adass2020.es/adass2020/talk/8JJJKL' target='_schedule'>Storing Provenance information in a data processing workflow: one CTA use case</a>, Michèle Sanguillon
-- <a href='https:\/\/adass2020.es/static/ftp/P9-178/P9-178_v1.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/SKUQG9' target='_schedule'>The Common Archive Observation Model at MAST</a>, David Rodriguez
+- <a href='https:\/\/adass2020.es/static/ftp/P9-178/P9-178_v2.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/SKUQG9' target='_schedule'>The Common Archive Observation Model at MAST</a>, David Rodriguez
 -  <a href='https://schedule.adass2020.es/adass2020/talk/MYSG8V' target='_schedule'>The KM3NeT Open Science System</a>, Jutta Schnabel
 
 **OPEN SOURCE SOFTWARE AND COMMUNITY DEVELOPMENT IN ASTRONOMY**
@@ -154,7 +155,7 @@ body:
 -  <a href='https://schedule.adass2020.es/adass2020/talk/PGB8CR' target='_schedule'>Agilepy: A Python framework for scientific analysis of AGILE data</a>, Andrea Bulgarelli
 -  <a href='https://schedule.adass2020.es/adass2020/talk/KXQFWL' target='_schedule'>A Machine Learning Approach To Sitelle Spectral Analysis</a>, Carter Rhea
 -  <a href='https://schedule.adass2020.es/adass2020/talk/3DBBZL' target='_schedule'>An update on the development of ASPIRED</a>, Marco Lam
-- <a href='https:\/\/adass2020.es/static/ftp/P10-33/P10-33_v1.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/SDT7RR' target='_schedule'>Bibmanager: Automated BibTeX Management for Astronomers</a>, Patricio Cubillos
+- <a href='https:\/\/adass2020.es/static/ftp/P10-33/P10-33_v2.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/SDT7RR' target='_schedule'>Bibmanager: Automated BibTeX Management for Astronomers</a>, Patricio Cubillos
 -  <a href='https://schedule.adass2020.es/adass2020/talk/PFFG9V' target='_schedule'>Community engagement in pipeline development using CWL, a case study for LOFAR</a>, Mattia Mancini
 - <a href='https:\/\/adass2020.es/static/ftp/P10-179/P10-179.pdf'>&#x1F4D1;</a><a href='https:\/\/adass2020.es/static/ftp/P10-179/P10-179.LT.mp4'>&#x1F3A6;</a> <a href='https://schedule.adass2020.es/adass2020/talk/AU3XAP' target='_schedule'>Controlling and Monitoring Logging of the New Archiving Distributed Infrastructure (NADIR)</a>, Cristina Knapic
 -  <a href='https://schedule.adass2020.es/adass2020/talk/XCQ3KB' target='_schedule'>Gammapy: An open-source Python package for gamma-ray astronomy</a>, Atreyee Sinha
@@ -163,7 +164,7 @@ body:
 -  <a href='https://schedule.adass2020.es/adass2020/talk/EFS97S' target='_schedule'>Making organizational software easier to find in ASCL and ADS</a>, Alice Allen
 -  <a href='https://schedule.adass2020.es/adass2020/talk/WGNXTF' target='_schedule'>RaGaVi: A Radio Astronomy Gains and Visibilities Inspector</a>, Lexy Andati
 -  <a href='https://schedule.adass2020.es/adass2020/talk/CCA7YF' target='_schedule'>Spectroscopic Data Reduction on your web browser</a>, Simón Torres
--  <a href='https://schedule.adass2020.es/adass2020/talk/GFLCDM' target='_schedule'>The International Virtual Observatory Alliance (IVOA)  in 2020</a>, G. Bruce Berriman
+- <a href='https:\/\/adass2020.es/static/ftp/P10-192/P10-192.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/GFLCDM' target='_schedule'>The International Virtual Observatory Alliance (IVOA)  in 2020</a>, G. Bruce Berriman
 -  <a href='https://schedule.adass2020.es/adass2020/talk/XCARVL' target='_schedule'>The KERN Suite: Taming the Radio Astronomy Software Ecosystem</a>, Athanaseus Javas Ramaila
 -  <a href='https://schedule.adass2020.es/adass2020/talk/H7UAMK' target='_schedule'>The Pulsar Signal Simulator: A Python-based Package for Simulating Pulsar Data for Science and Education</a>, Brent Shapiro-Albert
 -  <a href='https://schedule.adass2020.es/adass2020/talk/ZGHV9E' target='_schedule'>Tricolour: an optimized parallel sumthreshold flagger for MeerKAT</a>, Benjamin Hugo
@@ -176,7 +177,7 @@ body:
 - <a href='https:\/\/adass2020.es/static/ftp/P11-220/P11-220-new2.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/RDWLND' target='_schedule'>Automated system to generate calibrated MeasurementSet in East Asian ALMA Regional Center</a>, Yohei Hayashi
 -  <a href='https://schedule.adass2020.es/adass2020/talk/XC9PMF' target='_schedule'>Dust attenuation in ALMA-detected dusty star-forming galaxies in the COSMOS field</a>, Mahmoud Hamed
 -  <a href='https://schedule.adass2020.es/adass2020/talk/UA3NP7' target='_schedule'>Efficient image visualization with CARTA - introduction and development update</a>, Kuo-Song Wang
--  <a href='https://schedule.adass2020.es/adass2020/talk/GSG7XB' target='_schedule'>Five years of the new 'Hedwig' proposal system at the JCMT</a>, Graham Bell
+- <a href='https:\/\/adass2020.es/static/ftp/P11-211/P11-211_v1.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/GSG7XB' target='_schedule'>Five years of the new 'Hedwig' proposal system at the JCMT</a>, Graham Bell
 -  <a href='https://schedule.adass2020.es/adass2020/talk/RFLSRU' target='_schedule'>HII regions in the CALIFA survey</a>, Carlos Espinosa
 - <a href='https:\/\/adass2020.es/static/ftp/P11-196/P11-196.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/RQM83F' target='_schedule'>How reliable are galaxies physical parameters estimations for LSST main sequence sample?</a>, Gabriele Riccio
 -  <a href='https://schedule.adass2020.es/adass2020/talk/LPCKQL' target='_schedule'>Improving the good: the upgrade of the IRAM 30-meter millimetre telescope</a>, Miguel Sánchez-Portal

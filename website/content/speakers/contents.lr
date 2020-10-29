@@ -8,10 +8,12 @@ description: Speakers
 _template: page-md.html
 ---
 body:   
+- <a href='https://schedule.adass2020.es/adass2020/speaker//7S9YUV' target='_schedule'>Jesús Aceituno</a> - CAHA
 - <a href='https://schedule.adass2020.es/adass2020/speaker//XRQVPQ' target='_schedule'>Alice Allen</a> - Astrophysics Source Code Library
 - <a href='https://schedule.adass2020.es/adass2020/speaker//N3CBCH' target='_schedule'>Kim Arcand</a> - CfA
 - <a href='https://schedule.adass2020.es/adass2020/speaker//SBV78M' target='_schedule'>Matteo Bachetti</a> - INAF-Osservatorio Astronomico di Cagliari
 - <a href='https://schedule.adass2020.es/adass2020/speaker//TWCXGU' target='_schedule'>Matthieu Baumann</a> - CDS / Observatoire de Strasbourg
+- <a href='https://schedule.adass2020.es/adass2020/speaker//HRDZTZ' target='_schedule'>Gilles Bergond</a> - CAHA
 - <a href='https://schedule.adass2020.es/adass2020/speaker//KKFCFS' target='_schedule'>Jeronimo Bernard Salas</a> - ACRI-ST
 - <a href='https://schedule.adass2020.es/adass2020/speaker//FVMB7F' target='_schedule'>Bruce Berriman</a> - 
 - <a href='https://schedule.adass2020.es/adass2020/speaker//SQK7ZV' target='_schedule'>Sergi Blanco-Cuaresma</a> - Harvard-Smithsonian Center for Astrophysics

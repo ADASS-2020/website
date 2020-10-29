@@ -10,13 +10,14 @@ _template: page-md.html
 body:   
 - Faith Abney - AURA - Space Telescope Science Institute
 - Alberto Accomazzi - Center for Astrophysics | Harvard & Smithsonian
+- Jesús Aceituno - CAHA
 - Karel Adamek - Czech Technical University
 - Antonio Addis - INAF-OAS
 - Carlos Adean - LIneA
 - Sreejith Aickara Gopinathan - Space Research Institute, Austrian Academy of Sciences
 - Anastasia Alexov - National Solar Observatory
-- Alice Allen - Astrophysics Source Code Library
 - Mark Allen - CDS, Observatoire astronomique de Strasbourg
+- Alice Allen - Astrophysics Source Code Library
 - Bruno Altieri - ESA
 - Nuria Alvarez Crespo - ESA
 - Zineb Aly - Erlangen Centre for Astroparticle Physics (ECAP)
@@ -39,7 +40,9 @@ body:
 - Shabbir Bawaji - 
 - Graham Bell - East Asian Observatory
 - Daniel Benitez de Haro - Centro Astronómico Hispano-Alemán, A.I.E.
+- Gilles Bergond - CAHA
 - Jeronimo Bernard Salas - ACRI-ST
+- Aidan Berres - University of Washington
 - Alessandra Berretta - University of Perugia and INFN Perugia
 - Bruce Berriman - 
 - David Berry - 
@@ -59,6 +62,7 @@ body:
 - Efrem Braun - NASA
 - Adam Brazier - 
 - Jakob Brünker - Etamax space GmbH
+- Hugo Buddelmeijer - 
 - Andrea Bulgarelli - 
 - Carlo Burigana - INAF - Istituto di Radioastronomia
 - Howard Bushouse - AURA - Space Telescope Science Institute
@@ -115,6 +119,7 @@ body:
 - Hugh Dickinson - The Open University
 - Tammo Jan Dijkema - ASTRON
 - Thomas Donaldson - AURA - Space Telescope Science Institute
+- Jayce Dowell - University of New Mexico
 - Trisha Doyle - NASA GSFC/Innovim
 - Kimberly DuPrie - AURA - Space Telescope Science Institute
 - Richard Dubois - 
@@ -128,8 +133,8 @@ body:
 - Matthew Elliott - Adnet Systems/NASA Goddard Space Flight Center
 - Bjorn Emonts - National Radio Astronomy Observatory
 - Eric Emsellem - ESO
-- Ian Evans - Center for Astrophysics | Harvard & Smithsonian
 - Janet Evans - 
+- Ian Evans - Center for Astrophysics | Harvard & Smithsonian
 - Seb Fabbro - National Research Council Canada
 - Tony Farrell - Australian Astronomical Optics, Macquarie University
 - Samuel Farrens - CEA/COSMOS
@@ -186,6 +191,7 @@ body:
 - Steve Groom - Caltech/IPAC
 - Julia Gschwend - Laboratório Interinstitucional de e-Astronomia
 - Francesco Guarneri - Università degli studi di Trieste
+- Juan Guzman - CSIRO Astronomy and Space Science
 - Stephen Gwyn - NRC-HAA-CADC
 - Jonas Haase - Max-Planck Institute for Extraterrestrial Physics
 - Patricia Hall - NASA / Innovim
@@ -211,6 +217,7 @@ body:
 - Jose Miguel Ibañez Mengual - IAA-CSIC
 - Jorge Ibsen - ESO-Alma
 - Colin Jacobs - Swinburne University of Technology
+- Mikaël Jacquemont - LAPP, CNRS / LISTIC, Univ. SMB
 - Tess Jaffe - NASA Goddard Space Flight Center
 - Fabian Jankowski - The University of Manchester
 - Anne Jean-Antoine-Piccolo - CNES
@@ -330,6 +337,7 @@ body:
 - William O'Mullane - Vera C. Rubin Observatory
 - Simon O'Toole - 
 - Anaïs Oberto - CDS, Observatoire astronomique de Strasbourg
+- Matthew Ogden - Middle Tennessee State University
 - Eduardo Ojero Pascual - ESA XMM-Newton Science Operations Centre
 - Yoko Okada - Universität zu Köln
 - Michael Olberg - Chalmers Technical University
@@ -384,6 +392,7 @@ body:
 - Tomasz Rozanski - 
 - Jose Enrique Ruiz - IAA-CSIC
 - Stefano Alberto Russo - INAF
+- Kristin Rutkowski - NASA
 - Jose Sabater Montes - UKATC - STFC
 - Teymoor Saifollahi  - 
 - Eeshankur Saikia - Department of Applied Sciences, Gauhati University
@@ -448,8 +457,8 @@ body:
 - Miguel Sánchez-Portal - Instituto de Radioastronomía Milimétrica - IRAM
 - Giuliano Taffoni - INAF
 - Akio Taniguchi - Nagoya University
-- Mark Taylor - University of Bristol
 - Joanna Taylor - Space Telescope Science Institute
+- Mark Taylor - University of Bristol
 - Hossen Teimoorinia - National Research Council Canada
 - Harry Teplitz - Caltech/IPAC
 - Scott Terek - Caltech/IPAC
@@ -482,6 +491,7 @@ body:
 - Bruno Voisin - Irish Centre For High-End Computing
 - Willem-Jan Vriend - Rijksuniversiteit Groningen, Kapteyn Astronomical Insititute
 - Kiri Wagstaff - 
+- John Wallin - Middle Tennessee State University
 - Nicholas Walton - Institute of Astronomy, University of Cambridge
 - Kuo-Song Wang - ASIAA
 - Shin-Ywan Wang - Caltech/IPAC
@@ -489,6 +499,7 @@ body:
 - Robert Watson - JBCA, University of Manchester
 - Sarah Weissman - AURA - Space Telescope Science Institute
 - Brian Welman - RATT - Rhodes University
+- Graham West - Middle Tennessee State University
 - David Westman - 
 - Andreas Wicenec - 
 - Mark Wieringa - CSIRO Astronomy and Space Science
