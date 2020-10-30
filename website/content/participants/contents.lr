@@ -16,8 +16,8 @@ body:
 - Carlos Adean - LIneA
 - Sreejith Aickara Gopinathan - Space Research Institute, Austrian Academy of Sciences
 - Anastasia Alexov - National Solar Observatory
-- Mark Allen - CDS, Observatoire astronomique de Strasbourg
 - Alice Allen - Astrophysics Source Code Library
+- Mark Allen - CDS, Observatoire astronomique de Strasbourg
 - Bruno Altieri - ESA
 - Nuria Alvarez Crespo - ESA
 - Zineb Aly - Erlangen Centre for Astroparticle Physics (ECAP)
@@ -78,6 +78,7 @@ body:
 - Emmanuel Caux - IRAP/OMP-CNRS-UPS-CNES
 - M.Teresa Ceballos Merino - IFCA (CSIC-UC)
 - Andrew Cenko - NOFS
+- Pierre-Yves Chabaud - AMU-CNRS
 - Alexandros Chalevin - Etamax space GmbH
 - Tracy Chen - Caltech/IPAC
 - Lucio Chiappetti - INAF IASF Milano
@@ -358,9 +359,9 @@ body:
 - Dirk Petry - ALMA Regional Centre, European Southern Observatory
 - Olga Pevunova - IPAC/Caltech/NED
 - Francesco Pierfederici - IRAM
-- Chabaud Pierre-Yves - AMU-CNRS
 - François-Xavier Pineau - CDS, Observatoire astronomique de Strasbourg
 - Adrianna Pinska - University of Cape Town
+- Sergio Pintaldi - University of Sydney
 - Francesco Pistis - Naradowe Centrum Badan Jadrowych
 - Roberto Pizzo - ASTRON
 - Stanislaw Podgorski - ESO
@@ -385,9 +386,10 @@ body:
 - Patrick Reichherzer - IRFU, CEA (Université Paris-Saclay)
 - Rosly Renil - SARAO (NRF)
 - Carter Rhea - 15147065772
-- Gabriele Riccio - National Centre of Nuclear Research
 - Giuseppe Riccio - INAF - Observatory of Capodimonte
+- Gabriele Riccio - National Centre of Nuclear Research
 - Amalia Rivera - 
+- William Roby - Caltech/IPAC
 - David Rodriguez - AURA - Space Telescope Science Institute
 - Fabio Rossi - INAF
 - Tomasz Rozanski - 
@@ -415,6 +417,7 @@ body:
 - Robert Seaman - Lunar and Planetary Lab
 - Nima Sedaghat - ESO
 - Mathieu Servillat - LUTH - Observatoire de Paris
+- Ignacio Sevilla - CIEMAT
 - Brent Shapiro-Albert - West Virginia University/NANOGrav
 - Frank Shelly - Lunar and Planetary Lab
 - Sharon Shen - AURA - Space Telescope Science Institute
@@ -458,8 +461,8 @@ body:
 - Miguel Sánchez-Portal - Instituto de Radioastronomía Milimétrica - IRAM
 - Giuliano Taffoni - INAF
 - Akio Taniguchi - Nagoya University
-- Joanna Taylor - Space Telescope Science Institute
 - Mark Taylor - University of Bristol
+- Joanna Taylor - Space Telescope Science Institute
 - Hossen Teimoorinia - National Research Council Canada
 - Harry Teplitz - Caltech/IPAC
 - Scott Terek - Caltech/IPAC
@@ -479,6 +482,7 @@ body:
 - Matteo Trudu - INAF-Osservatorio Astronomico di Cagliari / Università degli Studi di Cagliari
 - Alexis Tudor - University of Nevada, Reno
 - Cristian Urrutia - NOIRLab/Gemini Observatory
+- Giuseppe Vacanti - cosine | measurement systems
 - Jacob Vander Vliet - 
 - Eleni Vardoulaki - Thüringer Landessternwarte Tautenburg
 - Thomas Vassallo - Ludwig Maximilians Universitaet Muenchen
@@ -494,8 +498,8 @@ body:
 - Kiri Wagstaff - 
 - John Wallin - Middle Tennessee State University
 - Nicholas Walton - Institute of Astronomy, University of Cambridge
-- Kuo-Song Wang - ASIAA
 - Shin-Ywan Wang - Caltech/IPAC
+- Kuo-Song Wang - ASIAA
 - Katarzyna Wardega - University of Warsaw, University of Texas Rio Grande Valley
 - Robert Watson - JBCA, University of Manchester
 - Sarah Weissman - AURA - Space Telescope Science Institute
