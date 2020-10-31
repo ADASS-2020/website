@@ -47,7 +47,13 @@
         {
             "name": "Silver sponsors",
             "sponsors": [
-                 {
+                {
+                    "name": "CDS",
+                    "description": "Centre de Donn&eacute;es astronomiques de Strasbourg.",
+                    "logo": "/static/media/sponsors/CDS-LOGO.png",
+                    "url": "https://cds.u-strasbg.fr"
+                },
+                {
                     "name": "RedIRIS",
                     "description": "RedIRIS is the Spanish academic and research network that provides advanced communication services to the scientific community and national universities.",
                     "logo": "/static/media/sponsors/rediris.png",
