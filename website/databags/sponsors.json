@@ -26,7 +26,7 @@
             "sponsors": [
                  {
                     "name": "IRAM",
-                    "description": "Institute de Radioastronomie Millimétrique",
+                    "description": "Institute de Radioastronomie Millimétrique.",
                     "logo": "/static/media/sponsors/iram.jpg",
                     "url": "https://iram-institute.org"
                  },
@@ -38,7 +38,7 @@
                 },
                  {
                     "name": "Calar Alto Observatory",
-                    "description": "Centro Astronómico Hispano-Alemán",
+                    "description": "Centro Astronómico Hispano-Alemán.",
                     "logo": "/static/media/sponsors/CAHALogo.png",
                     "url": "http://www.caha.es"
                 }
@@ -47,6 +47,24 @@
         {
             "name": "Silver sponsors",
             "sponsors": [
+                {
+                    "name": "AAO",
+                    "description": "Australian Astronomical Observatory.",
+                    "logo": "/static/media/sponsors/aao-logo.jpg",
+                    "url": "https://www.aao.gov.au"
+                },
+                {
+                    "name": "ESO",
+                    "description": "European Southern Observatory.",
+                    "logo": "/static/media/sponsors/eso-logo.jpg",
+                    "url": "https://www.eso.org"
+                },
+                {
+                    "name": "ESA",
+                    "description": "European Space Agency.",
+                    "logo": "/static/media/sponsors/esa-logo.png",
+                    "url": "https://www.esa.int"
+                },
                 {
                     "name": "CDS",
                     "description": "Centre de Données astronomiques de Strasbourg.",
