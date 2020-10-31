@@ -49,7 +49,7 @@
             "sponsors": [
                 {
                     "name": "CDS",
-                    "description": "Centre de Donn&eacute;es astronomiques de Strasbourg.",
+                    "description": "Centre de Données astronomiques de Strasbourg.",
                     "logo": "/static/media/sponsors/CDS-LOGO.png",
                     "url": "https://cds.u-strasbg.fr"
                 },
