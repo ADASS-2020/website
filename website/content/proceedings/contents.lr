@@ -16,7 +16,7 @@ as part of their <a href="https://www.astrosociety.org/publication/conference-se
 - The deadline to submit the draft version of your paper is November 1, 2020, 23:59 CET.
 - The deadline to submit the final version of your paper is December 6, 2020, 23:59 CET.
 
-<b>If you do not submit a draft by the deadline, your paper will not be included in the proceedings.</b>
+<b>If you do not submit a draft by the deadline, your paper may not be included in the proceedings.</b>
 
 The proceedings editors are Jose Enrique Ruiz and Francesco Pierfedereci.
 
@@ -38,27 +38,35 @@ The more issues are solved early on in the process, the more time we all save.
 
 ##### Prepare your manuscript
 
-The best usage is to prepare your paper in the Author_Template folder issued from unpacking your
-proceedings package archive. If you author two papers, that will work too,
-but preparing your tar or zip file is much easier if you use a parallel Author_Template.
+The best usage is to prepare your paper in the <i>Author_Template</i> folder issued from unpacking the
+<a href="../static/files/ADASS2020.tar">ADASS2020.tar</a> proceedings package file. If you author two papers,
+you can use a parallel <i>Author_Template</i> folder in a different parent directory for your second paper.
 
-- Read the ManuscriptInstructions.pdf file.
-- The ADASS_template.tex file gives you a basic template for your ADASS paper.
+- Read the <a href="../static/files/ManuscriptInstructions.pdf">ManuscriptInstructions.pdf</a> file.
+- The <a href="../static/files/ADASS_template.tex">ADASS_template.tex</a> file gives you a basic template for your ADASS paper.
 
-<b>Note</b>: We have also prepared personalized package templates, based on your title, author name and abstract of your
+We have also prepared personalized package templates, based on your title, author name and abstract of your
 contribution. You may download this personalized package from your PID link in the list of
-[Contribution IDs](/paper-ids/),
-unpack it, replace the unpacked files in your Author_Template folder, and use the &lt;PID&gt;.tex file to prepare
-your manuscript.
+[Contribution IDs](/paper-ids/), unpack it, replace the unpacked files in the <i>Author_Template</i> folder,
+and use the &lt;PID&gt;.tex file to prepare your manuscript.
 
-You will need to run LaTeX on your .tex file, then run BibTeX to process the references, and then will need to run
-LaTeX again up to three times to get all the cross-references right. We recommend that you use the provided Makefile,
-but if you prefer building manually that should work as well. ASP does not use pdflatex, so try and stick to latex
-(we only allow EPS figures, not PNG or JPG).
+Note that you have to remove <i>*.eps, *.bib</i> and <i>.tex</i> files that provided by default in the
+<i>Author_Template</i> folder and add your own files needed for the manuscript, with filename nomenclature
+following your given &lt;PID&gt; You should also declare in the FIGS variable of the <i>makedefs</i> file
+the figures used in the paper as a list of filenames separated by a space.
 
-Editing your paper in [Overleaf](https://www.overleaf.com/) is also known to work: simply upload (as a ZIP file produced
-by command `make overleaf` is the easiest) the template, the two asp2014 files, and optionally your BIB file and EPS
-figures. Don't start from scratch, or your file will be likely named main.tex
+<b>Please note that in order to get all the make commands working correctly, you should be working in
+the Author_template folder.</b>
+
+You will need to run LaTeX on your <i>.tex</i> file, then run BibTeX to process the references, and then will
+need to run LaTeX again up to three times to get all the cross-references right.You may use the provided
+<i>Makefile</i>, but if you prefer building manually that should work as well. ASP does not use pdflatex,
+so try and stick to latex (we only allow EPS figures, not PNG or JPG).
+
+Editing your paper in [Overleaf](https://www.overleaf.com/) is also known to work: simply upload
+(as a ZIP file produced by command `make overleaf` is the easiest) the <i>.tex</i> template, the two asp2014
+files, and optionally your BIB file and EPS figures. Don't start from scratch, or your file will be likely
+named main.tex
 
 ##### Check your manuscript
 
@@ -87,7 +95,7 @@ The command to build, check, and package the manuscript is:
 
 ##### Makefile commands
 
-If everything in your Author_Template is set correctly, you should be able to run the following make commands:
+If everything in the <i>Author_Template</i> is set correctly, you should be able to run the following make commands:
 
 <pre>
     make pdf      : Build the PDF file (possibly twice to rid some errors)
@@ -96,6 +104,9 @@ If everything in your Author_Template is set correctly, you should be able to ru
     make all      : Do all of the above
     make overleaf : Prepare a ZIP file to bootstrap your overleaf project
 </pre>
+
+<b>Please note that in order to get all the make commands working correctly, you should be working in
+the Author_template folder.</b>
 
 ##### Upload your proceedings contribution
 
