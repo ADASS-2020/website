@@ -88,20 +88,16 @@ starting at 1. e.g. example P10-3_v1.tar. This should contain:
 - And .eps graphics files used by the paper
 - The makedefs file
 - The resulting .pdf file for the paper, so we can see how you got it.
-- A signed copyright form. Electronic signatures are not acceptable – sign the form and scan it.
-
-The command to build, check, and package the manuscript is:
-`make pdf check tar`
+- A signed copyright form with filename <i>copyrightform_&lt;PID&gt;_&lt;AuthorName&gt;.pdf</i>.
 
 ##### Makefile commands
 
 If everything in the <i>Author_Template</i> is set correctly, you should be able to run the following make commands:
 
 <pre>
-    make pdf      : Build the PDF file (possibly twice to rid some errors)
+    make pdf      : Build the PDF file (possibly twice to get rid of some errors)
     make check    : Check the manuscript for issues
     make tar      : Build the tar file for submission
-    make all      : Do all of the above
     make overleaf : Prepare a ZIP file to bootstrap your overleaf project
 </pre>
 
