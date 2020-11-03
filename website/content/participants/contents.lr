@@ -16,8 +16,8 @@ body:
 - Carlos Adean - LIneA
 - Sreejith Aickara Gopinathan - Space Research Institute, Austrian Academy of Sciences
 - Anastasia Alexov - National Solar Observatory
-- Alice Allen - Astrophysics Source Code Library
 - Mark Allen - CDS, Observatoire astronomique de Strasbourg
+- Alice Allen - Astrophysics Source Code Library
 - Bruno Altieri - ESA
 - Nuria Alvarez Crespo - ESA
 - Zineb Aly - Erlangen Centre for Astroparticle Physics (ECAP)
@@ -26,6 +26,7 @@ body:
 - Keith Arnaud - University of Maryland
 - Christophe Arviset - 
 - Joseph Asercion - NASA/GSFC
+- Marcellin Atemkeng - Rhodes University
 - Jorge Avarias - Joint ALMA Observatory
 - Roberto Avila - Space Telescope Science Institute
 - Uwe Bach - Max-Planck-Institut fuer Radioastronomie
@@ -51,6 +52,7 @@ body:
 - Sergi Blanco-Cuaresma - Harvard-Smithsonian Center for Astrophysics
 - Thomas Boch - CDS / Observatoire de Strasbourg
 - David Bohlender - National Research Council Canada
+- Adam Bolton - NSF's NOIRLab
 - François Bonnarel - CDS, Observatoire astronomique de Strasbourg
 - Cristobal Bordiu - INAF Osservatorio Astrofisico di Catania
 - Viktor Borisov - Lomonosov Moscow State University Faculty of Computional Mathematics and Cybernetics; Space Research Institute of the Russian Academy of Sciences
@@ -61,6 +63,7 @@ body:
 - Clara Brasseur - AURA - Space Telescope Science Institute
 - Efrem Braun - NASA
 - Adam Brazier - 
+- Brian Broll - Vanderbilt University
 - Jakob Brünker - Etamax space GmbH
 - Hugo Buddelmeijer - 
 - Andrea Bulgarelli - 
@@ -95,8 +98,8 @@ body:
 - Mattia Corpora - INAF - National Institute for Astrophysics
 - Paula Cristina Correia dos Santos - ESO
 - Juan Cortes - Joint ALMA Observatory/NRAO
-- Luiz Alberto N Costa - LIneA
 - Alessandro Costa - INAF
+- Luiz Alberto N Costa - LIneA
 - Bryce Cousins - Pennsylvania State University
 - Nick Cox - ACRI-ST
 - Dennis Crabtree - NRC Herzberg
@@ -125,6 +128,7 @@ body:
 - Kimberly DuPrie - AURA - Space Telescope Science Institute
 - Richard Dubois - 
 - Dmitry Duev - Caltech
+- Salam Dulaimi - National University Of Ireland - Galway
 - Rosa Díaz - STScI
 - Ana Karla Díaz Rodríguez - UK ARC, JBCA University of Manchester
 - Rick Ebert - Caltech/IPAC (NASA/IPAC Extragalatic Database)
@@ -232,6 +236,7 @@ body:
 - Anna Kapinska - NRAO
 - Mansi Kasliwal - Caltech
 - JJ Kavelaars - National Research Council Canada
+- Laurens Keek - cosine | measurement systems
 - Aard Keimpema - JIVE
 - Heather Kelly - SLAC
 - Mark Kettenis - 
@@ -241,8 +246,8 @@ body:
 - Fenja Kollasch - HITS
 - Baerbel Koribalski - CSIRO Astronomy and Space Science
 - Melanie Krips - IRAM
-- Hariharan Krishnan - Arizona State University (ASU)
 - Hariram Krishnan - Etamax space GmbH
+- Hariharan Krishnan - Arizona State University (ASU)
 - Tony Krueger - Space Telescope Science Institute (STScI)
 - Sandor Kruk - European Space Agency
 - Martin Kuemmel - LMU Faculty of Physics
@@ -380,14 +385,15 @@ body:
 - Carlos Quiroz - NOIRLab/Gemini Observatory
 - Ryan Raba - NRAO
 - Athanaseus Ramaila - SARAO
+- Anne Raugh - University of Maryland
 - Mateusz Rałowski - Jagiellonian University, Astronomical Observatory
 - Umaa Rebbapragada - Jet Propulsion Laboratory
 - Luisa Rebull - Caltech-IPAC
 - Patrick Reichherzer - IRFU, CEA (Université Paris-Saclay)
 - Rosly Renil - SARAO (NRF)
 - Carter Rhea - 15147065772
-- Giuseppe Riccio - INAF - Observatory of Capodimonte
 - Gabriele Riccio - National Centre of Nuclear Research
+- Giuseppe Riccio - INAF - Observatory of Capodimonte
 - Amalia Rivera - 
 - William Roby - Caltech/IPAC
 - David Rodriguez - AURA - Space Telescope Science Institute
@@ -450,6 +456,7 @@ body:
 - Bernardino Spisso - INFN
 - Jan-Willem Steeb - 
 - Travis Stenborg - University of Sydney
+- Steven Stetzler - University of Washington
 - Jeff Stoner - Bearclan Consulting
 - Ole Streicher - Leibniz Institute for Astrophysics Potsdam (AIP)
 - Kanako Sugimoto - National Astronomical Observatory of Japan
@@ -469,6 +476,7 @@ body:
 - Peter Teuben - University of Maryland
 - Sebastian Thiel - MPIfR
 - Heidi Thiemann - 
+- Vuillaume Thomas - LAPP - CNRS
 - Alasdair Thomson - University of Manchester
 - Kshitij Thorat - University of Pretoria and Inter-University Institute for Data Intensive Astronomy
 - Ariel Tirado - Universidad Federico Santa Maria
