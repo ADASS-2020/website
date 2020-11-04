@@ -16,8 +16,8 @@ body:
 - Carlos Adean - LIneA
 - Sreejith Aickara Gopinathan - Space Research Institute, Austrian Academy of Sciences
 - Anastasia Alexov - National Solar Observatory
-- Mark Allen - CDS, Observatoire astronomique de Strasbourg
 - Alice Allen - Astrophysics Source Code Library
+- Mark Allen - CDS, Observatoire astronomique de Strasbourg
 - Bruno Altieri - ESA
 - Nuria Alvarez Crespo - ESA
 - Zineb Aly - Erlangen Centre for Astroparticle Physics (ECAP)
@@ -140,7 +140,9 @@ body:
 - Eric Emsellem - ESO
 - Janet Evans - 
 - Ian Evans - Center for Astrophysics | Harvard & Smithsonian
+- Guillaume Eynard-Bontemps - CNES
 - Seb Fabbro - National Research Council Canada
+- Humberto Farias Aroca - Universidad Técnica Federico Santa María
 - Tony Farrell - Australian Astronomical Optics, Macquarie University
 - Samuel Farrens - CEA/COSMOS
 - Carlos Feinstein - Facultad de Ciencias Astronomicas y Geofisicas/IALP -UNLP - Argentina
@@ -207,6 +209,7 @@ body:
 - Brian Hayden - STScI - Space Telescope Science Institute
 - Wayne Hayes - University of California, Irvine
 - Hendrik Heinl - CDS, Observatoire astronomique de Strasbourg
+- George Helou - Caltech/IPAC
 - Anthony Heng - AAO - Macquarie University
 - Christian Hettlage - SAAO/SALT
 - Keri Heuer - Drexel University
@@ -392,8 +395,8 @@ body:
 - Patrick Reichherzer - IRFU, CEA (Université Paris-Saclay)
 - Rosly Renil - SARAO (NRF)
 - Carter Rhea - 15147065772
-- Gabriele Riccio - National Centre of Nuclear Research
 - Giuseppe Riccio - INAF - Observatory of Capodimonte
+- Gabriele Riccio - National Centre of Nuclear Research
 - Amalia Rivera - 
 - William Roby - Caltech/IPAC
 - David Rodriguez - AURA - Space Telescope Science Institute
@@ -467,7 +470,6 @@ body:
 - José Sánchez-Gallego - University of Washington
 - Miguel Sánchez-Portal - Instituto de Radioastronomía Milimétrica - IRAM
 - Giuliano Taffoni - INAF
-- Akio Taniguchi - Nagoya University
 - Mark Taylor - University of Bristol
 - Joanna Taylor - Space Telescope Science Institute
 - Hossen Teimoorinia - National Research Council Canada
@@ -506,8 +508,8 @@ body:
 - Kiri Wagstaff - 
 - John Wallin - Middle Tennessee State University
 - Nicholas Walton - Institute of Astronomy, University of Cambridge
-- Shin-Ywan Wang - Caltech/IPAC
 - Kuo-Song Wang - ASIAA
+- Shin-Ywan Wang - Caltech/IPAC
 - Katarzyna Wardega - University of Warsaw, University of Texas Rio Grande Valley
 - Robert Watson - JBCA, University of Manchester
 - Sarah Weissman - AURA - Space Telescope Science Institute
