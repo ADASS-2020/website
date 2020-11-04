@@ -51,7 +51,6 @@ body:
 **MACHINE LEARNING, STATISTICS, AND ALGORITHMS**
 
 - <a href='https:\/\/adass2020.es/static/ftp/P5-242/P5-242_v2.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/YNH8UF' target='_schedule'>21st Century Supermoon Estimation in R</a>, Travis Stenborg
-- <a href='https:\/\/adass2020.es/static/ftp/P5-80/P5-80.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/LKJFZ9' target='_schedule'>An Iterative Reconstruction Algorithm for Faraday Tomography</a>, Suchetha Cooray
 - <a href='https:\/\/adass2020.es/static/ftp/P5-58/P5-58_v1.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/E8AGVX' target='_schedule'>A practical pre-conditioner for wide-field continuum imaging of radio interferometric data:</a>, Landman Bester
 - <a href='https:\/\/adass2020.es/static/ftp/P5-225/P5-225.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/LVBB9X' target='_schedule'>A solar spectral irradiance prediction workflow using a recurrent neural network in a reproducible and replicable approach</a>, Amita Muralikrishna
 - <a href='https:\/\/adass2020.es/static/ftp/P5-64/P5-64.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/FT8XM3' target='_schedule'>Astrocook: quasar spectral analysis made easy</a>, Guido Cupani
@@ -67,7 +66,6 @@ body:
 - <a href='https:\/\/adass2020.es/static/ftp/P5-48/P5-48.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/PQFA9X' target='_schedule'>Reconstruction of IACT events using deep learning techniques with CTLearn</a>, Daniel Nieto Castaño
 - <a href='https:\/\/adass2020.es/static/ftp/P5-62/P5-62_V1.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/ZU7TYD' target='_schedule'>Single Imaging Atmospheric Cherenkov Telescope full-event reconstruction with a deep multi-task learning architecture</a>, Mikaël Jacquemont
 - <a href='https:\/\/adass2020.es/static/ftp/P5-223/P5-223.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/AQR399' target='_schedule'>Stellar Formation in NGC 2366: Searching for clusters and associations using unsupervised algorithms</a>, Carlos Feinstein
-- <a href='https:\/\/adass2020.es/static/ftp/P5-262/P5-262.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/3LMMRA' target='_schedule'>Tensor Mask R-CNN: A Tensor-based Deep Learning approach for fast morphological classification and segmentation of Galaxies.</a>, Humberto Farias
 - <a href='https:\/\/adass2020.es/static/ftp/P5-217/P5-217_v2.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/ZA7DRP' target='_schedule'>Transfer Learning in Large Spectroscopic Surveys</a>, Ondřej Podsztavek
 - <a href='https:\/\/adass2020.es/static/ftp/P5-187/P5-187_ v4.pdf'>&#x1F4D1;</a><a href='https:\/\/adass2020.es/static/ftp/P5-187/P5-187_v2.mp4'>&#x1F3A6;</a> <a href='https://schedule.adass2020.es/adass2020/talk/7TRDBF' target='_schedule'>VLASS Quicklook Image Classifier using PyTorch</a>, Mauricio Rodríguez Alas
 
@@ -92,7 +90,6 @@ body:
 
 - <a href='https:\/\/adass2020.es/static/ftp/P8-264/P8-264_v1.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/LPUMKW' target='_schedule'>ChiVo-Tools: a deep learning tool for exploratory analysis of astronomical data for Python and as a Web Service</a>, Ariel Tirado
 - <a href='https:\/\/adass2020.es/static/ftp/P8-148/P8-148.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/38MQ8D' target='_schedule'>Correcting Inter-Waveband Positional Errors in Sloan Images</a>, Wayne B. Hayes
-- <a href='https:\/\/adass2020.es/static/ftp/P8-258/P8-258_v2.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/UCSRDX' target='_schedule'>Crystalball, a Dask and Numba accelerated DFT Model Predict</a>, Paolo Serra
 - <a href='https:\/\/adass2020.es/static/ftp/P8-238/P8-238_v2.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/8FEHXA' target='_schedule'>Development of a widefield mosaic imaging pipeline for e-MERLIN</a>, Bob Watson
 - <a href='https:\/\/adass2020.es/static/ftp/P8-182/P8-182.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/7UZVHM' target='_schedule'>Filabres: a new pipeline for the automatic data reduction of CAFOS direct imaging</a>, Nicolás Cardiel
 - <a href='https:\/\/adass2020.es/static/ftp/P8-235/P8-235_v2.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/K7RPJF' target='_schedule'>Implementation of the 3D degridding for the NVIDIA GPUs using CUDA</a>, Karel Adámek
@@ -111,7 +108,6 @@ body:
 - <a href='https:\/\/adass2020.es/static/ftp/P8-193/P8-193_v2.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/PLQJSC' target='_schedule'>The CASA Software for Radio Astronomy: Status Update from ADASS 2020</a>, Bjorn Emonts
 - <a href='https:\/\/adass2020.es/static/ftp/P8-46/P8-46.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/CYLM87' target='_schedule'>The CFIS processing pipeline</a>, Stephen Gwyn
 - <a href='https:\/\/adass2020.es/static/ftp/P8-90/P8-90.pdf'>&#x1F4D1;</a><a href='https:\/\/adass2020.es/static/ftp/P8-90/P8-90.LT_v2.mp4'>&#x1F3A6;</a> <a href='https://schedule.adass2020.es/adass2020/talk/8BCYBN' target='_schedule'>The High-level Data Reduction Library - A Library for ESO's Data Reduction Pipelines</a>, Andrea Modigliani
-- <a href='https:\/\/adass2020.es/static/ftp/P8-38/P8-38.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/8ZKJCC' target='_schedule'>Validating data reduction algorithms through advanced instrument simulation - the case of HARMONI</a>, Aurelien Jarno
 
 **DATA INTEROPERABILITY**
 
@@ -121,7 +117,6 @@ body:
 - <a href='https:\/\/adass2020.es/static/ftp/P9-81/P9-81.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/EUJPCE' target='_schedule'>CARACal - The Containerized Automated Radio Astronomy Calibration Pipeline</a>, Gyula I. G. Jozsa
 - <a href='https:\/\/adass2020.es/static/ftp/P9-253/P9-253.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/RTPJJL' target='_schedule'>CDS "virtual" Simple Image Access service</a>, François Bonnarel
 - <a href='https:\/\/adass2020.es/static/ftp/P9-216/P9-216_v2.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/PCZRGB' target='_schedule'>Exploring Provenance tracing for VizieR catalogues</a>, Gilles Landais
-- <a href='https:\/\/adass2020.es/static/ftp/P9-119/P9-119.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/BURTKP' target='_schedule'>Hangar at VIRGO</a>, Filippo Quarenghi
 - <a href='https:\/\/adass2020.es/static/ftp/P9-201/P9-201.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/C9DA3D' target='_schedule'>Hipsgen: the Hierarchical Progressive Survey generation tool</a>, Caroline Bot
 - <a href='https:\/\/adass2020.es/static/ftp/P9-170/P9-170.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/XN7P8Q' target='_schedule'>Innovative tools fostered by the HiPS ecosystem</a>, Thomas Boch
 - <a href='https:\/\/adass2020.es/static/ftp/P9-89/P9-89_v1.pdf'>&#x1F4D1;</a><a href='https:\/\/adass2020.es/static/ftp/P9-89/P9-89_v1.mp4'>&#x1F3A6;</a> <a href='https://schedule.adass2020.es/adass2020/talk/EELDWW' target='_schedule'>OPUS: an interoperable job control system based on VO standards</a>, Mathieu Servillat
@@ -167,5 +162,4 @@ body:
 - <a href='https:\/\/adass2020.es/static/ftp/P11-146/P11-146_v2.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/E7DHZW' target='_schedule'>Numerical code generation from symbolic expressions in Python</a>, Fabio Rossi
 - <a href='https:\/\/adass2020.es/static/ftp/P11-189/P11-189.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/BPXRA3' target='_schedule'>Observing scripts in kosma_software used on GREAT/SOFIA: modularity, flexibility, efficiency</a>, Yoko Okada
 - <a href='https:\/\/adass2020.es/static/ftp/P11-172/P11-172.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/EQB8AE' target='_schedule'>STARLINK - the original and best</a>, David Berry
-- <a href='https:\/\/adass2020.es/static/ftp/P11-147/P11-147_good.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/WZ3DDK' target='_schedule'>The technical challenges of implementing DOIs at the ESA Science Data Center (ESDC)</a>, Maria Henar Sarmiento Carrión
 - <a href='https:\/\/adass2020.es/static/ftp/P11-197/P11-197.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/JUSRUK' target='_schedule'>VIPERS: Fundamental Metallicity Relation and its projections. How observational bias affect their shape</a>, Francesco Pistis
