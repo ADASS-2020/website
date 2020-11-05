@@ -9,6 +9,13 @@ _template: page-md.html
 ---
 body:   
 
+#### NOTE
+**There are no specific posters sessions scheduled.**
+Instead conference participants will be allowed to download the PDF poster files from this list.
+They could also download optional complementary self-recorded lightning talks as MP4 video files.
+Access authentication info will be delivered in Discord, where participants could also interact 
+with posters authors individually or within the #posters channel. 
+    
 **SCIENCE PLATFORMS AND DATA LAKES**
 
 - <a href='https:\/\/adass2020.es/static/ftp/P1-190/P1-190.pdf'>&#x1F4D1;</a> <a href='https://schedule.adass2020.es/adass2020/talk/UUWKC7' target='_schedule'>ASTRI Virtual Test Bed: from Prototype to Mini-Array</a>, Fulvio Gianotti
