@@ -248,7 +248,7 @@
 
       function onPopupClose() {
        $("#modal-content").hide();
-       Cookies.set('colorboxShown', 'yes', {
+       Cookies.set('regAlertShown', 'yes', {
          expires: 1000000000000
        });
      }
@@ -263,7 +263,7 @@
        });
      }
 
-      var popupShown = Cookies.get('colorboxShown');
+      var popupShown = Cookies.get('regAlertShown');
 
       if (popupShown) {
        console.log("Cookie found. No action necessary");
