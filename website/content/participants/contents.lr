@@ -16,8 +16,8 @@ body:
 - Carlos Adean - LIneA
 - Sreejith Aickara Gopinathan - Space Research Institute, Austrian Academy of Sciences
 - Anastasia Alexov - National Solar Observatory
-- Alice Allen - Astrophysics Source Code Library
 - Mark Allen - CDS, Observatoire astronomique de Strasbourg
+- Alice Allen - Astrophysics Source Code Library
 - Bruno Altieri - ESA
 - Nuria Alvarez Crespo - ESA
 - Zineb Aly - Erlangen Centre for Astroparticle Physics (ECAP)
@@ -98,8 +98,8 @@ body:
 - Mattia Corpora - INAF - National Institute for Astrophysics
 - Paula Cristina Correia dos Santos - ESO
 - Juan Cortes - Joint ALMA Observatory/NRAO
-- Luiz Alberto N Costa - LIneA
 - Alessandro Costa - INAF
+- Luiz Alberto N Costa - LIneA
 - Bryce Cousins - Pennsylvania State University
 - Nick Cox - ACRI-ST
 - Dennis Crabtree - NRC Herzberg
@@ -138,8 +138,8 @@ body:
 - Matthew Elliott - Adnet Systems/NASA Goddard Space Flight Center
 - Bjorn Emonts - National Radio Astronomy Observatory
 - Eric Emsellem - ESO
-- Ian Evans - Center for Astrophysics | Harvard & Smithsonian
 - Janet Evans - 
+- Ian Evans - Center for Astrophysics | Harvard & Smithsonian
 - Guillaume Eynard-Bontemps - CNES
 - Seb Fabbro - National Research Council Canada
 - Humberto Farias Aroca - Universidad Técnica Federico Santa María
@@ -221,6 +221,7 @@ body:
 - Benjamin Hugo - South African Radio Astronomy Observatory
 - Alexander Hutton - Aurora Technology B.V. for ESA - European Space Agency
 - Minh Huynh - CSIRO
+- Sergio Ibarmia - RHEA@ESA/ESAC
 - Aitor Ibarra Ibairriaga - XMM-Newton Science Operation Centre
 - Jose Miguel Ibañez Mengual - IAA-CSIC
 - Jorge Ibsen - ESO-Alma
@@ -236,6 +237,7 @@ body:
 - Yves Jung - ESO
 - Mario Juric - DiRAC Institute, University of Washington
 - Gyula I. G. Józsa - SARAO
+- Thomas Jürges - ASTRON
 - Anna Kapinska - NRAO
 - Mansi Kasliwal - Caltech
 - JJ Kavelaars - National Research Council Canada
@@ -285,6 +287,7 @@ body:
 - Brian Major - National Research Council Canada
 - Jean-Christophe Malapert - CNES
 - Mateusz Malenta - The University of Manchester
+- Mattia Mancini - ASTRON
 - Bob Mann - University of Edinburgh
 - Gregory Mantelet - CDS, Observatoire astronomique de Strasbourg
 - Lucia Marchetti - University of Cape Town
@@ -384,6 +387,7 @@ body:
 - Elena Puga - 
 - Casey Pulnik - Center for Astrophysics | Harvard & Smithsonian
 - Tapio Pursimo - 
+- Filippo Quarenghi - 
 - Guillaume Quenouille - CNES
 - Bruno Quint - Gemini Observatory/NSF's NOIRLab
 - Carlos Quiroz - NOIRLab/Gemini Observatory
@@ -414,6 +418,7 @@ body:
 - Michele Sanguillon - LUPM - CNRS
 - Juande Santander-Vela - SKA Organisation
 - Rafael Duarte Coelho Santos - Instituto Nacional de Pesquisas Espaciais
+- Maria Henar Sarmiento Carrion - ESAC Science Data Center (ESDC) - ESA
 - Renaud Savalle - PADC-Observatoire de Paris
 - Salvatore Savarese - INAF Osservatorio Astronomico di Capodimonte Napoli
 - Reinhold Schaaf - Argelander-Institut für Astronomie, Universität Bonn
@@ -458,6 +463,7 @@ body:
 - Danuta Sosnowska - Geneva Observatory
 - Christian Soto - AURA - Space Telescope Science Institute
 - Bernardino Spisso - INFN
+- Hanno Spreeuw - Netherlands eScience Center
 - Jan-Willem Steeb - 
 - Travis Stenborg - University of Sydney
 - Steven Stetzler - University of Washington
@@ -509,8 +515,8 @@ body:
 - Kiri Wagstaff - 
 - John Wallin - Middle Tennessee State University
 - Nicholas Walton - Institute of Astronomy, University of Cambridge
-- Shin-Ywan Wang - Caltech/IPAC
 - Kuo-Song Wang - ASIAA
+- Shin-Ywan Wang - Caltech/IPAC
 - Katarzyna Wardega - University of Warsaw, University of Texas Rio Grande Valley
 - Robert Watson - JBCA, University of Manchester
 - Sarah Weissman - AURA - Space Telescope Science Institute
@@ -540,6 +546,7 @@ body:
 - Arjen de Rijke - Dataspex
 - Pilar de Teodoro - Aurora/ESAC
 - Ilse van Bemmel - JIVE
+- Kees van Berkel - 
 - Michiel van Haarlem - ASTRON
 - Wouter van Reeven - Vera C. Rubin Observatory
 - Jakob van Santen - DESY
