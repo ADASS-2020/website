@@ -14,6 +14,7 @@ body:
 - Karel Adamek - Czech Technical University
 - Antonio Addis - INAF-OAS
 - Carlos Adean - LIneA
+- Tito Agbayani - AURA INC.
 - Sreejith Aickara Gopinathan - Space Research Institute, Austrian Academy of Sciences
 - Anastasia Alexov - National Solar Observatory
 - Mark Allen - CDS, Observatoire astronomique de Strasbourg
@@ -21,8 +22,10 @@ body:
 - Bruno Altieri - ESA
 - Nuria Alvarez Crespo - ESA
 - Zineb Aly - Erlangen Centre for Astroparticle Physics (ECAP)
+- Lexy Andati - Rhodes University
 - Kim Arcand - CfA
 - Felipe Arellano - ALMA
+- Matej Arko - ESA
 - Keith Arnaud - University of Maryland
 - Christophe Arviset - 
 - Joseph Asercion - NASA/GSFC
@@ -39,6 +42,7 @@ body:
 - Leonardo Baroncelli - INAF/OAS Bologna
 - Matthieu Baumann - CDS / Observatoire de Strasbourg
 - Shabbir Bawaji - 
+- John Beasley - James Madison University
 - Graham Bell - East Asian Observatory
 - Daniel Benitez de Haro - Centro Astronómico Hispano-Alemán, A.I.E.
 - Gilles Bergond - CAHA
@@ -48,6 +52,8 @@ body:
 - Bruce Berriman - 
 - David Berry - 
 - Sara Bertocco - 
+- Steve Berukoff - National Solar Observatory
+- Landman Bester - Rhodes University
 - Gabriel Bihain - Max-Planck-Institut für Gravitationsphysik (Albert-Einstein-Institut)
 - Sergi Blanco-Cuaresma - Harvard-Smithsonian Center for Astrophysics
 - Thomas Boch - CDS / Observatoire de Strasbourg
@@ -82,7 +88,9 @@ body:
 - M.Teresa Ceballos Merino - IFCA (CSIC-UC)
 - Andrew Cenko - NOFS
 - Pierre-Yves Chabaud - AMU-CNRS
+- Siddharth Chaini - Indian Institute of Science Education and Research (IISER), Bhopal
 - Alexandros Chalevin - Etamax space GmbH
+- Maurizio Chavan - ESO
 - Tracy Chen - Caltech/IPAC
 - Lucio Chiappetti - INAF IASF Milano
 - Nicholas Chornay - IoA, University of Cambridge
@@ -95,6 +103,7 @@ body:
 - Angus Comrie - University of Cape Town/IDIA
 - Vito Conforti - INAF
 - Simon Conseil - Gemini Observatory/NSF’s NOIRLab
+- Suchetha Cooray - Nagoya University
 - Mattia Corpora - INAF - National Institute for Astrophysics
 - Paula Cristina Correia dos Santos - ESO
 - Juan Cortes - Joint ALMA Observatory/NRAO
@@ -116,12 +125,15 @@ body:
 - James Dempsey - CSIRO Australia
 - Nadia Dencheva - Space Telescope Science Institute (STScI)
 - Vladimir Dergachev - AEI Hannover
+- Alysa Derks - National Solar Observatory
 - Sébastien Derriere - CDS, Observatoire astronomique de Strasbourg
 - Vandana Desai - IPAC
 - Erik Deul - Leiden Observatory, Netherlands
 - Thavisha Dharmawardena - Max Planck Institute for Astronomy
 - Hugh Dickinson - The Open University
 - Tammo Jan Dijkema - ASTRON
+- Matthew Dobson - Queen's University Belfast, Astrophysics Research Centre
+- Broguiere Dominique - IRAM
 - Thomas Donaldson - AURA - Space Telescope Science Institute
 - Jayce Dowell - University of New Mexico
 - Trisha Doyle - NASA GSFC/Innovim
@@ -138,8 +150,9 @@ body:
 - Matthew Elliott - Adnet Systems/NASA Goddard Space Flight Center
 - Bjorn Emonts - National Radio Astronomy Observatory
 - Eric Emsellem - ESO
-- Janet Evans - 
+- Carlos Espinosa-Ponce - Instituto de Astronomia, Universidad Nacional Autonoma de Mexico
 - Ian Evans - Center for Astrophysics | Harvard & Smithsonian
+- Janet Evans - 
 - Guillaume Eynard-Bontemps - CNES
 - Seb Fabbro - National Research Council Canada
 - Humberto Farias Aroca - Universidad Técnica Federico Santa María
@@ -229,6 +242,7 @@ body:
 - Mikaël Jacquemont - LAPP, CNRS / LISTIC, Univ. SMB
 - Tess Jaffe - NASA Goddard Space Flight Center
 - Fabian Jankowski - The University of Manchester
+- Aurelien Jarno - Centre de Recherche Astrophysique de Lyon
 - Anne Jean-Antoine-Piccolo - CNES
 - Helena Jeeves - National Research Council Canada
 - Tim Jenness - Rubin Observatory
@@ -244,12 +258,16 @@ body:
 - Laurens Keek - cosine | measurement systems
 - Aard Keimpema - JIVE
 - Heather Kelly - SLAC
+- Brian Kent - NRAO
+- Jonathan Kenyon - Rhodes University
 - Mark Kettenis - 
+- Bruno Khélifi - APC, IN2P3/CNRS, Université de Paris
 - Slava Kitaeff - Australian SKA Regional Centre
 - Cristina Knapic - INAF - OATs
 - Erica Kolatch - AURA - Space Telescope Science Institute
 - Fenja Kollasch - HITS
 - Baerbel Koribalski - CSIRO Astronomy and Space Science
+- Yukinobu Koyama - Kindai University Technical College
 - Melanie Krips - IRAM
 - Hariram Krishnan - Etamax space GmbH
 - Hariharan Krishnan - Arizona State University (ASU)
@@ -297,6 +315,7 @@ body:
 - Susana Martín Ruiz - IAA-CSIC
 - Camila Martínez - ALMA
 - Rafael Martínez-Galarza - 
+- Sakhile Masoka - Rhodes University
 - Siddha Mavuram - Astrophysics Source Code Library
 - Douglas McElroy - Caltech/IPAC
 - Thomas McGlynn - 
@@ -309,6 +328,7 @@ body:
 - Bruno Merín - European Space Agency
 - Alexander Meshcheryakov - Space Research Institute (IKI RAS)
 - Zheng Meyer-Zhao - ASTRON
+- Felipe Meza Obando - Tecnológico de Costa Rica
 - Alberto Micol - ESO (European Southern Observatory)
 - Jessica Mink - Smithsonian Astrophysical Observatory
 - Brent Miszalski - AAO-Macquarie
@@ -329,6 +349,7 @@ body:
 - Dirk Muders - Max-Planck-Institut für Radioastronomie (MPIfR)
 - Susan Mullally - 
 - Sebastien Muller - Onsala Space Observatory - Chalmers University
+- Stuart Mumford - National Solar Observatory
 - Demitri Muna - University of Texas, San Antonio
 - David J. Muniesa Gallardo - CEFCA
 - Carlos Muniz - European Space Agency
@@ -338,6 +359,7 @@ body:
 - Marc Murison - US Naval Observatory
 - Kristers Nagainis - 
 - Takeshi Nakazato - National Astronomical Observatory of Japan
+- Neo Namane - Rhodes University
 - Artash Nath - 
 - Vicente Navarro - 
 - Ada Nebot - CDS, Observatoire astronomique de Strasbourg
@@ -345,6 +367,8 @@ body:
 - Sara Nieto - ESAC/RHEA
 - Daniel Nieto Castaño - Universidad Complutense de Madrid - IPARCOS
 - Cosimo Nigro - Institut de Fisica d'Altes Energies (IFAE)
+- Robert Nikutta - NSF's NOIRLab
+- Jan Noordam - Rhodes University
 - Jan Novotny - Institute of the Physics
 - Arturo Nunez - NOIRLab/Gemini Observatory
 - William O'Mullane - Vera C. Rubin Observatory
@@ -405,9 +429,12 @@ body:
 - Amalia Rivera - 
 - William Roby - Caltech/IPAC
 - David Rodriguez - AURA - Space Telescope Science Institute
+- Mauricio Rodríguez - Universidad Latina de Costa Rica
 - Fabio Rossi - INAF
 - Tomasz Rozanski - 
+- Kristof Rozgonyi - ICRAR -- UWA
 - Jose Enrique Ruiz - IAA-CSIC
+- Cyndie Russeeawon - Rhodes University
 - Stefano Alberto Russo - INAF
 - Kristin Rutkowski - NASA
 - Jose Sabater Montes - UKATC - STFC
@@ -431,6 +458,7 @@ body:
 - Katrina Sealey - AAO - Macquarie University
 - Robert Seaman - Lunar and Planetary Lab
 - Nima Sedaghat - ESO
+- Paolo Serra - INAF - Osservatorio Astronomico di Cagliari
 - Mathieu Servillat - LUTH - Observatoire de Paris
 - Ignacio Sevilla - CIEMAT
 - Brent Shapiro-Albert - West Virginia University/NANOGrav
@@ -477,6 +505,7 @@ body:
 - José Sánchez-Gallego - University of Washington
 - Miguel Sánchez-Portal - Instituto de Radioastronomía Milimétrica - IRAM
 - Giuliano Taffoni - INAF
+- Manuchehr Taghizadeh-Popp - Johns Hopkins University
 - Mark Taylor - University of Bristol
 - Joanna Taylor - Space Telescope Science Institute
 - Hossen Teimoorinia - National Research Council Canada
@@ -498,6 +527,7 @@ body:
 - Helen Tran - CADC
 - Matteo Trudu - INAF-Osservatorio Astronomico di Cagliari / Università degli Studi di Cagliari
 - Alexis Tudor - University of Nevada, Reno
+- Samuel Twum - Rhodes University
 - Cristian Urrutia - NOIRLab/Gemini Observatory
 - Giuseppe Vacanti - cosine | measurement systems
 - Jacob Vander Vliet - 
@@ -515,9 +545,10 @@ body:
 - Kiri Wagstaff - 
 - John Wallin - Middle Tennessee State University
 - Nicholas Walton - Institute of Astronomy, University of Cambridge
-- Kuo-Song Wang - ASIAA
 - Shin-Ywan Wang - Caltech/IPAC
+- Kuo-Song Wang - ASIAA
 - Katarzyna Wardega - University of Warsaw, University of Texas Rio Grande Valley
+- Fraser Watson - National Solar Observatory
 - Robert Watson - JBCA, University of Manchester
 - Sarah Weissman - AURA - Space Telescope Science Institute
 - Brian Welman - RATT - Rhodes University
@@ -538,6 +569,7 @@ body:
 - Mauricio Zambrano - ALMA observatory
 - Stefano Zampieri - ESO
 - Alessandra Zanichelli - INAF - Istituto di Radioastronomia
+- Christopher Zapart - National Astronomical Observatory of Japan
 - Lonwabo Zaula - SAAO/SALT
 - Pawel Zielinski - Warsaw University Astronomical Observatory, Poland
 - André Rodrigo da Silva - Nicolaus Copernicus Astronomical Center
