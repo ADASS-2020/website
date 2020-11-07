@@ -40,6 +40,7 @@ body:
 - Pascal Ballester - ESO
 - Harrison Barlow - Murchison Widefield Array/Curtin University
 - Leonardo Baroncelli - INAF/OAS Bologna
+- Paul Barrett - 
 - Matthieu Baumann - CDS / Observatoire de Strasbourg
 - Shabbir Bawaji - 
 - John Beasley - James Madison University
@@ -121,6 +122,7 @@ body:
 - Malcolm Currie - RAL Space
 - Raffaele D'Abrusco - Center for Astrophysics | Harvard & Smithsonian
 - Adrian Damian - National Research Council Canada
+- Guillermo Damke - Universidad de La Serena / AURA Observatory in Chile
 - Durand Daniel - Retiree
 - James Dempsey - CSIRO Australia
 - Nadia Dencheva - Space Telescope Science Institute (STScI)
@@ -151,8 +153,8 @@ body:
 - Bjorn Emonts - National Radio Astronomy Observatory
 - Eric Emsellem - ESO
 - Carlos Espinosa-Ponce - Instituto de Astronomia, Universidad Nacional Autonoma de Mexico
-- Ian Evans - Center for Astrophysics | Harvard & Smithsonian
 - Janet Evans - 
+- Ian Evans - Center for Astrophysics | Harvard & Smithsonian
 - Guillaume Eynard-Bontemps - CNES
 - Seb Fabbro - National Research Council Canada
 - Humberto Farias Aroca - Universidad Técnica Federico Santa María
@@ -192,7 +194,6 @@ body:
 - J Duane Gibson - MMT Observatory/University of Arizona
 - Christian Gilbertson - The Pennsylvania State University
 - Sankalp Gilda - University of Florida
-- Landais Gilles - CDS / Observatoire de Strasbourg
 - Kim Gillies - Thirty Meter Telescope International Observatory
 - Jean-Michel Glorian - IRAP/OMP-CNRS-UPS-CNES
 - Claus Goessl - Ludwig-Maximilians-Universitaet Muenchen
@@ -235,13 +236,14 @@ body:
 - Alexander Hutton - Aurora Technology B.V. for ESA - European Space Agency
 - Minh Huynh - CSIRO
 - Sergio Ibarmia - RHEA@ESA/ESAC
-- Aitor Ibarra Ibairriaga - XMM-Newton Science Operation Centre
+- Aitor Ibarra Ibaibarriaga - XMM-Newton Science Operation Centre
 - Jose Miguel Ibañez Mengual - IAA-CSIC
 - Jorge Ibsen - ESO-Alma
 - Colin Jacobs - Swinburne University of Technology
 - Mikaël Jacquemont - LAPP, CNRS / LISTIC, Univ. SMB
 - Tess Jaffe - NASA Goddard Space Flight Center
 - Fabian Jankowski - The University of Manchester
+- Marcelo Jaque - Universidad de La Serena
 - Aurelien Jarno - Centre de Recherche Astrophysique de Lyon
 - Anne Jean-Antoine-Piccolo - CNES
 - Helena Jeeves - National Research Council Canada
@@ -269,8 +271,8 @@ body:
 - Baerbel Koribalski - CSIRO Astronomy and Space Science
 - Yukinobu Koyama - Kindai University Technical College
 - Melanie Krips - IRAM
-- Hariram Krishnan - Etamax space GmbH
 - Hariharan Krishnan - Arizona State University (ASU)
+- Hariram Krishnan - Etamax space GmbH
 - Tony Krueger - Space Telescope Science Institute (STScI)
 - Sandor Kruk - European Space Agency
 - Martin Kuemmel - LMU Faculty of Physics
@@ -278,8 +280,10 @@ body:
 - Praveen Kumar - Nagpur University
 - Kathleen Labrie - NOIRLab/Gemini Observatory
 - Mark Lacy - NRAO
+- Hitech Lala - University of Heidelberg
 - Marco Lam - Liverpool John Moores University
 - Uwe Lammers - European Space Agency, ESAC, Spain
+- Gilles Landais - CDS / Observatoire de Strasbourg
 - Michel Laurent - Observatoire de Strasbourg
 - Frederic Lemmel - ESA
 - Howard Leverenz - 
@@ -424,8 +428,8 @@ body:
 - Patrick Reichherzer - IRFU, CEA (Université Paris-Saclay)
 - Rosly Renil - SARAO (NRF)
 - Carter Rhea - 15147065772
-- Gabriele Riccio - National Centre of Nuclear Research
 - Giuseppe Riccio - INAF - Observatory of Capodimonte
+- Gabriele Riccio - National Centre of Nuclear Research
 - Amalia Rivera - 
 - William Roby - Caltech/IPAC
 - David Rodriguez - AURA - Space Telescope Science Institute
@@ -506,8 +510,8 @@ body:
 - Miguel Sánchez-Portal - Instituto de Radioastronomía Milimétrica - IRAM
 - Giuliano Taffoni - INAF
 - Manuchehr Taghizadeh-Popp - Johns Hopkins University
-- Mark Taylor - University of Bristol
 - Joanna Taylor - Space Telescope Science Institute
+- Mark Taylor - University of Bristol
 - Hossen Teimoorinia - National Research Council Canada
 - Harry Teplitz - Caltech/IPAC
 - Scott Terek - Caltech/IPAC
