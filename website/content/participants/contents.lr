@@ -17,8 +17,8 @@ body:
 - Tito Agbayani - AURA INC.
 - Sreejith Aickara Gopinathan - Space Research Institute, Austrian Academy of Sciences
 - Anastasia Alexov - National Solar Observatory
-- Mark Allen - CDS, Observatoire astronomique de Strasbourg
 - Alice Allen - Astrophysics Source Code Library
+- Mark Allen - CDS, Observatoire astronomique de Strasbourg
 - Bruno Altieri - ESA
 - Nuria Alvarez Crespo - ESA
 - Zineb Aly - Erlangen Centre for Astroparticle Physics (ECAP)
@@ -270,6 +270,7 @@ body:
 - Fenja Kollasch - HITS
 - Baerbel Koribalski - CSIRO Astronomy and Space Science
 - Yukinobu Koyama - Kindai University Technical College
+- Carsten Kramer - IRAM
 - Melanie Krips - IRAM
 - Hariharan Krishnan - Arizona State University (ASU)
 - Hariram Krishnan - Etamax space GmbH
@@ -382,6 +383,7 @@ body:
 - Eduardo Ojero Pascual - ESA XMM-Newton Science Operations Centre
 - Yoko Okada - Universität zu Köln
 - Michael Olberg - Chalmers Technical University
+- Daniel Ortiz - Universidad de La Serena
 - John Palmieri - Caltech/IPAC
 - Ralf Palsa - ESO
 - Deborah Paradis - IRAP/OMP-CNRS-UPS-CNES
@@ -428,8 +430,8 @@ body:
 - Patrick Reichherzer - IRFU, CEA (Université Paris-Saclay)
 - Rosly Renil - SARAO (NRF)
 - Carter Rhea - 15147065772
-- Giuseppe Riccio - INAF - Observatory of Capodimonte
 - Gabriele Riccio - National Centre of Nuclear Research
+- Giuseppe Riccio - INAF - Observatory of Capodimonte
 - Amalia Rivera - 
 - William Roby - Caltech/IPAC
 - David Rodriguez - AURA - Space Telescope Science Institute
@@ -510,8 +512,8 @@ body:
 - Miguel Sánchez-Portal - Instituto de Radioastronomía Milimétrica - IRAM
 - Giuliano Taffoni - INAF
 - Manuchehr Taghizadeh-Popp - Johns Hopkins University
-- Joanna Taylor - Space Telescope Science Institute
 - Mark Taylor - University of Bristol
+- Joanna Taylor - Space Telescope Science Institute
 - Hossen Teimoorinia - National Research Council Canada
 - Harry Teplitz - Caltech/IPAC
 - Scott Terek - Caltech/IPAC
@@ -549,11 +551,11 @@ body:
 - Kiri Wagstaff - 
 - John Wallin - Middle Tennessee State University
 - Nicholas Walton - Institute of Astronomy, University of Cambridge
-- Shin-Ywan Wang - Caltech/IPAC
 - Kuo-Song Wang - ASIAA
+- Shin-Ywan Wang - Caltech/IPAC
 - Katarzyna Wardega - University of Warsaw, University of Texas Rio Grande Valley
-- Fraser Watson - National Solar Observatory
 - Robert Watson - JBCA, University of Manchester
+- Fraser Watson - National Solar Observatory
 - Sarah Weissman - AURA - Space Telescope Science Institute
 - Brian Welman - RATT - Rhodes University
 - Graham West - Middle Tennessee State University
