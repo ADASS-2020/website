@@ -72,6 +72,12 @@
                     "url": "https://cds.u-strasbg.fr"
                 },
                 {
+                    "name": "IPAC",
+                    "description": "Infrared Processing and Analysis Center.",
+                    "logo": "/static/media/sponsors/IPACLogo.png",
+                    "url": "https://www.ipac.caltech.edu"
+                },
+                {
                     "name": "RedIRIS",
                     "description": "RedIRIS is the Spanish academic and research network that provides advanced communication services to the scientific community and national universities.",
                     "logo": "/static/media/sponsors/rediris.png",
