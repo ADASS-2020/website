@@ -1,0 +1,131 @@
+title: Youtube streams
+---
+_template: page-md.html
+---
+description: Youtube streams for ADASS XXX
+---
+twitter_image: /static/media/logo.png
+---
+body:
+
+#### Sunday November 8th - Tutorials
+
+- <a href="https://www.youtube.com/watch?v=88t4s0oPoSI&t=35m30s" target="_streams">Multimessenger Astronomy with ObsTAP and pyVO</a>
+- <a href="https://www.youtube.com/watch?v=Cjv1Vv0Kk94&t=37m37s" target="_streams">From Semantic segmentation to Instance Segmentation using DeepLearning</a>
+- <a href="https://www.youtube.com/watch?v=Cjv1Vv0Kk94&t=2h37m55s" target="_streams">Interactively exploring and visualizing data on the sky with Jupyter and pywwt</a>
+- <a href="https://www.youtube.com/watch?v=yFMO7FyqwyA&t=35m35s" target="_streams">A Hands-on Introduction to Deep Learning with DeepForge</a>
+
+#### Monday November 9th
+
+- <a href="https://www.youtube.com/watch?v=VoTxGNHU4gw&t=40m" target="_streams">Welcome and logistic info</a>
+- <a href="https://www.youtube.com/watch?v=VoTxGNHU4gw&t=1h10m01s" target="_streams">Developing a Data Carpentry Curriculum for the Astronomical Community</a>
+- <a href="https://www.youtube.com/watch?v=VoTxGNHU4gw&t=1h55m36s" target="_streams">Storage Schema of Time Series Astronomical Data for Artificial Intelligence Analysis</a>
+- <a href="https://www.youtube.com/watch?v=VoTxGNHU4gw&t=2h09m56s" target="_streams">Aladin Lite v3: behind the scenes of a major overhaul</a>
+- <a href="https://www.youtube.com/watch?v=VoTxGNHU4gw&t=2h40m45s" target="_streams">BOF: Best licensing practices</a>
+
+
+--
+
+
+- From Photometric Redshifts to Improved Weather Forecasts: an interdisciplinary view on machine learning in astronomy
+- Exploring the use of Graph and Machine / Deep Learning technologies with the NASA ADS content
+- Probing neural networks for science: What is it they are learning?
+- BoF: Interoperability of Users, Developers, and Managers
+
+
+--
+
+
+- Astropy
+- The Multi-Mission Maximum Likelihood Framework threeML: Multi-wavelength astronomy in practice
+- Organising ADASS in a Pandemic
+- Demo: Radiopadre remote, interactive, zero-admin visualization of data pipeline products
+- BOF: How to better describe software for discovery and citation
+
+#### Tuesday November 10th
+
+- Galaxy Zoo & The Zooniverse - citizen science as a powerful tool in the age of big data
+- CICLOPS: CItizen Computing Pulsar Searches
+- Hubble Asteroid Hunter: exploring the ESA Hubble archives with citizen science
+- Demo: Arcsecond.io an hybrid commercial/citizen-science project for astronomical observations
+- BOF: It worked on my laptop! - how to approach reproducibility in astronomy?
+
+
+--
+
+
+- PySAP: From Galaxies to Brains and Beyond
+- iDaVIE-v: immersive Data Visualisation Interactive Explorer for volumetric rendering
+- Holding the Cosmos in Your Hand: Developing 3D Data Pipelines
+- Demo: Pangeo Data Analysis Platform at CNES and Astronomical Use Cases
+- BOF: Standardizing New and Improving Old Data Formats in Astronomy
+
+
+--
+
+
+- Enabling next-generation science investigations with the NASA Astrophysics Archives
+- TOPCAT Visualisation over the Web
+- A microservice-oriented science platform architecture
+- Serving power-users and novices. Architecture and lessons learned with science platform MuseWISE
+- Demo: Introducing the Trillian Framework and Science Data Descriptors
+- BOF: Practical Provenance in Astronomy
+
+#### Wednesday November 11th
+
+- What did we get right? Lessons learned from the first 300 million alerts of ZTF
+- Interactive exploration framework for big data sets
+- ESA Datalabs: an e-Science Platform for Data Exploitation and Preservation at ESAC
+- Demo: Checkpoint, Restore, and Live Migration for Science Platforms
+- BOF: Standardisation of Data Formats in Gamma-ray astronomy
+
+
+--
+
+
+- Data Interoperability - the CDS experience
+- Data Interoperability at the core of The Euclid Scientific Archive System
+- The Advanced Scientific Data Format (ASDF): Why you should use it
+- Using Docker in a radio-astronomy environment
+- BOF: Radio data archives round table
+
+
+--
+
+
+- Virtual Visit to Calar Alto Observatory
+- All the shades of the Cloud
+- Calibrating Hubble Data in the Commercial Cloud
+- Development of Scientific Data Applications for Science Cloud Platforms
+- Analyzing Scientific Big Data with the Helmholtz Analytics Toolkit (HeAT)
+- BOF: Cost Management on Commercial Cloud Platforms
+
+
+#### Thursday November 12th
+
+- The Pan-STARRS IPP : Lessons Learned and Looking Forward
+- A scalable transient detection pipeline for the Australian SKA Pathfinder VAST survey
+- Tiling the Euclid Sky
+- Realtime Data Transferring and Processing from Remote Telescopes Using Apache NiFi and MongoDB
+
+--
+
+
+- NOEMA: How 1Million lines of code make the optically dark universe visible
+- Distributed Streaming Radio Astronomy Reduction with Dask
+- Astronomical research in the next decade: trends, barriers and needs in data access, management, visualization and analysis
+- Supporting observatory coordination with new standards: current status
+- Demo: Parallel Radio Astronomy Application Development with Dask and Numba
+
+
+--
+
+
+- Machine Learning for the Zwicky Transient Facility
+- Using Artificial Neural Networks to detect astronomical transients
+- Machine-Assisted Discovery Through Identification and Explanation of Anomalies in Astronomical Surveys
+- The Hubble Image Similarity Project
+- CFITSIO - 3 decades of collaborative software development
+- Birds of a Feather Discussion
+- ADASS 2021
+- Closing remarks

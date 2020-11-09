@@ -45,6 +45,10 @@
           "path": "/news/invited-speakers"
         },
         {
+          "name": "Video streams",
+          "path": "/streams"
+        },
+        {
           "name": "Schedule (iCal Integration)",
           "path": "https://schedule.adass2020.es/adass2020/schedule/export/schedule.ics"
         }
