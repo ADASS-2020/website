@@ -40,17 +40,19 @@ body:
 - <a href="https://www.youtube.com/watch?v=5ltD2O1yoTE&t=54m25s" target="_streams">Astropy</a>
 - <a href="https://www.youtube.com/watch?v=5ltD2O1yoTE&t=1h39m14s" target="_streams">The Multi-Mission Maximum Likelihood Framework threeML: Multi-wavelength astronomy in practice</a>
 - <a href="https://www.youtube.com/watch?v=5ltD2O1yoTE&t=1h54m34s" target="_streams">astroquery: a community driven collaboration of data providers and data consumers</a>
-- <a href="https://www.youtube.com/watch?v=5ltD2O1yoTE&t=2h11m12s" target="_streams">Organising ADASS in a Pandemic</a>
+- <a href="https://www.youtube.com/watch?v=5ltD2O1yoTE&t=2h11m16s" target="_streams">Organising ADASS in a Pandemic</a>
 - <a href="https://www.youtube.com/watch?v=5ltD2O1yoTE&t=2h25m30s" target="_streams">Demo: Radiopadre remote, interactive, zero-admin visualization of data pipeline products</a>
 - <a href="https://www.youtube.com/watch?v=5ltD2O1yoTE&t=2h55m35s" target="_streams">BOF: How to better describe software for discovery and citation</a>
 
 #### Tuesday November 10th
 
-- Galaxy Zoo & The Zooniverse - citizen science as a powerful tool in the age of big data
-- CICLOPS: CItizen Computing Pulsar Searches
-- Hubble Asteroid Hunter: exploring the ESA Hubble archives with citizen science
-- Demo: Arcsecond.io an hybrid commercial/citizen-science project for astronomical observations
-- BOF: It worked on my laptop! - how to approach reproducibility in astronomy?
+
+- <a href="https://www.youtube.com/watch?v=_uiNi4msoWc&t=41m32s" target="_streams">Galaxy Zoo & The Zooniverse - citizen science as a powerful tool in the age of big data</a>
+- <a href="https://www.youtube.com/watch?v=_uiNi4msoWc&t=1h23m22s" target="_streams">CICLOPS: CItizen Computing Pulsar Searches</a>
+- <a href="https://www.youtube.com/watch?v=_uiNi4msoWc&t=1h38m45s" target="_streams">Hubble Asteroid Hunter: exploring the ESA Hubble archives with citizen science</a>
+- <a href="https://www.youtube.com/watch?v=_uiNi4msoWc&t=1h55m20s" target="_streams">Citizen science with the TESS photometer network</a>
+- <a href="https://www.youtube.com/watch?v=_uiNi4msoWc&t=2h12m15s" target="_streams">Demo: Arcsecond.io an hybrid commercial/citizen-science project for astronomical observations</a>
+- <a href="https://www.youtube.com/watch?v=_uiNi4msoWc&t=2h48m15s" target="_streams">BOF: It worked on my laptop! - how to approach reproducibility in astronomy?</a>
 
 
 --
@@ -69,7 +71,6 @@ body:
 - Enabling next-generation science investigations with the NASA Astrophysics Archives
 - TOPCAT Visualisation over the Web
 - A microservice-oriented science platform architecture
-- Serving power-users and novices. Architecture and lessons learned with science platform MuseWISE
 - Demo: Introducing the Trillian Framework and Science Data Descriptors
 - BOF: Practical Provenance in Astronomy
 
