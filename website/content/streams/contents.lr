@@ -58,11 +58,12 @@ body:
 --
 
 
-- PySAP: From Galaxies to Brains and Beyond
-- iDaVIE-v: immersive Data Visualisation Interactive Explorer for volumetric rendering
-- Holding the Cosmos in Your Hand: Developing 3D Data Pipelines
-- Demo: Pangeo Data Analysis Platform at CNES and Astronomical Use Cases
-- BOF: Standardizing New and Improving Old Data Formats in Astronomy
+- <a href="https://www.youtube.com/watch?v=64awZeEHzXI&t=43m00s" target="_streams">PySAP: From Galaxies to Brains and Beyond</a>
+- <a href="https://www.youtube.com/watch?v=64awZeEHzXI&t=1h28m10s" target="_streams">iDaVIE-v: immersive Data Visualisation Interactive Explorer for volumetric rendering</a>
+- <a href="https://www.youtube.com/watch?v=64awZeEHzXI&t=1h44m02s" target="_streams">Exploring the Universe with pyESASky JupyterLab widget</a>
+- <a href="https://www.youtube.com/watch?v=64awZeEHzXI&t=1h57m10s" target="_streams">Holding the Cosmos in Your Hand: Developing 3D Data Pipelines</a>
+- <a href="https://www.youtube.com/watch?v=64awZeEHzXI&t=2h13m05s" target="_streams">Demo: Pangeo Data Analysis Platform at CNES and Astronomical Use Cases</a>
+- <a href="https://www.youtube.com/watch?v=64awZeEHzXI&t=2h45m00s" target="_streams">BOF: Standardizing New and Improving Old Data Formats in Astronomy</a>
 
 
 --
@@ -71,6 +72,7 @@ body:
 - Enabling next-generation science investigations with the NASA Astrophysics Archives
 - TOPCAT Visualisation over the Web
 - A microservice-oriented science platform architecture
+- CANCELLED - Serving power-users and novices. Architecture and lessons learned with science platform MuseWISE
 - Demo: Introducing the Trillian Framework and Science Data Descriptors
 - BOF: Practical Provenance in Astronomy
 
