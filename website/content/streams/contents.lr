@@ -8,14 +8,18 @@ twitter_image: /static/media/logo.png
 ---
 body:
 
+
 #### Sunday November 8th - Tutorials
+
 
 - <a href="https://www.youtube.com/watch?v=88t4s0oPoSI&t=35m30s" target="_streams">Multimessenger Astronomy with ObsTAP and pyVO</a>
 - <a href="https://www.youtube.com/watch?v=Cjv1Vv0Kk94&t=37m37s" target="_streams">From Semantic segmentation to Instance Segmentation using DeepLearning</a>
 - <a href="https://www.youtube.com/watch?v=Cjv1Vv0Kk94&t=2h37m55s" target="_streams">Interactively exploring and visualizing data on the sky with Jupyter and pywwt</a>
 - <a href="https://www.youtube.com/watch?v=yFMO7FyqwyA&t=35m35s" target="_streams">A Hands-on Introduction to Deep Learning with DeepForge</a>
 
+
 #### Monday November 9th
+
 
 - <a href="https://www.youtube.com/watch?v=VoTxGNHU4gw&t=40m" target="_streams">Welcome and logistic info</a>
 - <a href="https://www.youtube.com/watch?v=VoTxGNHU4gw&t=1h10m01s" target="_streams">Developing a Data Carpentry Curriculum for the Astronomical Community</a>
@@ -43,6 +47,7 @@ body:
 - <a href="https://www.youtube.com/watch?v=5ltD2O1yoTE&t=2h11m16s" target="_streams">Organising ADASS in a Pandemic</a>
 - <a href="https://www.youtube.com/watch?v=5ltD2O1yoTE&t=2h25m30s" target="_streams">Demo: Radiopadre remote, interactive, zero-admin visualization of data pipeline products</a>
 - <a href="https://www.youtube.com/watch?v=5ltD2O1yoTE&t=2h55m35s" target="_streams">BOF: How to better describe software for discovery and citation</a>
+
 
 #### Tuesday November 10th
 
@@ -76,7 +81,9 @@ body:
 - <a href="https://www.youtube.com/watch?v=XZmnmS3egzc&t=2h17m10s" target="_streams">Demo: Introducing the Trillian Framework and Science Data Descriptors</a>
 - <a href="https://www.youtube.com/watch?v=XZmnmS3egzc&t=2h50m30s" target="_streams">BOF: Practical Provenance in Astronomy</a>
 
+
 #### Wednesday November 11th
+
 
 - <a href="https://www.youtube.com/watch?v=rPb22usn7hU&t=41m10s" target="_streams">What did we get right? Lessons learned from the first 300 million alerts of ZTF</a>
 - <a href="https://www.youtube.com/watch?v=rPb22usn7hU&t=1h26m10s" target="_streams">Interactive exploration framework for big data sets</a>
@@ -99,15 +106,16 @@ body:
 --
 
 
-- Virtual Visit to Calar Alto Observatory
-- All the shades of the Cloud
-- Calibrating Hubble Data in the Commercial Cloud
-- Development of Scientific Data Applications for Science Cloud Platforms
-- Analyzing Scientific Big Data with the Helmholtz Analytics Toolkit (HeAT)
-- BOF: Cost Management on Commercial Cloud Platforms
+- <a href="https://www.youtube.com/watch?v=5lnR-kpyaf0&t=28m56s" target="_streams">Virtual Visit to Calar Alto Observatory</a>
+- <a href="https://www.youtube.com/watch?v=5lnR-kpyaf0&t=58m18s" target="_streams">All the shades of the Cloud</a>
+- <a href="https://www.youtube.com/watch?v=5lnR-kpyaf0&t=1h43m50s" target="_streams">Calibrating Hubble Data in the Commercial Cloud</a>
+- <a href="https://www.youtube.com/watch?v=PsP_eLNMVIE&t=2h" target="_streams">Development of Scientific Data Applications for Science Cloud Platforms</a>
+- <a href="https://www.youtube.com/watch?v=5lnR-kpyaf0&t=2h17m" target="_streams">Analyzing Scientific Big Data with the Helmholtz Analytics Toolkit (HeAT)</a>
+- <a href="https://www.youtube.com/watch?v=5lnR-kpyaf0&t=2h58m40s" target="_streams">BOF: Cost Management on Commercial Cloud Platforms</a>
 
 
 #### Thursday November 12th
+
 
 - The Pan-STARRS IPP : Lessons Learned and Looking Forward
 - A scalable transient detection pipeline for the Australian SKA Pathfinder VAST survey
