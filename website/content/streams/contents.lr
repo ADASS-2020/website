@@ -117,19 +117,20 @@ body:
 #### Thursday November 12th
 
 
-- The Pan-STARRS IPP : Lessons Learned and Looking Forward
-- A scalable transient detection pipeline for the Australian SKA Pathfinder VAST survey
-- Tiling the Euclid Sky
-- Realtime Data Transferring and Processing from Remote Telescopes Using Apache NiFi and MongoDB
+- <a href="https://www.youtube.com/watch?v=MaT76MYOHY8&t=47m10s" target="_streams">The Pan-STARRS IPP: Lessons Learned and Looking Forward</a>
+- <a href="https://www.youtube.com/watch?v=MaT76MYOHY8&t=1h27m30s" target="_streams">A scalable transient detection pipeline for the Australian SKA Pathfinder VAST survey</a>
+- <a href="https://www.youtube.com/watch?v=MaT76MYOHY8&t=1h43m52s" target="_streams">Tiling the Euclid Sky</a>
+- <a href="https://www.youtube.com/watch?v=MaT76MYOHY8&t=2h00m06s" target="_streams">Realtime Data Transferring and Processing from Remote Telescopes Using Apache NiFi and MongoDB</a>
+
 
 --
 
 
-- NOEMA: How 1Million lines of code make the optically dark universe visible
-- Distributed Streaming Radio Astronomy Reduction with Dask
-- Astronomical research in the next decade: trends, barriers and needs in data access, management, visualization and analysis
-- Supporting observatory coordination with new standards: current status
-- Demo: Parallel Radio Astronomy Application Development with Dask and Numba
+- <a href="https://www.youtube.com/watch?v=oG_Xq3FzRGU&t=51m16s" target="_streams">NOEMA: How 1Million lines of code make the optically dark universe visible</a>
+- <a href="https://www.youtube.com/watch?v=oG_Xq3FzRGU&t=1h36m15s" target="_streams">Distributed Streaming Radio Astronomy Reduction with Dask</a>
+- <a href="https://www.youtube.com/watch?v=oG_Xq3FzRGU&t=1h53m36s" target="_streams">Astronomical research in the next decade: trends, barriers and needs in data access, management, visualization and analysis</a>
+- <a href="https://www.youtube.com/watch?v=oG_Xq3FzRGU&t=2h09m12s" target="_streams">Supporting observatory coordination with new standards: current status</a>
+- <a href="https://www.youtube.com/watch?v=oG_Xq3FzRGU&t=2h26m35s" target="_streams">Demo: Parallel Radio Astronomy Application Development with Dask and Numba</a>
 
 
 --
