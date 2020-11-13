@@ -210,27 +210,7 @@
     </div>
 
 {% endblock %}
-{% block extrajs %}  
-<!-- Modal popup using jquery and colorbox -->
-   <div style='display:none'>
-     <div id="modal-content" style="padding:0px; background:#fff;">
-       <div style="text-align: center;">
-         <h4>Notice</h4>
-         <br />
-         <p>
-           We sent out registration details to all ADASS registered attendees. If you have 
-           <strong>not</strong> received an email from us with your conference code and the 
-           registration command that you need to use in Discord, please 
-           <a href="mailto:adass2020@iram.es?subject=ADASS%20Registration%20Missing" 
-             id="surveyLink" class="done-already">contact the LOC</a>
-         </p>
-         <br />
-         <br />
-         <p style="font-size: smaller;"><i>This popup will be shown only once</i></p>
-       </div>
-     </div>
-   </div>
-
+{% block extrajs %}
    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox-min.js" integrity="sha256-QbxNT+iBOdbuiav8squsceFDDYXb/8C+fI9r029M7X4=" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.3/js.cookie.min.js"></script>
